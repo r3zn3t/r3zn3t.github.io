@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!--
+	XML data was compiled by a reddit community for use with the "Fight Club 5" app.
+	Google "5e xml files" for more info.
+
+	Feel free to use, edit, and redistribute this as you wish.
+	I don't own any of the XML data anyway.
+
+-->
+
+	<title>5etools</title>
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="favicon.png">
+
+</head>
+
+<body>
+	<header class="hidden-xs hidden-sm">
+		<div class="container">
+
+			<h1>5etools</h1>
+			<p>A suite of tools for 5e D&D players.</p>
+		</div>
+	</header>
+	<nav class="container">
+		<ul class="nav nav-pills ">
+			<li role="presentation" class="active"><a href="5etools.html">5eTools</a></li>
+			<li role="presentation"><a href="rules.html">Rules</a></li>
+			<li role="presentation" class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Player Options <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li role="presentation"><a href="classes.html">Classes</a></li>
+					<li role="presentation"><a href="backgrounds.html">Backgrounds</a></li>
+					<li role="presentation"><a href="feats.html">Feats</a></li>
+					<li role="presentation"><a href="races.html">Races</a></li>
+				</ul>
+			</li>
+			<li role="presentation" class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">DM Tools <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li role="presentation"><a href="crcalculator.html">CR Calculator</a></li>
+					<li role="presentation"><a href="http://kobold.club" target="_blank" title="I could literally never build something better than Kobold Fight Club">Encounter Builder</a></li>
+					<li role="presentation"><a href="lootgen.html">Loot Generator</a></li>
+				</ul>
+			</li>
+			<li role="presentation" class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">References <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li role="presentation"><a href="bestiary.html">Bestiary</a></li>
+					<li role="presentation"><a href="conditions.html">Conditions</a></li>
+					<li role="presentation"><a href="items.html">Items</a></li>
+					<li role="presentation"><a href="spells.html">Spells</a></li>
+				</ul>
+			</li>
+			<li role="presentation"><a href="statgen.html">Statgen</a></li>
+			<li role="presentation" class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Utilities<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li role="presentation"><a href="converter.html">Stat Block to JSON</a></li>
+					<li role="presentation"><a href="editor.html">WYSIWYG Editor</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<main class="container bodyContent">
+		<div class="row">
+			<div class="col-sm-12">
+				<p>5etools is a suite of HTML-and-JavaScript tools for players and DMs of D&D 5e. You can find and download the project on <a href="https://github.com/5egmegaanon/5etools">GitHub</a>. Simply download the project as a zip, extract it all to a folder,
+					open the .html files in a browser, and it's ready to go! You can also host your own mirror, or contribute to the project via GitHub. With all the Unearthed Arcana material released, data entry is appreciated!</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<h4>Classes</h4>
+				<p>Classes.html allows you to quickly browse each of the official classes in 5e. You can also filter for the class' specific subclasses for easier reference, sharing produced URL for quick-access.</p>
+				<h4>Bestiary</h4>
+				<p>Bestiary.html provides a searchable, filterable list of the more than 760 stat blocks in D&D 5e. You can display them and each attack and damage roll can be done in-line with just a click.</p>
+			</div>
+			<div class="col-sm-6">
+				<h4>Items</h4>
+				<p>Items.html lists the mundane and magical items currently in D&D 5e, allowing quick access to their properties.</p>
+				<h4>Backgrounds</h4>
+				<p>Backgrounds.html lists the official backgrounds in D&D 5e, including those from supplement material.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<h4>Feats</h4>
+				<p>Feats.html provides a quick-use list of the feats in D&D 5e, including those from Unearthed Arcana and supplements.</p>
+				<h4>Races</h4>
+				<p>Races.html lists each of the races in D&D 5e, including subraces and variants.</p>
+			</div>
+			<div class="col-sm-6">
+				<h4>Spells</h4>
+				<p>Spells.html lists all of the official spells in D&D 5e. The list can be easily searched and filtered, and the entries can be shared through the generated URL.</p>
+				<h4>CR Calc</h4>
+				<p>CRcalculator.html provides a verbose, in-depth Challenge Rating calculator, for determining the CR of custom monsters made for D&D 5e.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<h3>Use Roll20?</h3>
+				<p>You may be interested in <a href="https://github.com/5egmegaanon/5etoolsR20">5etoolsR20</a>! This userscript allows you to import much of 5etools' data without paying a dime.</p>
+			</div>
+		</div>
+	</main>
+	<footer class="container">
+	</footer>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+
+
+</body>
+
+</html>

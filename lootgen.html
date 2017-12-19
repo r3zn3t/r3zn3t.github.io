@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--
+	XML data was compiled by a reddit community for use with the "Fight Club 5" app.
+	Google "5e xml files" for more info.
+
+	Feel free to use, edit, and redistribute this as you wish.
+	I don't own any of the XML data anyway.
+-->
+
+	<title>Lootgen - 5etools</title>
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="favicon.png">
+
+</head>
+
+<body>
+	<header class="hidden-xs hidden-sm">
+		<div class="container">
+
+			<h1>Loot Gen</h1>
+			<p>Input CR, if it's a hoard or not, then roll loot.</p>
+		</div>
+	</header>
+	<nav class="container">
+		<ul class="nav nav-pills ">
+			<li role="presentation"><a href="5etools.html">5eTools</a></li>
+			<li role="presentation"><a href="rules.html">Rules</a></li>
+			<li role="presentation" class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Player Options <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li role="presentation"><a href="classes.html">Classes</a></li>
+					<li role="presentation"><a href="backgrounds.html">Backgrounds</a></li>
+					<li role="presentation"><a href="feats.html">Feats</a></li>
+					<li role="presentation"><a href="races.html">Races</a></li>
+				</ul>
+			</li>
+			<li role="presentation" class="dropdown active">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">DM Tools <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li role="presentation"><a href="crcalculator.html">CR Calculator</a></li>
+					<li role="presentation"><a href="http://kobold.club" target="_blank" title="I could literally never build something better than Kobold Fight Club">Encounter Builder</a></li>
+					<li role="presentation" class="active"><a href="lootgen.html">Loot Generator</a></li>
+				</ul>
+			</li>
+			<li role="presentation" class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">References <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li role="presentation"><a href="bestiary.html">Bestiary</a></li>
+					<li role="presentation"><a href="conditions.html">Conditions</a></li>
+					<li role="presentation"><a href="items.html">Items</a></li>
+					<li role="presentation"><a href="spells.html">Spells</a></li>
+				</ul>
+			</li>
+			<li role="presentation"><a href="statgen.html">Statgen</a></li>
+			<li role="presentation" class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Utilities<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li role="presentation"><a href="converter.html">Stat Block to JSON</a></li>
+					<li role="presentation"><a href="editor.html">WYSIWYG Editor</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<main class="container bodyContent">
+
+		<div class="row">
+			<div class="col-sm-5">
+				<form id="controls">
+					<div class="input-group">
+						<span class="input-group-addon">CR</span>
+						<select class="form-control" id="cr" value="0">
+							<option value="0">CR 0-4</option>
+							<option value="5">CR 5-10</option>
+							<option value="11">CR 11-16</option>
+							<option value="17">CR 17+</option>
+						</select>
+						<span class="input-group-addon" style="vertical-align: bottom;"><label for="hoard">Hoard? <input type="checkbox" id="hoard" value="0" style="vertical-align: bottom;"></label></span>
+					</div><br>
+					<button type="button" class="btn btn-default btn-block" id="genloot">Roll Loot!</button><br>
+					<button type="button" class="btn btn-default pull-right" id="clear">Clear</button>
+				</form>
+				<p><small>Based on the tables and rules in the <em>Dungeon Master's Guide</em>, pages 133-149.</small></p>
+			</div>
+			<div class="col-sm-7">
+				<h4>Loot</h4>
+				<div id="lootoutput">
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="container">
+
+	</footer>
+
+	<script type="text/javascript" src="js/page-lootgen.js"></script>
+	<script type="text/javascript" src="data/loot.json"></script>
+	<script type="text/javascript" src="js/droll.js"></script>
+	<script type="text/javascript" src="js/list.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
