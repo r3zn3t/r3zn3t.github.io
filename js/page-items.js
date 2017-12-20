@@ -26,6 +26,7 @@ function parsesource (src) {
 	if (source == "Modern Magic Unearthed Arcana") source = "UA";
 	if (source == "Tales from the Yawning Portal") source = "TYP";
 	if (source == "Rob's Homebrew") source = "RHB";
+	if (source == "Xanathar's Guide to Everything") source = "XGE";
 	return source;
 }
 
