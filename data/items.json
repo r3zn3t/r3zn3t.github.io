@@ -1407,6 +1407,16 @@ var itemdata = {
                "2d6"
             ]
          },
+		 {
+			"name": "Armor of Gleaming",
+			"type": "MA,HA",
+			"rarity": "Common",
+			"text": [
+				"This armor never gets dirty",
+				null,
+				"Source: Xanathar's Guide to Everything, page 136"
+			],
+		 },
          {
             "name": "Armor of Invulnerability",
             "type": "HA",
