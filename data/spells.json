@@ -3859,7 +3859,7 @@ var spelldata = {
 				"range": "60 feet",
 				"components": "V,S",
 				"duration": "Concentration, up to 1 minute",
-				"classes": "",
+				"classes": "Druid, Ranger",
 				"text": [
 					"You call forth a nature spirit to soothe the wounded. The intangible spirit appears in a space that is a 5-foot cube you can see within range. The spirit looks like a transparent beast or fey (your choice).",
 					"Until the spell ends, whenever you or a creature you can see moves into the spirits space for the first time on a turn or starts its turn there, you can cause the spirit to restore ld6 hit points to that creature (no action required). The spirit can’t heal constructs or undead.",
