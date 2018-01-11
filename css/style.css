@@ -579,7 +579,7 @@ div#subclasses > span {
 }
 
 div#subclasses span.active {
-	background: #337ab7;
+	background: green;
 	color: white;
 }
 
