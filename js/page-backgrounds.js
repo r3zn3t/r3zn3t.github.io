@@ -14,6 +14,7 @@ function parsesource (src) {
 	if (source === "Curse of Strahd") source = "CoS";
 	if (source === "Sword Coast Adventurer's Guide") source = "SCAG";
 	if (source === "Unearthed Arcana") source = "UA";
+	if (source === "Xanathar's Lost Notes to Everything Else") source = "XLN";
 	return source;
 }
 
