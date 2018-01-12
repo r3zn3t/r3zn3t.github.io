@@ -27,6 +27,7 @@ function parsesource (src) {
 	if (source == "Tales from the Yawning Portal") source = "TYP";
 	if (source == "Rob's Homebrew") source = "RHB";
 	if (source == "Xanathar's Guide to Everything") source = "XGE";
+	if (source == "Xanathar's Lost Notes to Everything Else") source = "XLN";
 	return source;
 }
 
@@ -40,9 +41,19 @@ function parsetype (type) {
 	if (type === "A") return "Ammunition"
 	if (type === "M") return "Melee Weapon"
 	if (type === "R") return "Ranged Weapon"
-	if (type === "AA") return "Any Armor"
-	if (type === "AS") return "Any Sword"
+	if (type === "AA") return "Armor (any)"
+	if (type === "AS") return "Sword (any)"
+	if (type === "AW") return "Weapon (any)"
+	if (type === "ACROSS") return "Weapon (Crossbow)"
+	if (type === "DAG") return "Weapon (Dagger)"
+	if (type === "FLA") return "Weapon (Flail)"
+	if (type === "LS") return "Weapon (Longsword)"
+	if (type === "LB") return "Weapon (Longbow)"
+	if (type === "NET") return "Weapon (Net)"
+	if (type === "WHI") return "Weapon (Whip)"
+	if (type === "SCIM") return "Weapon (Scimitar)"
 	if (type === "LA") return "Light Armor"
+	if (type === "AMA") return "Medium Armor (any)"
 	if (type === "MA") return "Medium Armor"
 	if (type === "HA") return "Heavy Armor"
 	if (type === "S") return "Shield"
