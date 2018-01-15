@@ -1,0 +1,23 @@
+					//subclass
+					{
+						"name": "Otherworldly Patron: The Noble Genie (XLN)",
+						"text": [
+							"",
+						],
+						"subclass": "Otherworldly Patron: The Noble Genie (XLN)",
+						"parent": "Otherworldly Patron",
+						"issubclass": "YES",
+						"_optional": "YES"
+					},
+					
+					
+					//subclass feature
+					{
+						"name": "The Noble Genie: ",
+						"text": [
+							"",
+						],
+						"subclass": "Otherworldly Patron: The Noble Genie (XLN)",
+						"parent": "The Noble Genie",
+						"_optional": "YES"
+					 },
