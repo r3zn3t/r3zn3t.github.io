@@ -1,0 +1,315 @@
+{
+            "name": "",
+            "hd": "10",
+            "proficiency": "Strength, Constitution",
+            "autolevel": [
+              {
+				"_level": "1"
+              },
+              {
+
+                "_level": "2"
+              },
+              {
+                "_level": "3"
+              },
+              {
+                "_level": "4"
+              },
+              {
+                "_level": "5"
+              },
+              {
+                "_level": "6"
+              },
+              {
+                "_level": "7"
+              },
+              {
+                "_level": "8"
+              },
+              {
+                "_level": "9"
+              },
+              {
+                "_level": "10"
+              },
+              {
+                "_level": "11"
+              },
+              {
+                "_level": "12"
+              },
+              {
+                "_level": "13"
+              },
+              {
+                "_level": "14"
+              },
+              {
+                "_level": "15"
+              },
+              {
+                "_level": "16"
+              },
+              {
+                "_level": "17"
+              },
+              {
+                "_level": "18"
+              },
+              {
+                "_level": "19"
+              },
+              {
+                "_level": "20"
+              },
+               {
+                  "feature": [
+                     {
+                        "name": "Starting Proficiencies",
+                        "text": [
+                           "You are proficient with the following items, in addition to any proficiencies provided by your race or background.",
+                           "Armor: ",
+                           "Weapons:",
+                           "Tools: ",
+                           "Skills: Choose two from "
+                        ]
+                     },
+                     {
+                        "name": "Starting Equipment",
+                        "text": [
+                           "You start with the following items, plus anything provided by your background.",
+                           null,
+                           "• ",
+                           "• ",
+                           "• ",
+                           null,
+                           "Alternatively, you may start with ? gp to buy your own equipment."
+                        ]
+                     },
+                  ],
+                  "_level": "1"
+               },
+               {
+                  "feature": [
+                     {
+                        "name": "",
+                        "text": [
+                           "",
+                        ]
+                     },
+                  ],
+                  "_level": "1"
+               },
+               {
+                  "feature": [
+                     {
+                        "name": "",
+                        "text": [
+                           "Starting at 2nd level,",
+                        ]
+                     },
+                  ],
+                  "_level": "2"
+               },
+               {
+                  "feature": [
+                     {
+                        "name": "",
+                        "text": [
+                           "At 3rd level,",
+                        ]
+                     },
+                  ],
+                  "_level": "3"
+               },
+               {
+                  "feature": [
+                     {
+                        "name": "",
+                        "text": [
+                           "At 4th level",
+                        ]
+                     },
+                  ],
+                  "_level": "4"
+               },
+               {
+                  "feature": [
+                     {
+                        "name": "",
+                        "text": [
+                           "Beginning at 5th level,",
+                        ]
+                     },
+                  ],
+                  "_level": "5"
+               },
+               {
+                  "feature": [
+                     {
+                        "name": "",
+                        "text": [
+                           "At 6th level,",
+                        ]
+                     },
+                  ],
+                  "_level": "6"
+               },
+               {
+                  "feature": [
+                     {
+                        "name": "",
+                        "text": [
+                           "By 7th level,",
+                        ]
+                     },
+                  ],
+                  "_level": "7"
+               },
+               {
+                  "feature": [
+                     {
+                        "name": "",
+                        "text": [
+                           "When you reach 8th level,"
+                        ]
+                     },
+                  ],
+                  "_level": "8"
+               },
+               {
+                  "feature": [
+                     {
+                        "name": "",
+                        "text": [
+                           "Beginning at 9th level,"
+                        ]
+                     },
+                  ],
+                  "_level": "9"
+               },
+               {
+                  "feature": [
+                    {
+                       "name": "",
+                       "text": [
+                          "At 10th level,"
+                       ]
+                    },
+                  ],
+                  "_level": "10"
+               },
+               {
+                  "feature": [
+                     {
+                        "name": "",
+                        "text": [
+                           "Starting at 11th level,"
+                        ]
+                     },
+                  ],
+                  "_level": "11"
+               },
+               {
+                  "feature": [
+                     {
+                        "name": "",
+                        "text": [
+                           "When you reach 12th level,"
+                        ]
+                     },
+                  ],
+                  "_level": "12"
+               },
+               {
+                  "feature": [
+                     {
+                        "name": "",
+                        "text": [
+                           "At 13th level",
+                        ]
+                     },
+                  ],
+                  "_level": "13"
+               },
+               {
+                  "feature": [
+                    {
+                       "name": "",
+                       "text": [
+                          "At 14th level,",
+                       ]
+                    },
+                  ],
+                  "_level": "14"
+               },
+               {
+                  "feature": [
+                     {
+                        "name": "",
+                        "text": [
+                           "Beginning at 15th level,",
+                        ]
+                     },
+                  ],
+                  "_level": "15"
+               },
+               {
+                  "feature": [
+                     {
+                        "name": "",
+                        "text": [
+                           "When you reach 16th level,"
+                        ]
+                     },
+                  ],
+                  "_level": "16"
+               },
+               {
+                  "feature": [
+                     {
+                        "name": "",
+                        "text": [
+                           "At 17th level, "
+                        ]
+                     },
+                  ],
+                  "_level": "17"
+               },
+               {
+                  "feature": [
+                     {
+                        "name": "",
+                        "text": [
+                           "Beginning at 18th level,"
+                        ]
+                     },
+                  ],
+                  "_level": "18"
+               },
+               {
+                  "feature": [
+                     {
+                        "name": "",
+                        "text": [
+                           "When you reach 19th level,"
+                        ]
+                     },
+                  ],
+                  "_level": "19"
+               },
+               {
+                  "feature": [
+                     {
+                        "name": "",
+                        "text": [
+                           "At 20th level,"
+                        ],
+                     },
+                  ],
+                  "_level": "20"
+               },
+            ],
+         },
