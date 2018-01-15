@@ -1,0 +1,16 @@
+			//spells
+			{
+				"name": "",
+				"source": "",
+				"level": "",
+				"school": "",
+				"ritual": "",
+				"time": "",
+				"range": "",
+				"components": "",
+				"duration": "",
+				"classes": "",
+				"text": [
+					"",
+				],
+			},
