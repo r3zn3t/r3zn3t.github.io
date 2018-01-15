@@ -15,6 +15,7 @@ function parsesource (src) {
 	if (source === "Sword Coast Adventurer's Guide") source = "SCAG";
 	if (source === "Unearthed Arcana") source = "UA";
 	if (source === "Xanathar's Lost Notes to Everything Else") source = "XLN";
+	if (source === "Tomb of Annihilation") source = "ToA";
 	return source;
 }
 
