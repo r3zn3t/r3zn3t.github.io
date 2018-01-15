@@ -5,6 +5,9 @@ function parsesource (src) {
 	if (source === "Elemental Evil Player's Companion") source = "EEPC";
 	if (source === "Unearthed Arcana: Eberron") source = "UA Eberron";
 	if (source === "Unearthed Arcana: Feats") source = "UA Feats";
+	if (source === "Xanathar's Guide to Everything") source = "XGE";
+	if (source === "Rob's Homebrew") source = "RHB";
+	if (source === "Plane Shift Kaladesh") source = "PSK";
 	return source;
 }
 
