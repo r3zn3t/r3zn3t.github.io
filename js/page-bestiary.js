@@ -13,6 +13,7 @@ function parsesource (src) {
 	if (source == "Tales from the Yawning Portal") source = "TYP";
 	if (source == "tome of beasts") source = "ToB 3pp";
 	if (source == "Xanathar's Guide to Everything") source = "XGE";
+	if (source == "Plane Shift Kaladesh") source = "PSK";
 	return source;
 }
 
