@@ -1,4 +1,6 @@
-[] Add Craftsman class
+[X] Add Craftsman class
+[] Add Weaponsmith subclass (craftsman)
+[] Add exotic weapons? (requires approval)
 [] Add Tomb of Annihilation Content
 [] Add content from Rule of Law
 http://pmssquad.com/project/the-exile/
