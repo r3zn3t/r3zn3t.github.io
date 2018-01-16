@@ -8,6 +8,7 @@ function parsesource (src) {
 	if (source === "Xanathar's Guide to Everything") source = "XGE";
 	if (source === "Rob's Homebrew") source = "RHB";
 	if (source === "Plane Shift Kaladesh") source = "PSK";
+	if (source === "Middle Finger of Vecna") source = "MFoV";
 	return source;
 }
 
