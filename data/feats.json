@@ -1,6 +1,17 @@
 var featdata = {
    "compendium": {
       "feat": [
+		{
+            "name": "Armor Master",
+            "source": "Middle Finger of Vecna",
+			"prerequisite": "",
+            "text": [
+               "You are practiced in wearing unwieldy and exotic armor, and you gain the following benefits:",
+			   "• Increase your Strength score by 1, to a maximum of 20.",
+			   "• You gain proficiency with a suit of exotic armor or an exotic shield. ",
+			   "Source: Middle Finger of Vecna",
+            ]
+         },
          {
             "name": "Fell Handed",
             "source": "Unearthed Arcana: Feats",
@@ -22,6 +33,18 @@ var featdata = {
                "• On your turn, you can use your reaction to assume a parrying stance, provided you have the weapon in hand. Doing so grants you a +1 bonus to your AC until the start of your next turn or until you’re not holding the weapon.",
                "• When you make an opportunity attack with the weapon, you have advantage on the attack roll.",
                "Source: Unearthed Arcana - Feats"
+            ]
+         },
+		 {
+            "name": "Exotic Craftsman",
+            "source": "Middle Finger of Vecna",
+			"prerequisite": "",
+            "text": [
+               "You have discovered the secrets of forging unique, exotic weapons or armor. ",
+			   "• Increase your Intelligence score by 1, to a maximum of 20",
+			   "• You learn to craft exotic armor and shields or exotic weapons",
+			   "• When crafting, you double the amount of progress you make towards completing an item each day.",
+			   "Source: Middle Finger of Vecna",
             ]
          },
          {
