@@ -28,6 +28,7 @@ function parsesource (src) {
 	if (source == "Rob's Homebrew") source = "RHB";
 	if (source == "Xanathar's Guide to Everything") source = "XGE";
 	if (source == "Xanathar's Lost Notes to Everything Else") source = "XLN";
+	if (source == "Middle Finger of Vecna") source = "MFoV";
 	return source;
 }
 
@@ -72,6 +73,7 @@ function parsetype (type) {
 	if (type === "TAH") return "Tack and Harness"
 	if (type === "MNT") return "Mount"
 	if (type === "TG") return "Trade Good"
+	if (type === "EXO") return "Exotic"
 	return "n/a"
 }
 
@@ -87,6 +89,13 @@ function parsedamagetype (damagetype) {
 
 function parseproperty (property) {
 	if (property === "A") return "ammunition"
+	if (property === "BIP") return "bipod"
+	if (property === "DOU") return "double"
+	if (property === "MAS") return "massive"
+	if (property === "RET") return "returning"
+	if (property === "SHI") return "shield"
+	if (property === "SUP") return "superheavy"
+	if (property === "SWI") return "switch"
 	if (property === "LD") return "loading"
 	if (property === "L") return "light"
 	if (property === "F") return "finesse"
