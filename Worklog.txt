@@ -1,5 +1,5 @@
 [X] Add Craftsman class
-[] Add Weaponsmith subclass (craftsman)
+[X] Add Weaponsmith subclass (craftsman)
 [] Add exotic weapons/armor (use exotic type)
 [] Add Tomb of Annihilation Content
 [] Add content from Rule of Law
