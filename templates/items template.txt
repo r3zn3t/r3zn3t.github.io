@@ -1,4 +1,4 @@
-		//items
+		//items weapon
 		{
 			"name": "",
 			"type": "",
@@ -9,6 +9,40 @@
 			"dmgType": "",
 			"property": "",
 			"range": "",
+			"rarity": "",
+			"attunement": "",
+			"text": [
+				"",
+				null,
+				"Source: Middle Finger of Vecna",
+			],
+		 },
+		 
+		 //items armor
+		 {
+			"name": "",
+			"type": "",
+			"value": "",
+			"weight": "",
+			"ac": "",
+			"strength": "",
+			"stealth": "YES",
+			"rarity": "",
+			"attunement": "",
+			"text": [
+				"",
+				null,
+				"Source: Middle Finger of Vecna",
+			],
+		 },
+		 
+		 //items other
+		 {
+			"name": "",
+			"type": "",
+			"value": "",
+			"weight": "",
+			"property": "",
 			"rarity": "",
 			"attunement": "",
 			"text": [
