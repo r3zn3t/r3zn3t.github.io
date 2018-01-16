@@ -167,7 +167,7 @@ function loaditems() {
 	}
 
 	var options = {
-		valueNames: ['name', 'source', 'type', 'rarity', 'attunement'],
+		valueNames: ['name', 'source', 'type', 'rarity', 'attunement', 'stealth'],
 		listClass: "mundane"
 	}
 
@@ -341,13 +341,33 @@ function useitem (id) {
 			$("span#damage").html(curitem.dmg1);
 			$("span#damagetype").html(parsedamagetype(curitem.dmgType));
 		}
-
+		
+		//implementing the unused 'stealth' property
+		var stealthdis = "";
+		var stealthdisadvantage = curitem.stealth;
+		if (stealthdisadvantage == "YES"){
+			stealthdis = ", disadvantage";
+		}
+		
+		
+		//armor AC display for 'ac' property
 		if (curtype === "S") $("span#damage").html("AC +"+curitem.ac);
 		if (curtype === "LA") $("span#damage").html("AC "+curitem.ac+" + Dex");
 		if (curtype === "MA") $("span#damage").html("AC "+curitem.ac+" + Dex (max 2)");
-		if (curtype === "HA") $("span#damage").html("AC "+curitem.ac);
+		if (curtype === "HA") $("span#damage").html("AC "+curitem.ac+stealthdis);
+		
+		//implementing the unused 'strength' property for armor
+		var strreq = "";
+		var strengthreq = curitem.strength;
+		if (strengthreq >= 1){
+			strreq = " - requires STR "+strengthreq;
+			if (curtype === "S") $("span#damage").html("AC +"+curitem.ac);
+			if (curtype === "LA") $("span#damage").html("AC "+curitem.ac+" + Dex");
+			if (curtype === "MA") $("span#damage").html("AC "+curitem.ac+" + Dex (max 2)");
+			if (curtype === "HA") $("span#damage").html("AC "+curitem.ac+stealthdis+strreq);
+		}
 	}
-
+	
 	$("td span#rarity").html("")
 	var rarity = curitem.rarity;
 	if (rarity)	$("td span#rarity").html(", "+rarity);
@@ -362,8 +382,11 @@ function useitem (id) {
 			var a = b = properties[i];
 			a = parseproperty (a);
 			if (b === "V") a = a + " (" + curitem.dmg2 + ")";
+			if (b === "DOU") a = a + " ("+ curitem.dmg2 + ")";
+			if (b === "SWI") a = a + " ("+ curitem.dmg2 + ")";
 			if (b === "T" || b === "A") a = a + " (" + curitem.range + "ft.)";
 			if (b === "RLD") a = a + " (" + curitem.reload + " shots)";
+			if (b === "SUP") a = a + " (STR 16) ";
 			if (i > 0) a = ", "+a;
 			$("span#properties").append(a);
 		}
