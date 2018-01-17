@@ -14,7 +14,7 @@ function parsesource (src) {
 	if (source == "tome of beasts") source = "ToB 3pp";
 	if (source == "Xanathar's Guide to Everything") source = "XGE";
 	if (source == "Plane Shift Kaladesh") source = "PSK";
-	if (source == "Tomb of Annihilation") source = "ToA";
+	if (source == "Tomb of Annihilation") source = "TOA";
 	return source;
 }
 
