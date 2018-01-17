@@ -37,10 +37,13 @@
                     "text": [
                         "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d6-1) bludgeoning damage, or 3 (1d8-1) bludgeoning damage if used with two hands."
                     ],
-                    "attack": [
-                        "Quarterstaff|3|1d6-1",
-                        "Two Handed|3|1d8-1"
-                    ]
                 }],
+				"legendary": [{
+                        "name": "",
+                        "text": [
+                            "",
+                        ]
+                    },
+                ],
                 "spells": "blade ward. dancing lights, mending, message, ray of frost, alarm, mage armor, magic missile, shield, arcane lock, invisibility, counterspell, dispel magic, fireball, banishment, stoneskin, cone of cold, wall of force, flesh to stone, globe of invulnerability, symbol teleport"
             },
