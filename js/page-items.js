@@ -29,6 +29,7 @@ function parsesource (src) {
 	if (source == "Xanathar's Guide to Everything") source = "XGE";
 	if (source == "Xanathar's Lost Notes to Everything Else") source = "XLN";
 	if (source == "Middle Finger of Vecna") source = "MFoV";
+	if (source == "Tomb of Annihilation") source = "ToA";
 	return source;
 }
 
@@ -43,6 +44,7 @@ function parsetype (type) {
 	if (type === "M") return "Melee Weapon"
 	if (type === "R") return "Ranged Weapon"
 	if (type === "AA") return "Armor (any)"
+	if (type === "PA") return "Armor (Plate)"
 	if (type === "AS") return "Sword (any)"
 	if (type === "AW") return "Weapon (any)"
 	if (type === "ACROSS") return "Weapon (Crossbow)"
@@ -361,7 +363,7 @@ function useitem (id) {
 		var strengthreq = curitem.strength;
 		if (strengthreq >= 1){
 			strreq = " - requires STR "+strengthreq;
-			if (curtype === "S") $("span#damage").html("AC +"+curitem.ac);
+			if (curtype === "S") $("span#damage").html("AC +"+curitem.ac+strreq);
 			if (curtype === "LA") $("span#damage").html("AC "+curitem.ac+" + Dex");
 			if (curtype === "MA") $("span#damage").html("AC "+curitem.ac+" + Dex (max 2)");
 			if (curtype === "HA") $("span#damage").html("AC "+curitem.ac+stealthdis+strreq);
