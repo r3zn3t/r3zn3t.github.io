@@ -4,19 +4,19 @@
 [X] Add craftsman feats
 [] Add Tomb of Annihilation Content
 [] Add content from Rule of Law
-http://pmssquad.com/project/the-exile/
-http://pmssquad.com/project/the-farmer/ 
-http://pmssquad.com/project/the-barkeep/ 
-http://pmssquad.com/project/the-beauty/ 
-http://pmssquad.com/project/college-of-the-bladedancer/ 
-http://mfov.magehandpress.com/2016/12/path-of-haka.html
-http://mfov.magehandpress.com/2016/06/forsaker.html
-http://mfov.magehandpress.com/2018/01/myrmidon.html
-http://mfov.magehandpress.com/2017/12/fencer.html
-http://mfov.magehandpress.com/2017/08/lionheart.html
-http://walrock-homebrew.blogspot.com/2016/05/character-background-ex-cultist.html
-http://walrock-homebrew.blogspot.com/2017/10/primal-path-slasher-rough-draft.html
-http://walrock-homebrew.blogspot.com/2017/01/bardic-college-college-of-dirges-second.html
-http://walrock-homebrew.blogspot.com/2016/04/divine-domain-madness-second-draft.html
-http://walrock-homebrew.blogspot.com/2017/10/divine-domain-winter-fourth-draft.html
-https://walrock-homebrew.blogspot.com/2017/10/druid-circle-circle-of-city-rough-draft.html
+[] http://pmssquad.com/project/the-exile/
+[] http://pmssquad.com/project/the-farmer/ 
+[] http://pmssquad.com/project/the-barkeep/ 
+[] http://pmssquad.com/project/the-beauty/ 
+[] http://pmssquad.com/project/college-of-the-bladedancer/ 
+[] http://mfov.magehandpress.com/2016/12/path-of-haka.html
+[] http://mfov.magehandpress.com/2016/06/forsaker.html
+[] http://mfov.magehandpress.com/2018/01/myrmidon.html
+[] http://mfov.magehandpress.com/2017/12/fencer.html
+[] http://mfov.magehandpress.com/2017/08/lionheart.html
+[] http://walrock-homebrew.blogspot.com/2016/05/character-background-ex-cultist.html
+[] http://walrock-homebrew.blogspot.com/2017/10/primal-path-slasher-rough-draft.html
+[] http://walrock-homebrew.blogspot.com/2017/01/bardic-college-college-of-dirges-second.html
+[] http://walrock-homebrew.blogspot.com/2016/04/divine-domain-madness-second-draft.html
+[] http://walrock-homebrew.blogspot.com/2017/10/divine-domain-winter-fourth-draft.html
+[] https://walrock-homebrew.blogspot.com/2017/10/druid-circle-circle-of-city-rough-draft.html
