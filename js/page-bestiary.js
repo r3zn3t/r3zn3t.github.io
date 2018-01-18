@@ -251,6 +251,12 @@ function sortmonsters(a, b, o) {
 
 }
 
+//function to grab cookie for monster name
+function getcookiemonster(cname){
+	document.cookie = cname+";path=/";
+}
+
+
 // load selected monster stat block
 function usemonster (id) {
 
@@ -260,6 +266,7 @@ function usemonster (id) {
 	var mon = monsters[id];
 
 	var name = mon.name;
+	getcookiemonster(name);
 	var source = "";
 	var origsource = "";
 	var type = "";
@@ -281,9 +288,9 @@ function usemonster (id) {
 		return;
 		this.src = "img/default.png";
 	}
-
-	$("th#name").html("<span title=\""+origsource+"\" class='source source"+source+"'>"+source+"<br></span> <a href='img/"+source+"/"+name+".png' target='_blank'><img src='img/"+source+"/"+name+".png' class='token' onerror='imgError(this)'></a>"+"<a href='img/stats/"+name+".PNG'>"+name+"</a>");
-
+	
+	$("th#name").html("<span title=\""+origsource+"\" class='source source"+source+"'>"+source+"<br></span> <a href='img/"+source+"/"+name+".png' target='_blank'><img src='img/"+source+"/"+name+".png' class='token' onerror='imgError(this)'></a>"+"<a href='statblock.html'>"+name+"</a>");
+	
 	var size = parsesize (mon.size);
 	$("td span#size").html(size);
 
