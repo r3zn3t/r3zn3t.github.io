@@ -2,6 +2,7 @@
 [X] Add Weaponsmith subclass (craftsman)
 [X] Add exotic weapons/armor (use exotic type)
 [X] Add craftsman feats
+[] (possibly rob can do this) Fill 'img/stats/' with snips of stat blocks and name them '[name of creature].png'
 [] Add Tomb of Annihilation Content
 [] Add content from Rule of Law
 [] http://pmssquad.com/project/the-exile/
