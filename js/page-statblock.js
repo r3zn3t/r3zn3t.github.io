@@ -294,7 +294,7 @@ function usemonster (id) {
 	}
 	
 	
-	$("th#name").html("<span title=\""+origsource+"\" class='source source"+source+"'>"+source+"<br></span> <a href='img/"+source+"/"+name+".png' target='_blank'><img src='img/"+source+"/"+name+".png' class='token' onerror='imgError(this)'>"+name+"</a>");
+	$("th#name").html("<span title=\""+origsource+"\" class='source source"+source+"'>"+source+"<br></span> <a href='img/"+source+"/"+name+".png' target='_blank'>"+name+"</a>");
 	
 	var size = parsesize (mon.size);
 	$("td span#size").html(size);
