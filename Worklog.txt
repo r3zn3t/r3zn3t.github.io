@@ -3,7 +3,7 @@
 [X] Add exotic weapons/armor (use exotic type)
 [X] Add craftsman feats
 [X] Create printable version of stat blocks (a: "generate statblock" or b: "snip stat block") 
-[] Add Tomb of Annihilation Content
+[X] Add Tomb of Annihilation Content
 [] Add content from Rule of Law
 [] http://pmssquad.com/project/the-exile/
 [] http://pmssquad.com/project/the-farmer/ 
