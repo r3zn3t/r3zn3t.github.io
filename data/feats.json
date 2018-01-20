@@ -1,120 +1,6 @@
 var featdata = {
    "compendium": {
       "feat": [
-		{
-            "name": "Armor Master",
-            "source": "Middle Finger of Vecna",
-			"prerequisite": "",
-            "text": [
-               "You are practiced in wearing unwieldy and exotic armor, and you gain the following benefits:",
-			   "• Increase your Strength score by 1, to a maximum of 20.",
-			   "• You gain proficiency with a suit of exotic armor or an exotic shield. ",
-			   "Source: Middle Finger of Vecna",
-            ]
-         },
-         {
-            "name": "Fell Handed",
-            "source": "Unearthed Arcana: Feats",
-            "text": [
-               "You master the handaxe, battleaxe, greataxe, warhammer, and maul. You gain the following benefits when using any of them:",
-               "• You gain a +1 bonus to attack rolls you make with the weapon.",
-               "• Whenever you have advantage on a melee attack roll you make with the weapon and hit, you can knock the target prone if the lower of the two d20 rolls would also hit the target.",
-               "• Whenever you have disadvantage on a melee attack roll you make with the weapon, the target takes bludgeoning damage equal to your Strength modifier (minimum of 0) if the attack misses but the higher of the two d20 rolls would have hit.",
-               "• If you use the Help action to aid an ally’s melee attack while you’re wielding the weapon, you knock the target’s shield aside momentarily. In addition to the ally gaining advantage on the attack roll, the ally gains a +2 bonus to the roll if the target is using a shield.",
-               "Source: Unearthed Arcana - Feats"
-            ]
-         },
-         {
-            "name": "Blade Mastery",
-            "source": "Unearthed Arcana: Feats",
-            "text": [
-               "You master the shortsword, longsword, scimitar, rapier, and greatsword. You gain the following benefits when using any of them:",
-               "• You gain a +1 bonus to attack rolls you make with the weapon.",
-               "• On your turn, you can use your reaction to assume a parrying stance, provided you have the weapon in hand. Doing so grants you a +1 bonus to your AC until the start of your next turn or until you’re not holding the weapon.",
-               "• When you make an opportunity attack with the weapon, you have advantage on the attack roll.",
-               "Source: Unearthed Arcana - Feats"
-            ]
-         },
-		 {
-            "name": "Exotic Craftsman",
-            "source": "Middle Finger of Vecna",
-			"prerequisite": "",
-            "text": [
-               "You have discovered the secrets of forging unique, exotic weapons or armor. ",
-			   "• Increase your Intelligence score by 1, to a maximum of 20",
-			   "• You learn to craft exotic armor and shields or exotic weapons",
-			   "• When crafting, you double the amount of progress you make towards completing an item each day.",
-			   "Source: Middle Finger of Vecna",
-            ]
-         },
-         {
-            "name": "Flail Mastery",
-            "source": "Unearthed Arcana: Feats",
-            "text": [
-               "The flail is a tricky weapon to use, but you have spent countless hours mastering it. You gain the following benefits.",
-               "• You gain a +1 bonus to attack rolls you make with a flail.",
-               "• As a bonus action on your turn, you can prepare yourself to extend your flail to sweep over targets’ shields. Until the end of this turn, your attack rolls with a flail gain a +2 bonus against any target using a shield.",
-               "• When you hit with an opportunity attack using a flail, the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone.",
-               "Source: Unearthed Arcana - Feats"
-            ]
-         },
-         {
-            "name": "Spear Mastery",
-            "source": "Unearthed Arcana: Feats",
-            "text": [
-               "Though the spear is a simple weapon to learn, it rewards you for the time you have taken to master it. You gain the following benefits.",
-               "• You gain a +1 bonus to attack rolls you make with a spear.",
-               "• When you use a spear, its damage die changes from a d6 to a d8, and from a d8 to a d10 when wielded with two hands. (This benefit has no effect if another feature has already improved the weapon’s die.)",
-               "• You can set your spear to receive a charge. As a bonus action, choose a creature you can see that is at least 20 feet away from you. If that creatures moves within your spear’s reach on its next turn, you can make a melee attack against it with your spear as a reaction. If the attack hits, the target takes an extra 1d8 piercing damage, or an extra 1d10 piercing damage if you wield the spear with two hands. You can’t use this ability if the creature used the Disengage action before moving.",
-               "• As a bonus action on your turn, you can increase your reach with a spear by 5 feet for the rest of your turn.",
-               "Source: Unearthed Arcana - Feats"
-            ]
-         },
-         {
-            "name": "Alchemist",
-            "source": "Unearthed Arcana: Feats",
-            "text": [
-               "You have studied the secrets of alchemy and are an expert in its practice, gaining the following benefits:",
-               "• Increase your Intelligence score by 1, to a maximum of 20.",
-               "• You gain proficiency with alchemist’s supplies. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
-               "• As an action, you can identify one potion within 5 feet of you, as if you had tasted it. You must see the liquid for this benefit to work.",
-               "• Over the course of any short rest, you can temporarily improve the potency of one potion of healing of any rarity. To use this benefit, you must have alchemist’s supplies with you, and the potion must be within reach. If the potion is drunk no more than 1 hour after the short rest ends, the creature drinking the potion can forgo the potion’s die roll and regains the maximum number of hit points that the potion can restore.",
-               "Source: Unearthed Arcana - Feats"
-            ]
-         },
-         {
-            "name": "Burglar",
-            "source": "Unearthed Arcana: Feats",
-            "text": [
-               "You pride yourself on your quickness and your close study of certain clandestine activities. You gain the following benefits:",
-               "• Increase your Dexterity score by 1, to a maximum of 20.",
-               "• You gain proficiency with thieves’ tools. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
-               "Source: Unearthed Arcana - Feats"
-            ]
-         },
-         {
-            "name": "Gourmand",
-            "source": "Unearthed Arcana: Feats",
-            "text": [
-               "You have mastered a variety of special recipes, allowing you to prepare exotic dishes with useful effects. You gain the following benefits:",
-               "• Increase your Constitution score by 1, to a maximum of 20.",
-               "• You gain proficiency with cook’s utensils. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
-               "• As an action, you can inspect a drink or plate of food within 5 feet of you and determine whether it is poisoned, provided that you can see and smell it.",
-               "• During a long rest, you can prepare and serve a meal that helps you and your allies recover from the rigors of adventuring, provided you have suitable food, cook’s utensils, and other supplies on hand. The meal serves up to six people, and each person who eats it regains two additional Hit Dice at the end of the long rest. In addition, those who partake of the meal have advantage on Constitution saving throws against disease for the next 24 hours.",
-               "Source: Unearthed Arcana - Feats"
-            ]
-         },
-         {
-            "name": "Master of Disguise",
-            "source": "Unearthed Arcana: Feats",
-            "text": [
-               "You have honed your ability to shape your personality and to read the personalities of others. You gain the following benefits:",
-               "• Increase your Charisma score by 1, to a maximum of 20.",
-               "• You gain proficiency with the disguise kit. If you are already proficient with it, you add double your proficiency bonus to checks you make with it.",
-               "• If you spend 1 hour observing a creature, you can then spend 8 hours crafting a disguise you can quickly don to mimic that creature. Making the disguise requires a disguise kit. You must make checks as normal to disguise yourself, but you can assume the disguise as an action.",
-               "Source: Unearthed Arcana - Feats"
-            ]
-         },
 		 {
             "name": "Acrobat",
             "source": "Unearthed Arcana: Feats",
@@ -157,6 +43,18 @@ var featdata = {
 			   "• When you make a check to jump or climb, instead of using your Strength modifier, you can use your Dexterity modifier to make the check",
 			   "• You gain proficiency in the Athletics skill - if you already have proficiency in that skill, you may double your proficiency modifier when making checks for it",
 			   "Source: Rob's Homebrew, page 1",
+            ]
+         },
+		 {
+            "name": "Alchemist",
+            "source": "Unearthed Arcana: Feats",
+            "text": [
+               "You have studied the secrets of alchemy and are an expert in its practice, gaining the following benefits:",
+               "• Increase your Intelligence score by 1, to a maximum of 20.",
+               "• You gain proficiency with alchemist’s supplies. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
+               "• As an action, you can identify one potion within 5 feet of you, as if you had tasted it. You must see the liquid for this benefit to work.",
+               "• Over the course of any short rest, you can temporarily improve the potency of one potion of healing of any rarity. To use this benefit, you must have alchemist’s supplies with you, and the potion must be within reach. If the potion is drunk no more than 1 hour after the short rest ends, the creature drinking the potion can forgo the potion’s die roll and regains the maximum number of hit points that the potion can restore.",
+               "Source: Unearthed Arcana - Feats"
             ]
          },
          {
@@ -203,6 +101,43 @@ var featdata = {
 			   "Source: Unearthed Arcana - Feats",
             ]
          },
+		 {
+            "name": "Armor Master",
+            "source": "Middle Finger of Vecna",
+			"prerequisite": "",
+            "text": [
+               "You are practiced in wearing unwieldy and exotic armor, and you gain the following benefits:",
+			   "• Increase your Strength score by 1, to a maximum of 20.",
+			   "• You gain proficiency with a suit of exotic armor or an exotic shield. ",
+			   "Source: Middle Finger of Vecna",
+            ]
+         },
+		 {
+            "name": "Armorer",
+            "source": "Rule of Law",
+			"prerequisite": "",
+            "text": [
+               "You are trained in the upkeep and construction of weapons and armor. You gain the following benefits:",
+			   "• Increase your Intelligence score by 1, to a maximum of 20.",
+			   "• You gain proficiency with leatherworker’s and smith’s tools. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
+			   "• You can spend an hour repairing a piece of equipment damaged by rust, ooze, or similar degrading effects. Each hour spent repairing an item removes one instance of its cumulative penalty. You must have smith’s tools, as well as access to a sufficient heat source and materials to use this benefit.",
+			   "• You are able to refine armor in a variety of ways. Over 12 hours, you can modify one piece of nonmagical armor to either remove its disadvantage on Dexterity (Stealth) checks, or to give it resistance to either acid or cold damage. You must have smith’s tools or leatherworker’s tools, as appropriate to the type of armor, as well as access to a sufficient heat source and materials worth the base cost of the armor, which are consumed, to use this benefit. You can't apply multiple modifications to a single suit of armor with this feature.",
+			   null,
+			   "Source: Rule of Law",
+            ]
+         },
+		 {
+            "name": "Artisan",
+            "source": "Rule of Law",
+			"prerequisite": "",
+            "text": [
+               "You are a creative, learning a variety of artistic crafts. You gain the following benefits:",
+			   "• Increase your Intelligence by 1, to a maximum of 20.",
+			   "• You gain proficiency with two artisan's tools of your choice. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
+			   null,
+			   "Source: Rule of Law",
+            ]
+         },
          {
             "name": "Athlete",
             "source": "Player's Handbook",
@@ -232,6 +167,31 @@ var featdata = {
             ]
          },
 		 {
+            "name": "Blade Mastery",
+            "source": "Unearthed Arcana: Feats",
+            "text": [
+               "You master the shortsword, longsword, scimitar, rapier, and greatsword. You gain the following benefits when using any of them:",
+               "• You gain a +1 bonus to attack rolls you make with the weapon.",
+               "• On your turn, you can use your reaction to assume a parrying stance, provided you have the weapon in hand. Doing so grants you a +1 bonus to your AC until the start of your next turn or until you’re not holding the weapon.",
+               "• When you make an opportunity attack with the weapon, you have advantage on the attack roll.",
+               "Source: Unearthed Arcana - Feats"
+            ]
+         },
+		 {
+            "name": "Blowdart Mastery",
+            "source": "Rule of Law",
+			"prerequisite": "",
+            "text": [
+               "You have mastered the careful application of blowguns and darts. You gain the following benefits:",
+			   "• You gain a +1 bonus to damage rolls you make with blowguns and darts.",
+			   "• Your ranged attacks with blowguns use a d4 for damage.",
+			   "• When you are hidden from a creature and attack it with a blowgun or dart, making the attack doesn't reveal your position.",
+			   "• You ignore the loading property of blowguns.",
+			   null,
+			   "Source: Rule of Law",
+            ]
+         },
+		 {
             "name": "Bountiful Luck (Halfling)",
             "source": "Xanathar's Guide to Everything",
 			"prerequisite": "Halfling",
@@ -243,6 +203,19 @@ var featdata = {
             ]
          },
 		 {
+            "name": "Bow Mastery",
+            "source": "Rule of Law",
+			"prerequisite": "",
+            "text": [
+               "Bows are used by many, but you have trained to make the most of these elegant weapons. You gain the following benefits:",
+			   "• You gain a +1 bonus to damage rolls you make with shortbows and longbows.",
+			   "• When you use the Attack action with a shortbow on your turn, you can make one ranged weapon attack as a bonus action.",
+			   "• You can use Strength instead of Dexterity for the attack and damage rolls you make with longbows.",
+			   null,
+			   "Source: Rule of Law",
+            ]
+         },
+		 {
             "name": "Brawny",
             "source": "Unearthed Arcana: Feats",
             "text": [
@@ -251,6 +224,32 @@ var featdata = {
 			   "• You gain proficiency in the Athletics skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it. ",
 			   "• You count as if you were one size larger for the purpose of determining your carrying capacity ",
 			   "Source: Unearthed Arcana - Feats",
+            ]
+         },
+		 {
+            "name": "Burglar",
+            "source": "Unearthed Arcana: Feats",
+            "text": [
+               "You pride yourself on your quickness and your close study of certain clandestine activities. You gain the following benefits:",
+               "• Increase your Dexterity score by 1, to a maximum of 20.",
+               "• You gain proficiency with thieves’ tools. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
+               "Source: Unearthed Arcana - Feats"
+            ]
+         },
+		 {
+            "name": "Cartographer",
+            "source": "Rule of Law",
+			"prerequisite": "",
+            "text": [
+               "",
+			   "• Increase your Intelligence score by 1, to a maximum of 20.",
+			   "• You gain proficiency with cartographer’s and navigator’s tools. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
+			   "• You can easily and accurately understand maps, even those written in a language you can't read.",
+			   "• Even when you are drawing a map while traveling, you remain alert to danger.",
+			   "• Maps that you draw can be easily understood by any creature that shares a language with you, and a creature possessing such a map cannot become lost within the area the map displays if it can understand it. You must have cartographer’s tools to use this benefit.",
+			   "• You cannot become lost except by magical means, and always know which way is north. You must have navigator’s tools to use this benefit.",
+			   null,
+			   "Source: Rule of Law",
             ]
          },
 		 {
@@ -706,6 +705,18 @@ var featdata = {
             ]
          },
 		 {
+            "name": "Exotic Craftsman",
+            "source": "Middle Finger of Vecna",
+			"prerequisite": "",
+            "text": [
+               "You have discovered the secrets of forging unique, exotic weapons or armor. ",
+			   "• Increase your Intelligence score by 1, to a maximum of 20",
+			   "• You learn to craft exotic armor and shields or exotic weapons",
+			   "• When crafting, you double the amount of progress you make towards completing an item each day.",
+			   "Source: Middle Finger of Vecna",
+            ]
+         },
+		 {
             "name": "Fade Away (Gnome)",
             "source": "Xanathar's Guide to Everything",
 			"prerequisite": "Gnome",
@@ -714,6 +725,18 @@ var featdata = {
 			   "• Increase your Dexterity or Intelligence score by 1, to a maximum of 20. ",
 			   "• Immediately after you take damage, you can use a reaction to magically become <i>invisible</i> until the end of your next turn or until you attack, deal damage, or force someone to make a saving throw. Once you use this ability, you can’t do so again until you finish a short or long rest. ",
 			   "Source: Xanathar's Guide to Everything",
+            ]
+         },
+		 {
+            "name": "Fell Handed",
+            "source": "Unearthed Arcana: Feats",
+            "text": [
+               "You master the handaxe, battleaxe, greataxe, warhammer, and maul. You gain the following benefits when using any of them:",
+               "• You gain a +1 bonus to attack rolls you make with the weapon.",
+               "• Whenever you have advantage on a melee attack roll you make with the weapon and hit, you can knock the target prone if the lower of the two d20 rolls would also hit the target.",
+               "• Whenever you have disadvantage on a melee attack roll you make with the weapon, the target takes bludgeoning damage equal to your Strength modifier (minimum of 0) if the attack misses but the higher of the two d20 rolls would have hit.",
+               "• If you use the Help action to aid an ally’s melee attack while you’re wielding the weapon, you knock the target’s shield aside momentarily. In addition to the ally gaining advantage on the attack roll, the ally gains a +2 bonus to the roll if the target is using a shield.",
+               "Source: Unearthed Arcana - Feats"
             ]
          },
 		 {
@@ -729,6 +752,17 @@ var featdata = {
             ]
          },
 		{
+            "name": "Flail Mastery",
+            "source": "Unearthed Arcana: Feats",
+            "text": [
+               "The flail is a tricky weapon to use, but you have spent countless hours mastering it. You gain the following benefits.",
+               "• You gain a +1 bonus to attack rolls you make with a flail.",
+               "• As a bonus action on your turn, you can prepare yourself to extend your flail to sweep over targets’ shields. Until the end of this turn, your attack rolls with a flail gain a +2 bonus against any target using a shield.",
+               "• When you hit with an opportunity attack using a flail, the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone.",
+               "Source: Unearthed Arcana - Feats"
+            ]
+         },
+		{
             "name": "Flames of Phlegethos (Tiefling)",
             "source": "Xanathar's Guide to Everything",
 			"prerequisite": "Tiefling",
@@ -738,6 +772,32 @@ var featdata = {
 			   "• When you roll fire damage for a spell you cast, you can reroll any roll of 1 on the fire damage dice, but you must use the new roll, even if it is another 1.",
 			   "• Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. The flames don’t harm you or your possessions, and they shed bright light out to 30 feet and dim light for an additional 30 feet. While the flames are present, any creature within 5 feet of you that hits you with a melee attack takes 1d4 fire damage. ",
 			   "Source: Xanathar's Guide to Everything",
+            ]
+         },
+		 {
+            "name": "Gladiator",
+            "source": "Rule of Law",
+			"prerequisite": "",
+            "text": [
+               "Fighting for an audience is your forte, and you maximize the use of more exotic weapons to show off your prowess. You gain the following benefits:",
+			   "• Increase your Charisma score by 1, to a maximum of 20.",
+			   "• You gain proficiency in Performance.",
+			   "• You gain proficiency with nets, and when you use the Attack action and attack with a net, you can use a bonus action to attack with a one-handed weapon you are holding. Being within 5 feet of a hostile creature doesn't impose disadvantage on your attack rolls with a net, and the escape DC for your nets increases by your proficiency bonus.",
+			   "• You gain proficiency with tridents, and you can roll one additional weapon damage die when determining the extra damage for a critical hit with a trident.",
+			   null,
+			   "Source: Rule of Law",
+            ]
+         },
+		 {
+            "name": "Gourmand",
+            "source": "Unearthed Arcana: Feats",
+            "text": [
+               "You have mastered a variety of special recipes, allowing you to prepare exotic dishes with useful effects. You gain the following benefits:",
+               "• Increase your Constitution score by 1, to a maximum of 20.",
+               "• You gain proficiency with cook’s utensils. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
+               "• As an action, you can inspect a drink or plate of food within 5 feet of you and determine whether it is poisoned, provided that you can see and smell it.",
+               "• During a long rest, you can prepare and serve a meal that helps you and your allies recover from the rigors of adventuring, provided you have suitable food, cook’s utensils, and other supplies on hand. The meal serves up to six people, and each person who eats it regains two additional Hit Dice at the end of the long rest. In addition, those who partake of the meal have advantage on Constitution saving throws against disease for the next 24 hours.",
+               "Source: Unearthed Arcana - Feats"
             ]
          },
          {
@@ -835,6 +895,21 @@ var featdata = {
                ]
             }
          },
+		 {
+            "name": "Herbalist",
+            "source": "Rule of Law",
+			"prerequisite": "",
+            "text": [
+               "You are adept at harnessing the useful properties of herbs and other plants. You gain the following benefits:",
+			   "• Increase your Intelligence or Wisdom score by 1, to a maximum of 20.",
+			   "• You gain proficiency with herbalism kits. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
+			   "• As an action, you can inspect a plant within 5 feet of you and determine whether it is edible or poisonous, provided that you can see and smell it.",
+			   "• You can apply herbal remedies to help yourself or your allies recover from maladies. Over the course of a short rest, you can remove one poison or disease from a friendly creature within reach. You must have an herbalism kit and either a component pouch or access to local herbs to use this benefit.",
+			   null,
+			   "Source: Rule of Law",
+            ]
+         },
+
 		 {
             "name": "Historian",
             "source": "Unearthed Arcana: Feats",
@@ -1006,6 +1081,31 @@ var featdata = {
             ]
          },
 		 {
+            "name": "Martial Training",
+            "source": "Rule of Law",
+			"prerequisite": "Character level 4, Dexterity 13 or Strength 13",
+            "text": [
+               "You have trained in a certain specialized technique of fighting. You gain the following benefits:",
+			   "• Increase your Strength or Dexterity score by 1, to a maximum of 20.",
+			   "• You gain the benefits of a Fighting Style of your choice.",
+			   "You can select this feat multiple times. You can’t take a Fighting Style option more than once, even if you later get to choose again.",
+			   null,
+			   "Source: Rule of Law",
+            ]
+         },
+
+		 {
+            "name": "Master of Disguise",
+            "source": "Unearthed Arcana: Feats",
+            "text": [
+               "You have honed your ability to shape your personality and to read the personalities of others. You gain the following benefits:",
+               "• Increase your Charisma score by 1, to a maximum of 20.",
+               "• You gain proficiency with the disguise kit. If you are already proficient with it, you add double your proficiency bonus to checks you make with it.",
+               "• If you spend 1 hour observing a creature, you can then spend 8 hours crafting a disguise you can quickly don to mimic that creature. Making the disguise requires a disguise kit. You must make checks as normal to disguise yourself, but you can assume the disguise as an action.",
+               "Source: Unearthed Arcana - Feats"
+            ]
+         },
+		 {
             "name": "Medic",
             "source": "Unearthed Arcana: Feats",
             "text": [
@@ -1077,6 +1177,19 @@ var featdata = {
                "Source: Player's Handbook, page 168"
             ]
          },
+		 {
+            "name": "Mounted Adept",
+            "source": "Rule of Law",
+			"prerequisite": "",
+            "text": [
+               "You have mounted training that allows you to effectively control a mount in the chaos of battle. You gain the following benefits:",
+			   "• You gain proficiency in Animal Handling.",
+			   "• Over the course of 2 hours, which can be done during a rest, you can designate a mount as your steed. Your steed becomes trained to answer your commands without hesitation. While riding your steed, you can use your action to command it to use any of its actions. For each level you gain after 3rd, your steed gains an additional Hit Die and increases its hit points accordingly. (This benefit has no effect if another feature has already improved the creature's Hit Dice.)",
+			   null,
+			   "Source: Rule of Law",
+            ]
+         },
+
          {
             "name": "Mounted Combatant",
             "source": "Player's Handbook",
@@ -1092,6 +1205,21 @@ var featdata = {
                "Source: Player's Handbook, page 168"
             ]
          },
+		 {
+            "name": "Mounted Mage",
+            "source": "Rule of Law",
+			"prerequisite": "The ability to cast at least one spell.",
+            "text": [
+               "You are trained in the use of magic from horseback. You gain the following benefits:",
+			   "• You gain proficiency in Animal Handling.",
+			   "• When you cast a spell targeting yourself while mounted, you can also affect your mount with the spell.",
+			   "• While mounted, you have advantage on melee spell attack rolls against any unmounted creature that is smaller than your mount.",
+			   "• While mounted, if your mount is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.",
+			   null,
+			   "Source: Rule of Law",
+            ]
+         },
+
 		 {
             "name": "Naturalist",
             "source": "Unearthed Arcana: Feats",
@@ -1168,6 +1296,21 @@ var featdata = {
 			   "Source: Unearthed Arcana - Feats",
             ]
          },
+		 {
+            "name": "Poisoner",
+            "source": "Rule of Law",
+			"prerequisite": "",
+            "text": [
+               "You have studied the secrets of poisons and toxins, gaining the following benefits:",
+			   "• Increase your Intelligence by 1, to a maximum of 20.",
+			   "• You gain proficiency with poisoner’s kits. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
+			   "• As an action, you can identify one poison within 5 feet of you. You must see the poison for this benefit to work.",
+			   "• Over the course of a short rest, you can temporarily improve the potency of one dose of poison. To use this benefit, you must have a poisoner’s kit, and the poison must be within reach. If the poison is applied within 1 hour after the short rest ends, its DC becomes 8 + your proficiency bonus + your Intelligence modifier, and it deals extra poison damage equal to your Intelligence modifier.",
+			   null,
+			   "Source: Rule of Law",
+            ]
+         },
+
          {
             "name": "Polearm Master",
             "source": "Player's Handbook",
@@ -1357,6 +1500,33 @@ var featdata = {
                "Source: Player's Handbook, page 170"
             ]
          },
+		 {
+            "name": "Slinger",
+            "source": "Rule of Law",
+			"prerequisite": "",
+            "text": [
+               "You are an expert with the sling, capable of striking your foes with deadly precision. You gain the following benefits:",
+			   "• You gain a +1 bonus to damage rolls made with a sling.",
+			   "• When you use a sling, its damage die increases from a d4 to a d6. (This benefit has no effect if another feature has already improved the weapon’s die.)",
+			   "• Your weapon attacks with a sling score a critical hit on a roll of 19 or 20.",
+			   "• When you score a critical hit using a sling, the target can’t take reactions until the end of your next turn.",
+			   null,
+			   "Source: Rule of Law",
+            ]
+         },
+
+		{
+            "name": "Spear Mastery",
+            "source": "Unearthed Arcana: Feats",
+            "text": [
+               "Though the spear is a simple weapon to learn, it rewards you for the time you have taken to master it. You gain the following benefits.",
+               "• You gain a +1 bonus to attack rolls you make with a spear.",
+               "• When you use a spear, its damage die changes from a d6 to a d8, and from a d8 to a d10 when wielded with two hands. (This benefit has no effect if another feature has already improved the weapon’s die.)",
+               "• You can set your spear to receive a charge. As a bonus action, choose a creature you can see that is at least 20 feet away from you. If that creatures moves within your spear’s reach on its next turn, you can make a melee attack against it with your spear as a reaction. If the attack hits, the target takes an extra 1d8 piercing damage, or an extra 1d10 piercing damage if you wield the spear with two hands. You can’t use this ability if the creature used the Disengage action before moving.",
+               "• As a bonus action on your turn, you can increase your reach with a spear by 5 feet for the rest of your turn.",
+               "Source: Unearthed Arcana - Feats"
+            ]
+         },
          {
             "name": "Spell Sniper",
             "source": "Player's Handbook",
@@ -1448,6 +1618,21 @@ var featdata = {
 			   "Source: Unearthed Arcana - Feats",
             ]
          },
+		 {
+            "name": "Thrown Weapon Master",
+            "source": "Rule of Law",
+			"prerequisite": "",
+            "text": [
+               "You are an expert at the techniques of throwing weapons. You gain the following benefits:",
+			   "• You gain a +1 bonus to damage rolls you make with thrown weapons.",
+			   "• Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls with thrown weapons.",
+			   "• When you hit a creature with a ranged weapon attack with a thrown weapon, you have advantage on your next melee weapon attack against that creature before the end of your next turn.",
+			   "• You can use two-weapon fighting even when the one-handed melee weapons you are wielding aren't light, if at least one of them has the thrown property.",
+			   null,
+			   "Source: Rule of Law",
+            ]
+         },
+
          {
             "name": "Tough",
             "source": "Player's Handbook",
@@ -1457,6 +1642,21 @@ var featdata = {
                "Source: Player's Handbook, page 170"
             ]
          },
+		 {
+            "name": "Trapper",
+            "source": "Rule of Law",
+			"prerequisite": "",
+            "text": [
+               "You are skilled at hunting and trapping, gaining the following benefits:",
+			   "• Increase your Wisdom score by 1, to a maximum of 20.",
+			   "• You gain proficiency in Survival. If you are already proficient in it, you add double your proficiency bonus to checks made with Survival.",
+			   "• You gain proficiency with nets, and when you use the Attack action and attack with a net, you can use a bonus action to attack with a one-handed weapon you are holding. Being within 5 feet of a hostile creature doesn't impose disadvantage on your attack rolls with a net, and the escape DC for your nets increases by your proficiency bonus.",
+			   "• The escape DC of hunting traps that you place increases by your proficiency bonus.",
+			   null,
+			   "Source: Rule of Law",
+            ]
+         },
+
          {
             "name": "War Caster",
             "source": "Player's Handbook",
@@ -1484,6 +1684,19 @@ var featdata = {
                "• You gain proficiency with four simple or martial weapons of your choice.",
                null,
                "Source: Player's Handbook, page 170 and 6/10/2015 errata"
+            ]
+         },
+		 {
+            "name": "Whip Mastery",
+            "source": "Rule of Law",
+			"prerequisite": "",
+            "text": [
+               "You have mastered the strange and difficult art of using a whip in combat. You gain the following benefits:",
+			   "• You gain a +1 bonus to damage rolls made with a whip.",
+			   "• When you use a whip, its damage die increases from a d4 to a d6. (This benefit has no effect if another feature has already improved the weapon’s die.)",
+			   "• Whenever you have advantage on a melee attack roll you make with a whip and hit, you can knock a weapon or another item from the target's grasp if the lower of the two d20 rolls would also hit the target.",
+			   null,
+			   "Source: Rule of Law",
             ]
          },
 		 {
