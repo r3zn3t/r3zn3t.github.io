@@ -9,6 +9,7 @@ function parsesource (src) {
 	if (source === "Rob's Homebrew") source = "RHB";
 	if (source === "Plane Shift Kaladesh") source = "PSK";
 	if (source === "Middle Finger of Vecna") source = "MFoV";
+	if (source === "Rule of Law") source = "RoL";
 	return source;
 }
 
