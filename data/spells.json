@@ -1241,6 +1241,28 @@ var spelldata = {
                     "If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer. The DM makes this roll in secret."
                 ]
             },
+			{
+				"name": "Commune with Civilization",
+				"source": "RoL",
+				"level": "5",
+				"school": "D",
+				"ritual": "YES",
+				"time": "1 minute",
+				"range": "Self",
+				"components": "V,S",
+				"duration": "Instantaneous",
+				"classes": "Cleric",
+				"text": [
+					"You briefly become one with civilization and gain knowledge of the surrounding territory. In a civilized area, the spell gives you knowledge of the area within 3 miles of you. The spell doesn’t function where there is no construction, such as in the wilderness.",
+					"You instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area:",
+					"• road layout and landmarks",
+					"• prevalent goods, services, factions, or cultures",
+					"• powerful celestials, fey, fiends, elementals, or undead",
+					"• influence from other planes of existence",
+					"• building types of your choice",
+					"For example, you could determine the fastest route to the city center, the popular local foods, and the location of any blacksmiths in the area.",
+				],
+			},
             {
                 "name": "Commune with Nature",
                 "level": "5",
