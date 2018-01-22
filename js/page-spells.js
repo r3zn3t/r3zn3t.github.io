@@ -37,6 +37,7 @@ function parsesource (source) {
 	if (source === "SCAG") source = "Sword Coast Adventurer's Guide";
 	if (source === "UAMystic") source = "Unearthed Arcana: The Mystic Class";
 	if (source === "XGE") source = "Xanathar's Guide to Everything";
+	if (source === "RoL") source = "Rule of Law";
 	return source;
 }
 
