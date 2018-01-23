@@ -6,6 +6,8 @@
 [X] Add Tomb of Annihilation Content
 [X] Testing contributions/pull requests
 [] Add content from Rule of Law
+[] Create printable stat blocks for items
+[] Create printable stat blocks for spells
 [] http://pmssquad.com/project/the-exile/
 [] http://pmssquad.com/project/the-farmer/ 
 [] http://pmssquad.com/project/the-barkeep/ 
