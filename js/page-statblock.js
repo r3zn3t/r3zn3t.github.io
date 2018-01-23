@@ -304,6 +304,9 @@ function usemonster (id) {
 	var alignment = mon.alignment;
 	$("td span#alignment").html(alignment);
 
+	var value = mon.value;
+	$("td span#value").html(value);
+	
 	var ac = mon.ac;
 	$("td span#ac").html(ac);
 
