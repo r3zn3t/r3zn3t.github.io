@@ -4,6 +4,7 @@
 [X] Add craftsman feats
 [X] Create printable version of stat blocks (a: "generate statblock" or b: "snip stat block") 
 [X] Add Tomb of Annihilation Content
+[] Testing contributions/pull requests
 [] Add content from Rule of Law
 [] http://pmssquad.com/project/the-exile/
 [] http://pmssquad.com/project/the-farmer/ 
