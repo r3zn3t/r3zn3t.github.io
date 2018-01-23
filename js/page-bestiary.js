@@ -118,11 +118,9 @@ function loadmonsters() {
 			$("select.crfilter").append("<option title=\""+cr+"\" value='"+cr+"'>"+cr+"</option>")
 		}
 		
-		if (ismount == "mount"){
-			$("select.mountfilter").append("<option value='"+ismount+"'>"+ismount+"</option>");
-		}
 	
 	}
+	$("select.mountfilter").append("<option value='mount'>mount</option>")
 	$("select.typefilter").append("<option value='fiend'>fiend</option>")
 	$("select.typefilter").append("<option value='giant'>giant</option>")
 	$("select.typefilter").append("<option value='humanoid'>humanoid</option>")
