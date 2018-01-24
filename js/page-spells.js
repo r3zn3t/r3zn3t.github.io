@@ -238,8 +238,10 @@ function usespell (id) {
 			$("#stats").html(tabledefault);
 			var spelllist = spelldata.compendium.spell;
 			var curspell = spelllist[id];
+			
+			var encoded = encodeURI(curspell.name);
 
-			$("th#name").html("<span title=\""+parsesource(curspell.source)+"\" class='source source"+curspell.source+"'>"+curspell.source+"</span> "+curspell.name);
+			$("th#name").html("<span title=\""+parsesource(curspell.source)+"\" class='source source"+curspell.source+"'>"+curspell.source+"</span> <a href='spell-statblock.html#"+encoded+"'>"+curspell.name+"</a>");
 
 			// $("th#name").html(curspell.name);
 
