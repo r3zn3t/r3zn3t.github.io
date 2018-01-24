@@ -135,39 +135,36 @@ function loaditems() {
 
 		var curitem = itemlist[i];
 		var name = curitem.name;
+
+		var type = curitem.type.split(",");
+		if (type[0] === "$") continue;
+
+		for (var j = 0; j < type.length; j++) {
+			type[j] = parsetype (type[j]);
+				if (!$("select.typefilter:contains(\""+type[j]+"\")").length) {
+					$("select.typefilter").append("<option value='"+type[j]+"'>"+type[j]+"</option>")
+				}
+		}
+
+		var source = curitem.text[curitem.text.length-1].split(",")[0].split(":")[1];
+
+		var rarity = curitem.rarity;
+		if (!rarity) {
+			rarity = "None";
+		} else rarity = rarity.replace("Rarity: ", "");
+
+		var destinationlist = "ul.list.mundane";
+		curitemstring = JSON.stringify (curitem)
+		if (curitem.rarity || type.indexOf("W") !== -1 || curitemstring.search(/((magic)|(Devastation Orb)|(Storm Boomerang)|(\s?Spiked Armor\s?)|(Requires Attunement)|(Bottled Breath))/g) !== -1) {
+			destinationlist = "ul.list.magic";
+		}
+	
+		var attunement = parseattunement(curitem.attunement);
 		
-		if(curitem.name === document.cookie){
+		$(destinationlist).append("<li id='"+i+"' data-link=\""+encodeURIComponent(name).replace("'","%27")+"\"><span class='name col-xs-4'>"+name+"</span> <span class='type col-xs-3'>"+type.join(", ")+" "+attunement+"</span><span class='sourcename col-xs-2' title=\""+source+"\"><span class='source'>"+parsesource(source)+"</span></span> <span class='rarity col-xs-3'>"+rarity+"</span></li>");
 
-			var type = curitem.type.split(",");
-			if (type[0] === "$") continue;
-
-			for (var j = 0; j < type.length; j++) {
-				type[j] = parsetype (type[j]);
-					if (!$("select.typefilter:contains(\""+type[j]+"\")").length) {
-						$("select.typefilter").append("<option value='"+type[j]+"'>"+type[j]+"</option>")
-					}
-			}
-
-			var source = curitem.text[curitem.text.length-1].split(",")[0].split(":")[1];
-
-			var rarity = curitem.rarity;
-			if (!rarity) {
-				rarity = "None";
-			} else rarity = rarity.replace("Rarity: ", "");
-
-			var destinationlist = "ul.list.mundane";
-			curitemstring = JSON.stringify (curitem)
-			if (curitem.rarity || type.indexOf("W") !== -1 || curitemstring.search(/((magic)|(Devastation Orb)|(Storm Boomerang)|(\s?Spiked Armor\s?)|(Requires Attunement)|(Bottled Breath))/g) !== -1) {
-				destinationlist = "ul.list.magic";
-			}
-		
-			var attunement = parseattunement(curitem.attunement);
-			
-			$(destinationlist).append("<li id='"+i+"' data-link=\""+encodeURIComponent(name).replace("'","%27")+"\"><span class='name col-xs-4'>"+name+"</span> <span class='type col-xs-3'>"+type.join(", ")+" "+attunement+"</span><span class='sourcename col-xs-2' title=\""+source+"\"><span class='source'>"+parsesource(source)+"</span></span> <span class='rarity col-xs-3'>"+rarity+"</span></li>");
-
-			if (!$("select.sourcefilter option[value='"+parsesource(source)+"']").length) {
-				$("select.sourcefilter").append("<option title=\""+source+"\" value='"+parsesource(source)+"'>"+source+"</option>")
-			}
+		if (!$("select.sourcefilter option[value='"+parsesource(source)+"']").length) {
+			$("select.sourcefilter").append("<option title=\""+source+"\" value='"+parsesource(source)+"'>"+source+"</option>")
 		}
 	}
 
@@ -326,15 +323,12 @@ function useitem (id) {
 	$("#currentitem").html(tabledefault);
 	var itemlist = itemdata.compendium.item;
 	var curitem = itemlist[id];
-	
-	var x = document.cookie;
-	alert(x);
 
-	var name = x;
+	var name = curitem.name;
 	var source = (curitem.source) ? curitem.source : curitem.text[curitem.text.length-1].split(",")[0].split(":")[1];
 
 	sourceshort = parsesource(source);
-	$("th#name").html("<span title=\""+source+"\" class='source source"+sourceshort+"'>"+sourceshort+"</span> "+name);
+	$("th#name").html("<span title=\""+source+"\" class='source source"+sourceshort+"'>"+sourceshort+"</span> "+"<a href='item-statblock.html#"+document.cookie+"'>"+document.cookie+"</a>");
 
 	$("td span#type").html("")
 	$("span#damage").html("");
