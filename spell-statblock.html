@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--
+	XML data was compiled by a reddit community for use with the "Fight Club 5" app.
+	Google "5e xml files" for more info.
+
+	Feel free to use, edit, and redistribute this as you wish.
+	I don't own any of the XML data anyway.
+-->
+
+	<title>Spells - 5estuff</title>
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="favicon.png">
+
+</head>
+
+<body>
+
+	<main class="container bodyContent">
+
+		<div class="row">
+		
+			<div class="col-md-6">
+				<table id="stats">
+					<tr>
+						<th class="border" colspan="6"></th>
+					</tr>
+					<tr>
+						<th id="name" colspan="6">Name</th>
+					</tr>
+					<tr>
+						<td id="levelschoolritual" colspan="6"><span id="level">1st-level</span> <span id="school">evocation</span> <span id="ritual">(ritual)</span></td>
+					</tr>
+					<tr>
+						<td id="castingtime" colspan="6">Casting Time: <span>1 action</span></td>
+					</tr>
+					<tr>
+						<td id="range" colspan="6">Range: <span>30 feet</span></td>
+					</tr>
+					<tr>
+						<td id="components" colspan="6">Components: <span>V, S, M (salt)</span></td>
+					</tr>
+					<tr>
+						<td id="duration" colspan="6">Duration: <span>Concentration, up to 1 minute</span></td>
+					</tr>
+					<tr id="text">
+						<td class="divider" colspan="6">
+							<div></div>
+						</td>
+					</tr>
+					<tr>
+						<td id="classes" colspan="6">Classes: <span>wizard</span></td>
+					</tr>
+					<tr>
+						<th class="border" colspan="6"></th>
+					</tr>
+				</table>
+			</div>
+			<div class="col-md-6" id="listcontainer" style='display:none;'>
+
+				<ul class="list spells">
+
+				</ul>
+			</div>
+		</div>
+	</main>
+	<footer class="container">
+
+	</footer>
+
+	<script type="text/javascript" src="js/page-spells.js"></script>
+	<script type="text/javascript" src="data/spells.json"></script>
+	<script type="text/javascript" src="js/list.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
