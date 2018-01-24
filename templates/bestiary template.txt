@@ -6,7 +6,7 @@
                 "alignment": "unaligned",
 				"value": "",
 				"mount": "",
-				"NPC": "",
+				"npc": "",
                 "ac": "",
                 "hp": "",
                 "speed": "",
