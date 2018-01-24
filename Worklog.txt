@@ -5,7 +5,7 @@
 [X] Create printable version of stat blocks (a: "generate statblock" or b: "snip stat block") 
 [X] Add Tomb of Annihilation Content
 [X] Testing contributions/pull requests
-[] Add content from Rule of Law
+[X] Add content from Rule of Law
 [] Create printable stat blocks for items
 [] Create printable stat blocks for spells
 [] Add NPC filter to bestiary
