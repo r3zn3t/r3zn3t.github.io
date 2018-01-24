@@ -30,90 +30,10 @@
 			<p>Search by name on the left, click item name to display on the right.</p>
 		</div>
 	</header>
-	<nav class="container">
-		<ul class="nav nav-pills ">
-			<li role="presentation"><a href="index.html">5estuff</a></li>
-			<li role="presentation"><a href="rules.html">Rules</a></li>
-			<li role="presentation" class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Player Options <span class="caret"></span></a>
-				<ul class="dropdown-menu">
-					<li role="presentation"><a href="classes.html">Classes</a></li>
-					<li role="presentation"><a href="backgrounds.html">Backgrounds</a></li>
-					<li role="presentation"><a href="feats.html">Feats</a></li>
-					<li role="presentation"><a href="races.html">Races</a></li>
-				</ul>
-			</li>
-			<li role="presentation" class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">DM Tools <span class="caret"></span></a>
-				<ul class="dropdown-menu">
-					<li role="presentation"><a href="crcalculator.html">CR Calculator</a></li>
-					<li role="presentation"><a href="http://kobold.club" target="_blank" title="I could literally never build something better than Kobold Fight Club">Encounter Builder</a></li>
-					<li role="presentation"><a href="lootgen.html">Loot Generator</a></li>
-				</ul>
-			</li>
-			<li role="presentation" class="dropdown active">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">References <span class="caret"></span></a>
-				<ul class="dropdown-menu">
-					<li role="presentation"><a href="bestiary.html">Bestiary</a></li>
-					<li role="presentation"><a href="conditions.html">Conditions</a></li>
-					<li role="presentation" class="active"><a href="items.html">Items</a></li>
-					<li role="presentation"><a href="spells.html">Spells</a></li>
-				</ul>
-			</li>
-			<li role="presentation"><a href="statgen.html">Statgen</a></li>
-			<li role="presentation" class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Utilities<span class="caret"></span></a>
-				<ul class="dropdown-menu">
-					<li role="presentation"><a href="converter.html">Stat Block to JSON</a></li>
-					<li role="presentation"><a href="editor.html">WYSIWYG Editor</a></li>
-				</ul>
-			</li>
-		</ul>
-	</nav>
 	<main class="container bodyContent">
 
 		<div class="row">
-			<div class="col-sm-6" id="itemcontainer">
-				<div class="input-group" style="vertical-align: top;">
-					<input type="search" id="search" class="search form-control" placeholder="Find item...">
-					<span class="input-group-btn">
-							<button class="btn btn-default" type="button" id="reset">Reset</button>
-						</span>
-				</div>
-				<form id="filtertools">
-					<select class="sourcefilter">
-							<option value="All">All Sources</option>
-						</select>
-					<select class="typefilter" value="All">
-							<option value="All">All Types</option>
-						</select>
-					</select>
-					<select class="rarityfilter">
-						<option value="All">All Rarities</option>
-						<option value="None">None</option>
-						<option value="Common">Common</option>
-						<option value="Uncommon">Uncommon</option>
-						<option value="Rare">Rare</option>
-						<option value="Very Rare">Very Rare</option>
-						<option value="Legendary">Legendary</option>
-						<option value="Artifact">Artifact</option>
-					</select>
-					<span class="sortlabel btn-group">
-						<button class="col-xs-4 sort btn btn-default btn-xs" type="button" sort="name" sortby="asc">Name</button>
-						<button class="col-xs-3 sort btn btn-default btn-xs" type="button" sort="type" sortby="asc">Type</button>
-						<button class="col-xs-2 sort btn btn-default btn-xs" type="button" sort="source" sortby="asc">Source</button>
-						<button class="col-xs-3 sort btn btn-default btn-xs" type="button" sort="rarity" sortby="asc">Rarity</button>
-					</span>
-				</form>
-				<h3 data-toggle="mundane">Mundane</h3>
-				<ul class="list mundane">
-
-				</ul>
-				<h3 data-toggle="magic">Magic</h3>
-				<ul class="list magic">
-
-				</ul>
-			</div>
+		
 			<div class="col-sm-6">
 				<table id="stats">
 					<tr>
@@ -142,13 +62,19 @@
 					</tr>
 				</table>
 			</div>
+			<div class="col-sm-6" id="itemcontainer">
+				<ul class="list mundane" style='display:none;'>
+				</ul>
+				<ul class="list magic" style='display:none;'>
+				</ul>
+			</div>
 		</div>
 	</main>
 	<footer class="container">
 
 	</footer>
 
-	<script type="text/javascript" src="js/page-items.js"></script>
+	<script type="text/javascript" src="js/page-item-statblock.js"></script>
 	<script type="text/javascript" src="data/items.json"></script>
 	<script type="text/javascript" src="js/list.js"></script>
 	<script type="text/javascript" src="js/jquery.js"></script>
