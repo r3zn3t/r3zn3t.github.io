@@ -279,7 +279,7 @@ var spelldata = {
                 ]
             },
             {
-                "name": "Antipathy-Sympathy",
+                "name": "Antipathy/Sympathy",
                 "level": "8",
                 "school": "EN",
                 "time": "1 hour",
