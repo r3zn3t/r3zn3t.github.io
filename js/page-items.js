@@ -332,7 +332,7 @@ function useitem (id) {
 	var name = curitem.name;
 	getcookiemonster(name);
 	
-	var encoded = encodeURI(name);
+	var encoded = encodeURIComponent(name).replace("'","%27");
 	
 	var source = (curitem.source) ? curitem.source : curitem.text[curitem.text.length-1].split(",")[0].split(":")[1];
 
