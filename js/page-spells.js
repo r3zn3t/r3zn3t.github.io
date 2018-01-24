@@ -59,7 +59,6 @@ function loadspells() {
 		for (var i = 0; i < spelllist.length; i++) {
 			var curspell = spelllist[i];
 			var name = curspell.name;
-			if (curspell.level[0] === "P") name += " (Psionics)";
 
 			var leveltext = parsespelllevel(curspell.level);
 			if (parseInt(curspell.level) > 0) leveltext += " level"
