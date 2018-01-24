@@ -102,11 +102,14 @@ function loadmonsters() {
 
 		var cr = monsters[i].cr;
 		var mount = monsters[i].mount;
+		var npc = monsters[i].npc;
 		var ismount = "";
 		if (mount === "YES") ismount = "mount";
+		var isnpc = "";
+		if (npc === "YES") isnpc = "npc";
 
 
-		$("ul#monsters").append("<li id="+i+" data-link='"+encodeURIComponent(name).replace("'","%27")+"'><span class='name col-xs-4'>"+name+"</span> <span title=\""+origsource+"\" class='col-xs-2 source source"+source+"'>("+source+")</span> <span class='type col-xs-3'>"+type+"</span> <span class='col-xs-3 cr'>CR "+cr+" </span><span class='mount'>"+ismount+"</span></li>");
+		$("ul#monsters").append("<li id="+i+" data-link='"+encodeURIComponent(name).replace("'","%27")+"'><span class='name col-xs-4'>"+name+"</span> <span title=\""+origsource+"\" class='col-xs-2 source source"+source+"'>("+source+")</span> <span class='type col-xs-3'>"+type+"</span> <span class='col-xs-3 cr'>CR "+cr+" </span><span class='mount'>"+ismount+"</span><span class='npc'>"+isnpc+"</span></li>");
 
 		if (!$("select.typefilter:contains('"+type+"')").length && !$("select.typefilter:contains('"+type+" \\(')").length) {
 			$("select.typefilter").append("<option value='"+type+"'>"+type+"</option>")
@@ -118,12 +121,10 @@ function loadmonsters() {
 			$("select.crfilter").append("<option title=\""+cr+"\" value='"+cr+"'>"+cr+"</option>")
 		}
 		
-		/*if (ismount == "mount"){
-			$("select.mountfilter").append("<option value='"+ismount+"'>"+ismount+"</option>");
-		} */
 	
 	}
-	$("select.mountfilter").append("<option value='mount'>mount</option>")
+	$("select.npcfilter").append("<option value='npc'>NPC's</option>")
+	$("select.mountfilter").append("<option value='mount'>Mounts</option>")
 	$("select.typefilter").append("<option value='fiend'>fiend</option>")
 	$("select.typefilter").append("<option value='giant'>giant</option>")
 	$("select.typefilter").append("<option value='humanoid'>humanoid</option>")
@@ -140,7 +141,7 @@ function loadmonsters() {
 	$("select.crfilter option[value=0]").before($("select.crfilter option[value=All]"))
 
 	var options = {
-		valueNames: ['name', 'source', 'type', 'cr', 'mount']
+		valueNames: ['name', 'source', 'type', 'cr', 'mount', 'npc']
 	}
 
 	var monlist = new List("monstercontainer", options)
@@ -172,6 +173,7 @@ function loadmonsters() {
 		var crfilter = "CR "+$("select.crfilter").val()+" ";
 		var thirdpartyfilter = $("select.3ppfilter").val();
 		var mountfilter = $("select.mountfilter").val();
+		var npcfilter = $("select.npcfilter").val();
 
 		monlist.filter(function(item) {
 			var righttype = false;
@@ -179,6 +181,7 @@ function loadmonsters() {
 			var rightcr = false;
 			var rightparty = false;
 			var rightmount = false;
+			var rightnpc =  false
 
 			if (typefilter === "All" || item.values().type === typefilter) righttype = true;
 			if (sourcefilter === "All" || item.values().source === "("+sourcefilter+")") rightsource = true;
@@ -187,8 +190,10 @@ function loadmonsters() {
 			if (thirdpartyfilter === "None" && item.values().source.indexOf("3pp") === -1) rightparty = true;
 			if (thirdpartyfilter === "Only" && item.values().source.indexOf("3pp") !== -1) rightparty = true;
 			if (mountfilter === "All" || item.values().mount === mountfilter) rightmount = true;
-			if (mountfilter ===  "Mount" || item.values().mount === "YES") rightmount = true;
-			if (righttype && rightsource && rightcr && rightparty && rightmount) return true;
+			if (mountfilter ===  "Mounts" || item.values().mount === "YES") rightmount = true;
+			if (npcfilter === "All" || item.values().npc === npcfilter) rightnpc = true;
+			if (npcfilter ===  "NPC's" || item.values().npc === "YES") rightnpc = true;
+			if (righttype && rightsource && rightcr && rightparty && rightmount && rightnpc) return true;
 			return false;
 		});
 	});
@@ -263,6 +268,10 @@ function sortmonsters(a, b, o) {
 	
 	if (o.valueName === "mount") {
 		return ((b._values.mount.toLowerCase()) > (a._values.mount.toLowerCase())) ? 1 : -1;
+	}
+	
+	if (o.valueName === "npc") {
+		return ((b._values.npc.toLowerCase()) > (a._values.npc.toLowerCase())) ? 1 : -1;
 	}
 
 	return 1;
