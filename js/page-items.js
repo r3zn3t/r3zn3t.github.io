@@ -332,10 +332,12 @@ function useitem (id) {
 	var name = curitem.name;
 	getcookiemonster(name);
 	
+	var encoded = encodeURI(document.cookie);
+	
 	var source = (curitem.source) ? curitem.source : curitem.text[curitem.text.length-1].split(",")[0].split(":")[1];
 
 	sourceshort = parsesource(source);
-	$("th#name").html("<span title=\""+source+"\" class='source source"+sourceshort+"'>"+sourceshort+"</span> "+"<a href='item-statblock.html#"+document.cookie+"'>"+document.cookie+"</a>");
+	$("th#name").html("<span title=\""+source+"\" class='source source"+sourceshort+"'>"+sourceshort+"</span> "+"<a href='item-statblock.html#"+encoded+"'>"+document.cookie+"</a>");
 
 	$("td span#type").html("")
 	$("span#damage").html("");
