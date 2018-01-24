@@ -319,16 +319,24 @@ function sortitems(a, b, o) {
 
 }
 
+//function to grab cookie for item name
+function getcookiemonster(cname){
+	document.cookie = cname+";path=/";
+	alert(document.cookie);
+}
+
 function useitem (id) {
 	$("#currentitem").html(tabledefault);
 	var itemlist = itemdata.compendium.item;
 	var curitem = itemlist[id];
 
 	var name = curitem.name;
+	getcookiemonster(name);
+	
 	var source = (curitem.source) ? curitem.source : curitem.text[curitem.text.length-1].split(",")[0].split(":")[1];
 
 	sourceshort = parsesource(source);
-	$("th#name").html("<span title=\""+source+"\" class='source source"+sourceshort+"'>"+sourceshort+"</span> "+name);
+	$("th#name").html("<span title=\""+source+"\" class='source source"+sourceshort+"'>"+sourceshort+"</span> "+"<a href='item-statblock.html'>"+name+"</a>");
 
 	$("td span#type").html("")
 	$("span#damage").html("");
