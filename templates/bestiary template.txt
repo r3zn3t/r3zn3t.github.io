@@ -2,8 +2,11 @@
 			{
                 "name": "",
                 "size": "",
-                "type": "type, Tomb of Annihilation",
-                "alignment": "alignment",
+                "type": "type, Rule of Law",
+                "alignment": "unaligned",
+				"value": "",
+				"mount": "",
+				"NPC": "",
                 "ac": "",
                 "hp": "",
                 "speed": "",
