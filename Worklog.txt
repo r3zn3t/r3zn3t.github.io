@@ -8,7 +8,7 @@
 [X] Add content from Rule of Law
 [X] Create printable stat blocks for items
 [X] Create printable stat blocks for spells
-[] Add NPC filter to bestiary
+[X] Add NPC filter to bestiary
 [] http://pmssquad.com/project/the-exile/
 [] http://pmssquad.com/project/the-farmer/ 
 [] http://pmssquad.com/project/the-barkeep/ 
