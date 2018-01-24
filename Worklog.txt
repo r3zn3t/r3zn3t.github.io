@@ -6,7 +6,7 @@
 [X] Add Tomb of Annihilation Content
 [X] Testing contributions/pull requests
 [X] Add content from Rule of Law
-[] Create printable stat blocks for items
+[X] Create printable stat blocks for items
 [] Create printable stat blocks for spells
 [] Add NPC filter to bestiary
 [] http://pmssquad.com/project/the-exile/
