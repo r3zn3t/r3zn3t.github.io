@@ -17,7 +17,7 @@ function parsesource (src) {
 	if (source === "Xanathar's Lost Notes to Everything Else") source = "XLN";
 	if (source === "Tomb of Annihilation") source = "ToA";
 	if (source === "PMS Squad") source = "PMS";
-	if (source == "Warlock Homebrew") = "WHB";
+	if (source == "Warlock Homebrew") source = "WHB";
 	return source;
 }
 
