@@ -16,6 +16,7 @@ function parsesource (src) {
 	if (source === "Unearthed Arcana") source = "UA";
 	if (source === "Xanathar's Lost Notes to Everything Else") source = "XLN";
 	if (source === "Tomb of Annihilation") source = "ToA";
+	if (source === "PMS Squad") source = "PMS";
 	return source;
 }
 
