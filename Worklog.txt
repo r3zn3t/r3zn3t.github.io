@@ -9,12 +9,12 @@
 [X] Create printable stat blocks for items
 [X] Create printable stat blocks for spells
 [X] Add NPC filter to bestiary
-[] http://pmssquad.com/project/the-exile/
-[] http://pmssquad.com/project/the-farmer/ 
-[] http://pmssquad.com/project/the-barkeep/ 
-[] http://pmssquad.com/project/the-beauty/ 
-[] http://pmssquad.com/project/college-of-the-bladedancer/ 
-[] http://mfov.magehandpress.com/2016/12/path-of-haka.html
+[X] http://pmssquad.com/project/the-exile/
+[X] http://pmssquad.com/project/the-farmer/ 
+[X] http://pmssquad.com/project/the-barkeep/ 
+[X] http://pmssquad.com/project/the-beauty/ 
+[X] http://pmssquad.com/project/college-of-the-bladedancer/ 
+[X] http://mfov.magehandpress.com/2016/12/path-of-haka.html
 [] http://mfov.magehandpress.com/2016/06/forsaker.html
 [] http://mfov.magehandpress.com/2018/01/myrmidon.html
 [] http://mfov.magehandpress.com/2017/12/fencer.html
