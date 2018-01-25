@@ -10,6 +10,12 @@
                      "",
                   ]
                },
+			   {
+                  "name": "Tool Proficiencies",
+                  "text": [
+                     "",
+                  ]
+               },
                {
                   "name": "Languages",
                   "text": [
@@ -42,7 +48,7 @@
 					"<table id='mytable' style='width:300px;border:1px solid black'>",
 						"<tr>",
 							"<th id='myheader'>d8</th>",
-							"<th id='myheader'></th>",
+							"<th id='myheader'>Personality Trait</th>",
 						"</tr>",
 						"<tr>",
 							"<td>1</td>",
@@ -87,7 +93,7 @@
 					"<table id='mytable' style='width:300px;border:1px solid black'>",
 						"<tr>",
 							"<th id='myheader'>d6</th>",
-							"<th id='myheader'></th>",
+							"<th id='myheader'>Ideal</th>",
 						"</tr>",
 						"<tr>",
 							"<td>1</td>",
@@ -124,7 +130,7 @@
 					"<table id='mytable' style='width:300px;border:1px solid black'>",
 						"<tr>",
 							"<th id='myheader'>d6</th>",
-							"<th id='myheader'></th>",
+							"<th id='myheader'>Bond</th>",
 						"</tr>",
 						"<tr>",
 							"<td>1</td>",
@@ -161,7 +167,7 @@
 					"<table id='mytable' style='width:300px;border:1px solid black'>",
 						"<tr>",
 							"<th id='myheader'>d6</th>",
-							"<th id='myheader'></th>",
+							"<th id='myheader'>Flaw</th>",
 						"</tr>",
 						"<tr>",
 							"<td>1</td>",
