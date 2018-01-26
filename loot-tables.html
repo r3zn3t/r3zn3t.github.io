@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!--
+	XML data was compiled by a reddit community for use with the "Fight Club 5" app.
+	Google "5e xml files" for more info.
+
+	Feel free to use, edit, and redistribute this as you wish.
+	I don't own any of the XML data anyway.
+
+-->
+
+	<title>5estuff</title>
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="favicon.png">
+	
+	<style>
+		table#main-table td{padding:5px;}
+		table#mytable{border:1px solid black; width:350px; height:500px;}
+		table#mytable tr:nth-child(odd){background-color:#dddddd;} 
+		table#mytable th{text-align:left;padding:5px;} 
+		table#mytable tr{text-align:center;}
+		table#mytable td{padding:5px; font-size:12px;}
+		th#title-header{font-size:15px; background-color:white;}
+		td#title-data{background-color:white;}
+		
+	</style>
+
+</head>
+
+<body>
+	<header class="hidden-xs hidden-sm">
+		<div class="container">
+
+			<h1>5estuff</h1>
+			<p>Modified from the original 5etools</p>
+		</div>
+	</header>
+	<nav class="container">
+		<ul class="nav nav-pills ">
+			<li role="presentation" class="active"><a href="index.html">5estuff</a></li>
+			<li role="presentation"><a href="rules.html">Rules</a></li>
+			<li role="presentation" class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Player Options <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li role="presentation"><a href="classes.html">Classes</a></li>
+					<li role="presentation"><a href="backgrounds.html">Backgrounds</a></li>
+					<li role="presentation"><a href="feats.html">Feats</a></li>
+					<li role="presentation"><a href="races.html">Races</a></li>
+				</ul>
+			</li>
+			<li role="presentation" class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">DM Tools <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li role="presentation"><a href="crcalculator.html">CR Calculator</a></li>
+					<li role="presentation"><a href="http://kobold.club" target="_blank" title="I could literally never build something better than Kobold Fight Club">Encounter Builder</a></li>
+					<li role="presentation"><a href="lootgen.html">Loot Generator</a></li>
+					<li role="presentation"><a href="loot-tables.html">Loot Tables</a></li>
+				</ul>
+			</li>
+			<li role="presentation" class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">References <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li role="presentation"><a href="bestiary.html">Bestiary</a></li>
+					<li role="presentation"><a href="conditions.html">Conditions</a></li>
+					<li role="presentation"><a href="items.html">Items</a></li>
+					<li role="presentation"><a href="spells.html">Spells</a></li>
+				</ul>
+			</li>
+			<li role="presentation"><a href="statgen.html">Statgen</a></li>
+			<li role="presentation" class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Utilities<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li role="presentation"><a href="converter.html">Stat Block to JSON</a></li>
+					<li role="presentation"><a href="editor.html">WYSIWYG Editor</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<main class="container bodyContent">
+		<div class="row">
+			<div class="col-sm-12">
+			<!-- Main Table Structure -->
+			<table id='main-table'>
+				<tr>
+					<h4>Gemstones</h4>
+					<td>
+						<!-- 10gp -->
+						<table id='mytable'>
+							<tr>
+								<th id='title-header' colspan='2'>10 gp Gemstones</th>
+							</tr>
+							<tr>
+								<td id='title-data'><b>d12</b></td>
+								<td id='title-data'><b>Stone Description</b></td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>Azurite (opaque mottled deep blue)</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>Banded agate (translucent striped brown, blue, white, or red)</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>Blue quartz (transparent pale blue)</td>
+							</tr>
+							<tr>
+								<td>4</td>
+								<td>Eye agate (translucent circles of gray, white, brown, blue, or green)</td>
+							</tr>
+							<tr>
+								<td>5</td>
+								<td>Hematite (opaque gray-black)</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td>Lapis lazuli (opaque light and dark blue with yellow flecks)</td>
+							</tr>
+							<tr>
+								<td>7</td>
+								<td>Malachite (opaque striated light and dark green)</td>
+							</tr>
+							<tr>
+								<td>8</td>
+								<td>Moss agate (translucent pink or yellow-white with mossy gray or green markings)</td>
+							</tr>
+							<tr>
+								<td>9</td>
+								<td>Obsidian (opaque black)</td>
+							</tr>
+							<tr>
+								<td>10</td>
+								<td>Rhodochrosite (opaque light pink)</td>
+							</tr>
+							<tr>
+								<td>11</td>
+								<td>Tiger eye (translucent brown with golden center)</td>
+							</tr>
+							<tr>
+								<td>12</td>
+								<td>Turquoise (opaque light blue-green)</td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						<!-- 50gp -->
+						<table id='mytable'>
+							<tr>
+								<th id='title-header' colspan='2'>50 gp Gemstones</th>
+							</tr>
+							<tr>
+								<td id='title-data'><b>d12</b></td>
+								<td id='title-data'><b>Stone Description</b></td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>Bloodstone (opaque dark gray with red flecks)</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>Carnelian (opaque orange to red-brown)</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>Chalcedony (opaque white)</td>
+							</tr>
+							<tr>
+								<td>4</td>
+								<td>Chrysoprase (translucent green)</td>
+							</tr>
+							<tr>
+								<td>5</td>
+								<td>Citrine (transparent pale yellow-brown)</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td>Jasper (opaque blue, black, or brown)</td>
+							</tr>
+							<tr>
+								<td>7</td>
+								<td>Moonstone (translucent white with pale blue glow)</td>
+							</tr>
+							<tr>
+								<td>8</td>
+								<td>Onyx (opaque bands of black and white, or pure black or white)</td>
+							</tr>
+							<tr>
+								<td>9</td>
+								<td>Quartz (transparent white, smoky gray, or yellow)</td>
+							</tr>
+							<tr>
+								<td>10</td>
+								<td>Sardonyx (opaque bands of red and white)</td>
+							</tr>
+							<tr>
+								<td>11</td>
+								<td>Star rose quartz (translucent rosy stone with white star-shaped center)</td>
+							</tr>
+							<tr>
+								<td>12</td>
+								<td>Zircon (transparent pale blue-green)</td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						<!-- 100gp -->
+						<table id='mytable'>
+							<tr>
+								<th id='title-header' colspan='2'>100 gp Gemstones</th>
+							</tr>
+							<tr>
+								<td id='title-data'><b>d10</b></td>
+								<td id='title-data'><b>Stone Description</b></td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>Amber (transparent watery gold to rich gold)</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>Amethyst (transparent deep purple)</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>Chrysoberyl (transparent yellow-green to pale green)</td>
+							</tr>
+							<tr>
+								<td>4</td>
+								<td>Coral (opaque crimson)</td>
+							</tr>
+							<tr>
+								<td>5</td>
+								<td>Garnet (transparent red, brown-green, or violet)</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td>Jade (translucent light green, deep green , or white)</td>
+							</tr>
+							<tr>
+								<td>7</td>
+								<td>Jet (opaque deep black)</td>
+							</tr>
+							<tr>
+								<td>8</td>
+								<td>Pearl (opaque lustrous white , yellow, or pink)</td>
+							</tr>
+							<tr>
+								<td>9</td>
+								<td>Spinel (transparent red, red-brown, or deep green)</td>
+							</tr>
+							<tr>
+								<td>10</td>
+								<td>Tourmaline (transparent pale green , blue, brown , or red)</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			</div>
+		</div>
+	</main>
+	<footer class="container">
+	</footer>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+
+
+</body>
+
+</html>
