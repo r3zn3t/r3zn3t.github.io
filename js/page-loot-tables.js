@@ -486,6 +486,43 @@ var art = {
 	},
 }
 
+var magic = {
+	"magicItemRarity": {
+		"name": "<tr><th id='title-header' colspan='3'>Magic Item Rarity</th></tr>",
+		"rarity": "<tr><td id='title-data'><b>Rarity</b></td>",
+		"level": "<td id='title-data'><b>Character Level</b></td>",
+		"value": "<td id='title-data'><b>Value</b></td></tr>",
+		"data": [
+			"<tr>",
+				"<td>Common</td>",
+				"<td>1st or higher</td>",
+				"<td>50-100 gp</td>",
+			"</tr>",
+			"<tr>",
+				"<td>Uncommon</td>",
+				"<td>1st or higher</td>",
+				"<td>101-500 gp</td>",
+			"</tr>",
+			"<tr>",
+				"<td>Rare</td>",
+				"<td>5th or higher</td>",
+				"<td>501-5,000 gp</td>",
+			"</tr>",
+			"<tr>",
+				"<td>Very Rare</td>",
+				"<td>11th or higher</td>",
+				"<td>5,001-50,000 gp</td>",
+			"</tr>",
+			"<tr>",
+				"<td>Legendary</td>",
+				"<td>17th or higher</td>",
+				"<td>50,001+ gp</td>",
+			"</tr>",
+			
+		],
+	},
+}
+
 
 //**********************************
 //* beginning of display scripting *
@@ -498,6 +535,17 @@ function tableChoice(tname){
 	var description = tname.description;
 	var data = tname.data;
 	var str = name+die+description+data;
+	return str;
+}
+
+//magic item rarity selection
+function magicRarity(iname){
+	var name = iname.name;
+	var rarity = iname.rarity;
+	var level = iname.level;
+	var value = iname.value;
+	var data = iname.data;
+	var str = name+rarity+level+value+data;
 	return str;
 }
 
@@ -516,6 +564,8 @@ var sevenfiftyart = tableChoice(art.price.sevenfiftyArt);
 var twentyfivehundredart = tableChoice(art.price.twentyfivehundredArt);
 var seventyfivehundredart = tableChoice(art.price.seventyfivehundredArt);
 
+//magic item rarity
+var mitemrarity = magicRarity(magic.magicItemRarity);
 
 //logic for dropdown filter selection
 function changeTable(){
@@ -527,8 +577,7 @@ function changeTable(){
 		$("table#mytable3").html(hundredgems);
 		$("table#mytable4").html(fivehundredgems);
 		$("table#mytable5").html(thousandgems);
-		$("table#mytable6").html(fivethousandgems);
-		
+		$("table#mytable6").html(fivethousandgems);	
 	};
 	if($("select#tablefilter").val() == 'Art'){
 		$("table.loot-table").html("");
@@ -538,8 +587,12 @@ function changeTable(){
 		$("table#mytable3").html(sevenfiftyart);
 		$("table#mytable4").html(twentyfivehundredart);
 		$("table#mytable5").html(seventyfivehundredart);
-		
 	};
+	if($("select#tablefilter").val() == 'Magic'){
+		$("table.loot-table").html("");
+		$("h4#main-header").html("Magic Item Rarity");
+		$("table#mytable1").html(mitemrarity);
+	}
 }
 
 //onload of page
