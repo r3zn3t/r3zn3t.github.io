@@ -23,14 +23,13 @@
 	<link rel="icon" href="favicon.png">
 	
 	<style>
-		table#main-table{width:100%; border:0; cellspacing:0; cellpadding:0;}
-		table#main-table td{padding:5px;}
-		.loot-table{border:1px solid black; width:350px; height:400px;}
+		table#main-table td{padding-left:20px; padding-bottom:10px;}
+		.loot-table{border:1px solid black; width:550px; height:400px;}
 		.loot-table tr:nth-child(odd){background-color:#dddddd;} 
 		.loot-table th{text-align:left;padding:2px;} 
-		.loot-table tr{text-align:center;}
+		.loot-table tr{text-align:center; padding:2px;}
 		.loot-table td{padding:2px; font-size:12px;}
-		th#title-header{font-size:20px; background-color:white; text-align:center;}
+		th#title-header{font-size:18px; background-color:white; text-align:center;}
 		td#title-data{background-color:white;font-size:15px; padding:2px}
 		
 	</style>
@@ -90,34 +89,37 @@
 	<table id='main-table'>
 		<tr>
 			<br/>
+			<td>
 			<form id="filter">
 				<select id="tablefilter" onchange="changeTable()" value="All">
 					<option value="Gemstones">Gemstones</option>
 					<option value="Art">Art Objects</option>
 					<option value="Magic">Magic Item Rarity</option>
+					<option value="iTreasure">Individual Treasure</option>
+					<option value="hTreasure">Treasure Hoard</option>
 				</select>
-				
 			</form>
-			
-			<!-- tables start -->
 			<h4 id="main-header"></h4>
+			</td>
+		<tr/>
+		<tr>
+			<!-- tables start -->
 			<td>
-				<table class='loot-table' id='mytable1'>				
-				</table>
+				<table class='loot-table' id='mytable1'></table>
 			</td>
 			<td>
-				<table class='loot-table' id='mytable2'>
-				</table>
-			</td>
-			<td>
-				<table class='loot-table' id='mytable3'>
-				</table>
+				<table class='loot-table' id='mytable2'></table>
 			</td>
 		</tr>
 		<tr>
 			<td>
+				<table class='loot-table' id='mytable3'></table>
+			</td>
+			<td>
 			<table class='loot-table' id='mytable4'></table>
 			</td>
+		</tr>
+		<tr>
 			<td>
 			<table class='loot-table' id='mytable5'></table>
 			</td>
