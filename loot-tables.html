@@ -23,14 +23,14 @@
 	<link rel="icon" href="favicon.png">
 	
 	<style>
-		table#main-table{width:100%; border:0; cellspacing:0; cellpadding:0;}
+		table#main-table{ border:0; cellspacing:0; cellpadding:0;}
 		table#main-table td{padding:5px;}
-		.loot-table{border:1px solid black; width:350px; height:500px;}
+		.loot-table{border:1px solid black; width:350px; height:400px;}
 		.loot-table tr:nth-child(odd){background-color:#dddddd;} 
 		.loot-table th{text-align:left;padding:5px;} 
 		.loot-table tr{text-align:center;}
 		.loot-table td{padding:5px; font-size:12px;}
-		th#title-header{font-size:15px; background-color:white;}
+		th#title-header{font-size:20px; background-color:white; text-align:center;}
 		td#title-data{background-color:white;}
 		
 	</style>
@@ -92,9 +92,10 @@
 			<br/>
 			<form id="filter">
 				<select id="tablefilter" onchange="changeTable()" value="All">
-					<option value="All">All Tables</option>
 					<option value="Gemstones">Gemstones</option>
+					<option value="Art">Art Objects</option>
 				</select>
+				
 			</form>
 			
 			<!-- tables start -->
@@ -110,6 +111,17 @@
 			<td>
 				<table class='loot-table' id='mytable3'>
 				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<table class='loot-table' id='mytable4'></table>
+			</td>
+			<td>
+			<table class='loot-table' id='mytable5'></table>
+			</td>
+			<td>
+			<table class='loot-table' id='mytable6'></table>
 			</td>
 		</tr>
 	</table>
