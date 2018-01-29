@@ -1346,13 +1346,16 @@ var treasure = {
 //* beginning of display scripting *
 //**********************************
 
+//display border
+var border = "<tr><th class='border' colspan='8'></th></tr>";
+
 //choose table based on name
 function tableChoice(tname){
 	var name = tname.name;
 	var die = tname.die;
 	var description = tname.description;
 	var data = tname.data;
-	var str = name+die+description+data;
+	var str = border+name+die+description+data+border;
 	return str;
 }
 
