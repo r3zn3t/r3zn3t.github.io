@@ -1366,14 +1366,14 @@ function magicRarity(iname){
 	var level = iname.level;
 	var value = iname.value;
 	var data = iname.data;
-	var str = name+rarity+level+value+data;
+	var str = border+name+rarity+level+value+data+border;
 	return str;
 }
 
 function iTreasure(tname){
 	var name = tname.name;
 	var data = tname.data;
-	var str = name+data;
+	var str = border+name+data+border;
 	return str;
 }
 
