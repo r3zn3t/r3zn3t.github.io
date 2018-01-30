@@ -1932,7 +1932,7 @@ var magicItems = {
 			"</tr>",
 			"<tr>",
 				"<td>81</td>",
-				"<td><a href='items.html#Gloves%20of%20Swimming%20and%20Climbing' target='_blank'>GLoves of Swimming and Climbing</a></td>",
+				"<td><a href='items.html#Gloves%20of%20Swimming%20and%20Climbing' target='_blank'>Gloves of Swimming and Climbing</a></td>",
 			"</tr>",
 			"<tr>",
 				"<td>82</td>",
