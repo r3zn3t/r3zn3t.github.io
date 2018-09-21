@@ -1,4 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Response>
-  <Say voice="alice">This service is a scam. Shame on you.</Say>
-</Response>
+<Response><Say voice="alice">This service is a scam. Shame on you.</Say></Response>
