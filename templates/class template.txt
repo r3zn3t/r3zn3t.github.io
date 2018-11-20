@@ -4,10 +4,9 @@
             "proficiency": "Strength, Constitution",
             "autolevel": [
               {
-				"_level": "1"
+		"_level": "1"
               },
               {
-
                 "_level": "2"
               },
               {
