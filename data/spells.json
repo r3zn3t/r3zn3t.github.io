@@ -5376,6 +5376,25 @@ var spelldata = {
                 ],
                 "roll": "2d10"
             },
+			{
+				"name": "Mordalis' Pocket Dimension",
+				"source": "RHB",
+				"level": "2",
+				"school": "C",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Self",
+				"components": "Phase Spider-silk bookmark worth 50gp",
+				"duration": "Instantaneous",
+				"classes": "Cleric (Arcana), Wizard, Artificer (UA)",
+				"text": [
+					"While holding the spell's material component and touching an area on your body, you open a pocket dimension on the Ethereal Plane that is 1 cubic foot in size, inside which can be stored any non-living items that will fit in the space - upon opening the pocket dimension the area you are touching is inscribed with a magical rune. ",
+					null,
+					"While your items are on the Ethereal Plane, you can use an action and touch the magical rune to open the pocket dimension to retrieve or swap your items with other items - the opening to the pocket dimension appears in the air directly in front of you, can only accessed by the you (the caster), and can be closed again by using a free action.",
+					null,
+					"After 60 days, there is a cumulative 5 percent chance that the spell's effect ends. This effect ends if you cast the spell again, if the magical rune is subjected to an anti-magic field, or if you choose to end the spell as an action. If the spell ends while your items are still on the Ethereal Plane, they are irretrievably lost.",
+				],
+			},
             {
                 "name": "Mordenkainen's Faithful Hound",
                 "level": "4",
