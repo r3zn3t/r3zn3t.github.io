@@ -38,6 +38,7 @@ function parsesource (source) {
 	if (source === "UAMystic") source = "Unearthed Arcana: The Mystic Class";
 	if (source === "XGE") source = "Xanathar's Guide to Everything";
 	if (source === "RoL") source = "Rule of Law";
+	if (source === "RHB") source = "Rob's Homebrew"
 	return source;
 }
 
