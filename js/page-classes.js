@@ -191,9 +191,10 @@ function useclass (id) {
 			
 			if (curlevel.skirmishdamage) {
 				if (!$(".skirmishdamage").length) {
-					$("th.spellslots0").before("<th class='fastmovement newfeature'>Fast Movement</th> <th class='skirmishdamage newfeature'>Skirmish Dice</th> <th class='skirmishAC newfeature'>Skirmish AC</th>");
-					$("td.spellslots0").before("<td class='fastmovement newfeature'></td> <td class='skirmishdamage newfeature'></td> <td class='skirmishAC newfeature'></td>");
-					$("#classtable th.border").attr("colspan", parseInt($("#classtable th.border").attr("colspan"))+2);
+					$("th.pb").after("<th class='fastmovement newfeature'>Fast Movement</th> <th class='skirmishdamage newfeature'>Skirmish Dice/AC</th>");
+					$("td.pb").after("<td class='fastmovement newfeature'></td> <td class='skirmishdamage newfeature'></td>");
+					$("#classtable td.border").attr("colspan", parseInt($("#classtable td.border").attr("colspan"))+1);
+					$("th.slotbuffer").attr("colspan", parseInt($("th.slotbuffer").attr("colspan"))+1);
 				}
 				$("tr#level"+curlevel._level+" td.fastmovement").html(curlevel.fastmovement);
 				$("tr#level"+curlevel._level+" td.skirmishdamage").html(curlevel.skirmishdamage);
