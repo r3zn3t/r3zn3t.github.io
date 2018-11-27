@@ -45,7 +45,7 @@ var spelldata = {
                 "range": "60 feet",
                 "components": "V, S",
                 "duration": "Instantaneous",
-                "classes": "Sorcerer, Wizard, Fighter (Eldritch Knight), Rogue (Arcane Trickster)",
+                "classes": "Sorcerer, Wizard, Fighter (Eldritch Knight), Rogue (Arcane Trickster), Scout (Underdark Scout)",
                 "text": [
                     "You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage.",
                     "",
@@ -85,7 +85,7 @@ var spelldata = {
                 "range": "30 feet",
                 "components": "V, S, M (a tiny strip of white cloth)",
                 "duration": "8 hours",
-                "classes": "Cleric, Paladin, Artificer (UA), Cleric (Protection)",
+                "classes": "Cleric, Paladin, Artificer (UA), Cleric (Protection), Scout (Underdark Scout)",
                 "text": [
                     "Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target's hit point maximum and current hit points increase by 5 for the duration.",
                     "",
@@ -101,7 +101,7 @@ var spelldata = {
                 "range": "30 feet",
                 "components": "V, S, M (a tiny bell and a piece of fine silver wire)",
                 "duration": "8 hours",
-                "classes": "Ranger, Wizard, Fighter (Eldritch Knight), Artificer (UA)",
+                "classes": "Ranger, Wizard, Fighter (Eldritch Knight), Artificer (UA), Scout (Underdark Scout)",
                 "text": [
                     "You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible.",
                     "",
@@ -154,7 +154,7 @@ var spelldata = {
                 "range": "30 feet",
                 "components": "V, S, M (a morsel of food)",
                 "duration": "24 hours",
-                "classes": "Bard, Druid, Ranger",
+                "classes": "Bard, Druid, Ranger, Scout (Underdark Scout)",
                 "text": [
                     "By means of this spell, you use an animal to deliver a message. Choose a Tiny beast you can see within range, such as a squirrel, a blue ray, or a bird. You specify a location, which you must have visited, and a recipient who matches a general description, such as a man or woman dressed in the uniform of the town guard or a red-haired dwarf wearing a pointed hat. You also speak a message of up to twenty-five words. The target beast travels for the duration of the spell towards the specified location, covering about 50 miles per 24 hours for a flying messenger or 25 miles for other animals.",
                     "",
@@ -411,7 +411,7 @@ var spelldata = {
                 "range": "Self",
                 "components": "V, S, M (specially marked sticks, bones, or similar tokens worth at least 25 gp)",
                 "duration": "Instantaneous",
-                "classes": "Cleric, Cleric (Knowledge)",
+                "classes": "Cleric, Cleric (Knowledge), Scout (Underdark Scout)",
                 "text": [
                     "By casting gem-inlaid sticks, rolling dragon bones, laying out ornate cards, or employing some other divining tool, you receive an omen from an otherworldly entity about the results of a specific course of action that you plan to take within the next 30 minutes. The DM chooses from the following possible omens.",
                     "",
@@ -512,7 +512,7 @@ var spelldata = {
                 "range": "60 feet",
                 "components": "V, S, M (an item distasteful to the target)",
                 "duration": "Concentration, up to 1 minute",
-                "classes": "Cleric, Paladin, Paladin (Crown), Paladin (Vengeance), Sorcerer, Warlock, Wizard, Fighter (Eldritch Knight)",
+                "classes": "Cleric, Paladin, Paladin (Crown), Paladin (Vengeance), Sorcerer, Warlock, Wizard, Fighter (Eldritch Knight), Scout (Underdark Scout)",
                 "text": [
                     "You attempt to send one creature that you can see within range to another place of existence. The target must succeed on a Charisma saving throw or be banished.",
                     "",
@@ -717,7 +717,7 @@ var spelldata = {
                 "range": "30 feet",
                 "components": "V",
                 "duration": "1 minute",
-                "classes": "Bard, Cleric, Cleric (Death), Sorcerer, Warlock (Fiend), Warlock (Undying), Wizard",
+                "classes": "Bard, Cleric, Cleric (Death), Sorcerer, Warlock (Fiend), Warlock (Undying), Wizard, Scout (Underdark Scout)",
                 "text": [
                     "You can blind or deafen a foe. Choose one creature that you can see within range to make a Constitution saving throw. If it fails, the target is either blinded or deafened (your choice) for the duration. At the end of each of its turns, the target can make a Constitution saving throw. On a success, the spell ends.",
                     "",
@@ -748,7 +748,7 @@ var spelldata = {
                 "range": "Self",
                 "components": "V",
                 "duration": "Concentration, up to 1 minute",
-                "classes": "Druid (Desert), Sorcerer, Wizard, Rogue (Arcane Trickster), Artificer (UA)",
+                "classes": "Druid (Desert), Sorcerer, Wizard, Rogue (Arcane Trickster), Artificer (UA), Scout (Underdark Scout)",
                 "text": "Your body becomes blurred, shifting and wavering to all who can see you. For the duration, any creature has disadvantage on attack rolls against you. An attacker is immune to this effect if it doesn't rely on sight, as with blindsight, or can see through illusions, as with truesight."
             },
             {
@@ -1019,7 +1019,7 @@ var spelldata = {
 				"range": "30 feet",
 				"components": "V,S",
 				"duration": "1 hour",
-				"classes": "Bard, Druid, Sorcerer, Warlock, Wizard",
+				"classes": "Bard, Druid, Sorcerer, Warlock, Wizard, Scout (Underdark Scout)",
 				"text": [
 					"You attempt to charm a creature you can see within range. It must make a Wisdom saving throw, and it does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature is friendly to you. When the spell ends, the creature knows it was charmed by you.",
 					"<b><i>At Higher Levels</i></b>. When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them.",
@@ -1118,7 +1118,7 @@ var spelldata = {
                 "range": "1 mile",
                 "components": "V, S, M (a focus worth at least 100 gp, either a jeweled horn for hearing or a glass eye for scrying)",
                 "duration": "Concentration, up to 10 minutes",
-                "classes": "Bard, Cleric, Sorcerer, Warlock (Great Old One), Wizard, Warlock (Seeker)",
+                "classes": "Bard, Cleric, Sorcerer, Warlock (Great Old One), Wizard, Warlock (Seeker), Scout (Underdark Scout)",
                 "text": [
                     "You create an invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The sensor remains in place for the duration, and it can't be attacked or otherwise interacted with. When you cast the spell, you choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As your action, you can switch between seeing and hearing. A creature that can see the sensor (such as a creature benefiting from see invisibility or truesight) sees a luminous, intangible orb about the size of your fist.",
                     "",
@@ -1305,7 +1305,7 @@ var spelldata = {
                 "range": "Self",
                 "components": "V, S, M (a pinch of soot and salt)",
                 "duration": "1 hour",
-                "classes": "Bard, Sorcerer, Warlock, Wizard, Cleric (City)",
+                "classes": "Bard, Sorcerer, Warlock, Wizard, Cleric (City), Scout (Underdark Scout)",
                 "text": [
                     "For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface of which the words are written. It takes about 1 minute to read one page of text.",
                     "",
@@ -1353,7 +1353,7 @@ var spelldata = {
                 "range": "90 feet",
                 "components": "V, S, M (three nut shells)",
                 "duration": "Concentration, up to 1 minute",
-                "classes": "Bard, Cleric (Knowledge), Druid, Paladin (Oathbreaker), Sorcerer, Wizard, Rogue (Arcane Trickster), Paladin (Treachery)",
+                "classes": "Bard, Cleric (Knowledge), Druid, Paladin (Oathbreaker), Sorcerer, Wizard, Rogue (Arcane Trickster), Paladin (Treachery), Scout (Underdark Scout)",
                 "text": [
                     "This spell assaults and twists creatures' minds, spawning delusions and provoking uncontrolled actions. Each creature in a 10-foot-radius sphere centered on a point you choose within range must succeed on a Wisdom saving throw when you cast this spell or be affected by it.",
                     "",
@@ -1603,7 +1603,7 @@ var spelldata = {
                 "range": "Touch",
                 "components": "V, S, M (ruby dust worth 50 gp, which the spell consumes)",
                 "duration": "Until dispelled",
-                "classes": "Cleric, Wizard, Fighter (Eldritch Knight), Artificer (UA)",
+                "classes": "Cleric, Wizard, Fighter (Eldritch Knight), Artificer (UA), Scout (Underdark Scout)",
                 "text": "A flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesn't use oxygen. A continual flame can be covered or hidden but not smothered or quenched."
             },
             {
@@ -1615,7 +1615,7 @@ var spelldata = {
                 "range": "60 feet",
                 "components": "S",
                 "duration": "Instantaneous or 1 hour (see below)",
-                "classes": "Druid, Sorcerer, Wizard, Rogue (Arcane Trickster), Fighter (Eldritch Knight)",
+                "classes": "Druid, Sorcerer, Wizard, Rogue (Arcane Trickster), Fighter (Eldritch Knight),Scout (Underdark Scout)",
                 "text": [
                     "You choose nonmagical flame that you can see within range and that fits within a 5-foot cube. You affect it in one of the following ways.",
                     "",
@@ -1640,7 +1640,7 @@ var spelldata = {
                 "range": "300 feet",
                 "components": "V, S, M (a drop of water and a pinch of dust)",
                 "duration": "Concentration, up to 10 minutes",
-                "classes": "Cleric, Cleric (Tempest), Druid, Druid (Coast), Wizard",
+                "classes": "Cleric, Cleric (Tempest), Druid, Druid (Coast), Wizard, Scout (Underdark Scout)",
                 "text": [
                     "Until the spell ends, you control any freestanding water inside an area you choose that is a cube up to 100 feet on a side. You can choose from any of the following effects when you cast this spell. As an action on your turn, you can repeat the same effect or choose a different one.",
                     "",
@@ -1828,7 +1828,7 @@ var spelldata = {
                 "range": "30 feet",
                 "components": "V, S, M (a drop of water if creating water or a few grains of sand if destroying it)",
                 "duration": "Instantaneous",
-                "classes": "Cleric, Druid",
+                "classes": "Cleric, Druid, Scout (Underdark Scout)",
                 "text": [
                     "You either create or destroy water.",
                     "",
@@ -1935,7 +1935,7 @@ var spelldata = {
                 "range": "120 feet",
                 "components": "V, S, M",
                 "duration": "Concentration, up to 1 minute",
-                "classes": "Bard, Sorcerer, Wizard, Fighter (Eldritch Knight), Rogue (Arcane Trickster)",
+                "classes": "Bard, Sorcerer, Wizard, Fighter (Eldritch Knight), Rogue (Arcane Trickster), Scout (Underdark Scout)",
                 "text": [
                     "You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.",
                     "",
@@ -1967,7 +1967,7 @@ var spelldata = {
                 "range": "60 feet",
                 "components": "V, M (bat fur and a drop of pitch or piece of coal)",
                 "duration": "Concentration, up to 10 minutes",
-                "classes": "Druid (Swamp), Paladin (Oathbreaker), Sorcerer, Warlock, Wizard, Fighter (Eldritch Knight)",
+                "classes": "Druid (Swamp), Paladin (Oathbreaker), Sorcerer, Warlock, Wizard, Fighter (Eldritch Knight), Scout (Underdark Scout)",
                 "text": [
                     "Magical darkness spreads from a point you choose within range to fill a 15-foot radius sphere for the duration. The darkness spreads around corners. A creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it.",
                     "",
@@ -2012,7 +2012,7 @@ var spelldata = {
                 "range": "60 feet",
                 "components": "V, S",
                 "duration": "1 hour",
-                "classes": "Cleric, Cleric (Light), Druid, Druid (Grassland), Paladin, Ranger, Sorcerer, Warlock (Undying Light)",
+                "classes": "Cleric, Cleric (Light), Druid, Druid (Grassland), Paladin, Ranger, Sorcerer, Warlock (Undying Light), Scout (Underdark Scout)",
                 "text": [
                     "A 60-foot-radius sphere of light spreads out from a point you choose within range. The sphere is bright light and sheds dim light for an additional 60 feet.",
                     "",
@@ -2029,7 +2029,7 @@ var spelldata = {
                 "range": "Touch",
                 "components": "V, S",
                 "duration": "8 hours",
-                "classes": "Cleric, Cleric (Death), Cleric (Life), Paladin, Warlock (Undying), Artificer (UA), Cleric (Grave)",
+                "classes": "Cleric, Cleric (Death), Cleric (Life), Paladin, Warlock (Undying), Artificer (UA), Cleric (Grave), Scout (Underdark Scout)",
                 "text": "You touch a creature and grant it a measure of protection from death. The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends. If the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spells ends."
             },
             {
@@ -2101,7 +2101,7 @@ var spelldata = {
                 "range": "Self",
                 "components": "V, S",
                 "duration": "Concentration, up to 10 minutes",
-                "classes": "Bard, Cleric, Cleric (Arcana), Druid, Paladin, Ranger, Sorcerer, Wizard",
+                "classes": "Bard, Cleric, Cleric (Arcana), Druid, Paladin, Ranger, Sorcerer, Wizard, Scout (Underdark Scout)",
                 "text": [
                     "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.",
                     "",
@@ -2131,7 +2131,7 @@ var spelldata = {
                 "range": "Self",
                 "components": "V, S, M (a copper piece)",
                 "duration": "Concentration, up to 1 minute",
-                "classes": "Bard, Sorcerer, Warlock (Great Old One), Wizard",
+                "classes": "Bard, Sorcerer, Warlock (Great Old One), Wizard, Scout (Underdark Scout)",
                 "text": [
                     "For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn't speak any language, the creature is unaffected.",
                     "",
@@ -2170,7 +2170,7 @@ var spelldata = {
                 "range": "Self",
                 "components": "V, S",
                 "duration": "1 hour",
-                "classes": "Bard, Cleric (Trickery), Sorcerer, Wizard, Rogue (Arcane Trickster), Artificer (UA)",
+                "classes": "Bard, Cleric (Trickery), Sorcerer, Wizard, Rogue (Arcane Trickster), Artificer (UA), Scout (Underdark Scout)",
                 "text": [
                     "You make yourself, including your clothing, armor, weapons, and other belongings on your person, look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.",
                     "",
@@ -2499,7 +2499,7 @@ var spelldata = {
                 "range": "Self (10-foot radius)",
                 "components": "V, S",
                 "duration": "Instantaneous",
-                "classes": "Bard, Druid, Sorcerer, Wizard, Fighter (Eldritch Knight)",
+                "classes": "Bard, Druid, Sorcerer, Wizard, Fighter (Eldritch Knight), Scout (Underdark Scout)",
                 "text": [
                     "You cause a tremor in the ground in a 10-foot radius. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes 1d6 bludgeoning damage and is knocked prone. If the ground in that area is loose earth or stone, it becomes difficult terrain until cleared.",
                     "",
@@ -2783,7 +2783,7 @@ var spelldata = {
                 "range": "90 feet",
                 "components": "V, S, M (a piece of tentacle from a giant octopus or a giant squid)",
                 "duration": "Concentration, up to 1 minute",
-                "classes": "Warlock (Great Old One), Wizard",
+                "classes": "Warlock (Great Old One), Wizard, Scout (Underdark Scout)",
                 "text": [
                     "Squirming, ebony tentacles fill a 20-foot square on ground that you can see within range. For the duration, these tentacles turn the ground in the area into difficult terrain.",
                     "",
@@ -2941,7 +2941,7 @@ var spelldata = {
                 "range": "Touch",
                 "components": "V, S, M (a pinch of graveyard dirt)",
                 "duration": "1 hour",
-                "classes": "Bard, Cleric, Druid, Warlock (Undying), Wizard, Warlock (Raven Queen)",
+                "classes": "Bard, Cleric, Druid, Warlock (Undying), Wizard, Warlock (Raven Queen), Scout (Underdark Scout)",
                 "text": [
                     "You touch a willing creature and put it into a cataleptic state that is indistinguishable from death.",
                     "",
@@ -3326,7 +3326,7 @@ var spelldata = {
                 "range": "Touch",
                 "components": "V, S, M (a leather strap, bound around the arm or a similar appendage)",
                 "duration": "1 hour",
-                "classes": "Bard, Cleric, Cleric (War), Druid, Druid (Arctic), Druid (Coast), Druid (Forest), Druid (Grassland), Druid (Swamp), Paladin (Devotion), Ranger, Artificer (UA)",
+                "classes": "Bard, Cleric, Cleric (War), Druid, Druid (Arctic), Druid (Coast), Druid (Forest), Druid (Grassland), Druid (Swamp), Paladin (Devotion), Ranger, Artificer (UA), Scout (Underdark Scout)",
                 "text": [
                     "You touch a willing creature. For the duration, the target's movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target's speed nor cause the target to be paralyzed or restrained.",
                     "",
@@ -3376,7 +3376,7 @@ var spelldata = {
                 "range": "Touch",
                 "components": "V, S, M (a bit of gauze and a wisp of smoke)",
                 "duration": "Concentration, up to 1 hour",
-                "classes": "Druid (Underdark), Sorcerer, Warlock, Wizard, Artificer (UA), Paladin (Treachery)",
+                "classes": "Druid (Underdark), Sorcerer, Warlock, Wizard, Artificer (UA), Paladin (Treachery), Scout (Underdark Scout)",
                 "text": [
                     "You transform a willing creature you touch, along with everything it's wearing and carrying, into a misty cloud for the duration. The spell ends if the creature drops to 0 hit points. An incorporeal creature isn't affected.",
                     "",
@@ -3495,7 +3495,7 @@ var spelldata = {
                 "range": "Touch",
                 "components": "V, S, M (incense and powdered diamond worth at least 200 gp, which the spell consumes)",
                 "duration": "Until dispelled or triggered",
-                "classes": "Bard, Cleric, Wizard, Fighter (Eldritch Knight), Artificer (UA)",
+                "classes": "Bard, Cleric, Wizard, Fighter (Eldritch Knight), Artificer (UA), Scout (Underdark Scout)",
                 "text": [
                     "When you cast this spell, you inscribe a glyph that harms other creatures, either upon a surface (such as a table or a section of floor or wall) or within an object that can be closed (such as a book, a scroll, or a treasure chest) to conceal the glyph. If you choose a surface, the glyph can cover an area of the surface no larger than 10 feet in diameter. If you choose an object, that object must remain in its place, if the object is moved more than 10 feet from where you cast this spell, the glyph is broken and the spell ends without being triggered.",
                     "",
@@ -3568,7 +3568,7 @@ var spelldata = {
                 "range": "Touch",
                 "components": "V, S",
                 "duration": "Concentration, up to 1 minute",
-                "classes": "Bard, Druid (Underdark), Sorcerer, Warlock (Archfey), Wizard, Rogue (Arcane Trickster), Paladin (Treachery)",
+                "classes": "Bard, Druid (Underdark), Sorcerer, Warlock (Archfey), Wizard, Rogue (Arcane Trickster), Paladin (Treachery), Scout (Underdark Scout)",
                 "text": "You or a creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person."
             },
             {
@@ -3697,7 +3697,7 @@ var spelldata = {
                 "range": "Touch",
                 "components": "V, S",
                 "duration": "Concentration, up to 1 minute",
-                "classes": "Cleric, Druid",
+                "classes": "Cleric, Druid, Scout (Underdark Scout)",
                 "text": "You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one ability check of its choice. It can roll the die before or after making the ability check. The spell then ends.",
                 "roll": "1d4"
             },
@@ -3822,7 +3822,7 @@ var spelldata = {
                 "range": "300 feet",
                 "components": "V, S, M (a stone, a twig, and a bit of green plant)",
                 "duration": "24 hours",
-                "classes": "Bard, Druid, Druid (Desert), Warlock, Wizard, Rogue (Arcane Trickster)",
+                "classes": "Bard, Druid, Druid (Desert), Warlock, Wizard, Rogue (Arcane Trickster), Scout (Underdark Scout)",
                 "text": [
                     "You make natural terrain in a 150-foot cube in range look, sound, and smell like some other sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren't changed in appearance.",
                     "",
@@ -3849,7 +3849,7 @@ var spelldata = {
                 "range": "30 feet",
                 "components": "V, S, M (a shaving of licorice root)",
                 "duration": "Concentration, up to 1 minute",
-                "classes": "Druid (Grassland), Paladin (Vengeance), Sorcerer, Wizard, Artificer (UA), Paladin (Treachery)",
+                "classes": "Druid (Grassland), Paladin (Vengeance), Sorcerer, Wizard, Artificer (UA), Paladin (Treachery), Scout (Underdark Scout)",
                 "text": [
                     "Choose a willing creature that you can see within range. Until the spell ends, the target's speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.",
                     "",
@@ -4012,7 +4012,7 @@ var spelldata = {
                 "range": "60 feet",
                 "components": "V, S, M (a small, straight piece of iron)",
                 "duration": "Concentration, up to 1 minute",
-                "classes": "Bard, Cleric, Druid, Druid (Arctic), Paladin (Vengeance), Sorcerer, Warlock, Wizard, Rogue (Arcane Trickster), Paladin (Conquest)",
+                "classes": "Bard, Cleric, Druid, Druid (Arctic), Paladin (Vengeance), Sorcerer, Warlock, Wizard, Rogue (Arcane Trickster), Paladin (Conquest), Scout (Underdark Scout)",
                 "text": [
                     "Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.",
                     "",
@@ -4300,7 +4300,7 @@ var spelldata = {
 				"range": "30",
 				"components": "V,S,M (a living flea)",
 				"duration": "Instantaneous",
-				"classes": "Druid, Sorcerer, Warlock, Wizard",
+				"classes": "Druid, Sorcerer, Warlock, Wizard, Scout (Underdark Scout)",
 				"text": [
 					"You cause a cloud of mites, fleas, and other parasites to appear momentarily on one creature you can see within range. The target must succeed on a Constitution saving throw, or it takes 1d6 poison damage and moves 5 feet in a random direction if it can move and its speed is at least 5 feet. Roll a d4 for the direction: 1., north; 2, south; 3, east; or 4, west. This movement doesn’t provoke opportunity attacks, and if the direction rolled is blocked, the target doesn't move.",
 					"The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3016), and 17th level (4d6).",
@@ -4443,7 +4443,7 @@ var spelldata = {
                 "range": "Touch",
                 "components": "V, S, M (an eyelash encased in gum arabic)",
                 "duration": "Concentration, up to 1 hour",
-                "classes": "Bard, Druid (Grassland), Sorcerer, Warlock, Wizard, Rogue (Arcane Trickster), Artificer (UA), Paladin (Treachery)",
+                "classes": "Bard, Druid (Grassland), Sorcerer, Warlock, Wizard, Rogue (Arcane Trickster), Artificer (UA), Paladin (Treachery), Scout (Underdark Scout)",
                 "text": [
                     "A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target's person. The spell ends for a target that attacks or casts a spell.",
                     "",
@@ -4537,7 +4537,7 @@ var spelldata = {
                 "range": "Self (10-foot-radius hemisphere)",
                 "components": "V, S, M (a small crystal bead)",
                 "duration": "8 hours",
-                "classes": "Bard, Wizard, Fighter (Eldritch Knight)",
+                "classes": "Bard, Wizard, Fighter (Eldritch Knight), Scout (Underdark Scout)",
                 "text": [
                     "A 10-foot-radius immobile dome of force springs into existence around and above you and remains stationary for the duration. The spell ends if you leave its area.",
                     "",
@@ -4598,7 +4598,7 @@ var spelldata = {
                 "range": "Touch",
                 "components": "V, M (a firefly or phosphorescent moss)",
                 "duration": "1 hour",
-                "classes": "Bard, Cleric, Sorcerer, Wizard, Fighter (Eldritch Knight)",
+                "classes": "Bard, Cleric, Sorcerer, Wizard, Fighter (Eldritch Knight), Scout (Underdark Scout)",
                 "text": [
                     "You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.",
                     "",
@@ -4673,7 +4673,7 @@ var spelldata = {
                 "range": "Self",
                 "components": "V, S, M (a bit of fur from a bloodhound)",
                 "duration": "Instantaneous",
-                "classes": "Bard, Druid, Ranger",
+                "classes": "Bard, Druid, Ranger, Scout (Underdark Scout)",
                 "text": "Describe or name a specific kind of beast or plant. Concentrating on the voice of nature in your surroundings, you learn the direction and distance to the closest creature or plant of that kind within 5 miles, if any are present."
             },
             {
@@ -4684,7 +4684,7 @@ var spelldata = {
                 "range": "Self",
                 "components": "V, S, M (a bit of fur from a bloodhound)",
                 "duration": "Concentration, up to 1 hour",
-                "classes": "Bard, Cleric, Druid, Druid (Swamp), Paladin, Ranger, Wizard, Cleric (City), Warlock (Raven Queen), Warlock (Seeker)",
+                "classes": "Bard, Cleric, Druid, Druid (Swamp), Paladin, Ranger, Wizard, Cleric (City), Warlock (Raven Queen), Warlock (Seeker), Scout (Underdark Scout)",
                 "text": [
                     "Describe or name a creature that is familiar to you. You sense the direction to the creature's location, as long as that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its movement.",
                     "",
@@ -4701,7 +4701,7 @@ var spelldata = {
                 "range": "Self",
                 "components": "V, S, M (a forked twig)",
                 "duration": "Concentration, up to 10 minutes",
-                "classes": "Bard, Cleric, Druid, Paladin, Ranger, Wizard, Warlock (Seeker)",
+                "classes": "Bard, Cleric, Druid, Paladin, Ranger, Wizard, Warlock (Seeker), Scout (Underdark Scout)",
                 "text": [
                     "Describe or name an object that is familiar to you. You sense the direction to the object's location, as long as that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement.",
                     "",
@@ -5019,7 +5019,7 @@ var spelldata = {
                 "range": "30 feet",
                 "components": "V, S, M (a miniature hand sculpted from clay)",
                 "duration": "Concentration, up to 1 minute",
-                "classes": "Sorcerer, Wizard",
+                "classes": "Sorcerer, Wizard, Scout (Underdark Scout)",
                 "text": [
                     "You choose a 5-foot-square unoccupied space on the ground that you can see within range. A Medium hand made from compacted soil rises there and reaches for one creature you can see within 5 feet of it. The target must make a Strength saving throw. On a failed save, the target takes 2d6 bludgeoning damage and is restrained for the spell's duration.",
                     "",
@@ -5059,7 +5059,7 @@ var spelldata = {
                 "range": "Touch",
                 "components": "V, S",
                 "duration": "8 hours",
-                "classes": "Cleric, Druid, Druid (Mountain)",
+                "classes": "Cleric, Druid, Druid (Mountain), Scout (Underdark Scout)",
                 "text": [
                     "You step into a stone object or surface large enough to fully contain your body, melding yourself and all the equipment you carry with the stone for the duration. Using your movement, you step into the stone at a point you can touch. Nothing of your presence remains visible or otherwise detectable by nonmagical senses.",
                     "",
@@ -5116,7 +5116,7 @@ var spelldata = {
                 "range": "Touch",
                 "components": "V, S, M (two lodestones)",
                 "duration": "Instantaneous",
-                "classes": "Bard, Cleric, Druid, Sorcerer, Wizard",
+                "classes": "Bard, Cleric, Druid, Sorcerer, Wizard, Scout (Underdark Scout)",
                 "text": [
                     "This spell repairs a single break or tear in an object you touch, such as broken chain link, two halves of a broken key, a torn clack, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.",
                     "",
@@ -5147,7 +5147,7 @@ var spelldata = {
                 "range": "120 feet",
                 "components": "V, S, M (a short piece of copper wire)",
                 "duration": "1 round",
-                "classes": "Bard, Sorcerer, Wizard, Fighter (Eldritch Knight), Rogue (Arcane Trickster)",
+                "classes": "Bard, Sorcerer, Wizard, Fighter (Eldritch Knight), Rogue (Arcane Trickster), Scout (Underdark Scout)",
                 "text": [
                     "You point your finger toward a creature within range and whisper a message. The target (and only the target) hears the message and can reply in a whisper that only you can hear.",
                     "",
@@ -5339,7 +5339,7 @@ var spelldata = {
                 "range": "30 feet",
                 "components": "S",
                 "duration": "Instantaneous or 1 hour (see below)",
-                "classes": "Druid, Sorcerer, Wizard, Rogue (Arcane Trickster), Fighter (Eldritch Knight)",
+                "classes": "Druid, Sorcerer, Wizard, Rogue (Arcane Trickster), Fighter (Eldritch Knight), Scout (Underdark Scout)",
                 "text": [
                     "You choose a portion of dirt or stone that you can see within range and that fits within a 5-foot cube. You manipulate it in one of the following ways.",
                     "",
@@ -5403,7 +5403,7 @@ var spelldata = {
                 "range": "30 feet",
                 "components": "V, S, M (a tiny silver whistle, a piece of bone, and a thread)",
                 "duration": "8 hours",
-                "classes": "Wizard, Artificer (UA)",
+                "classes": "Wizard, Artificer (UA), Scout (Underdark Scout)",
                 "text": [
                     "You conjure a phantom watchdog in an unoccupied space that you can see within range, where it remains for the duration, until you dismiss it as an action, or until you move more than 100 feet away from it.",
                     "",
@@ -5528,7 +5528,7 @@ var spelldata = {
                 "range": "Touch",
                 "components": "V, S, M (a pinch of diamond dust worth 25 gp sprinkled over the target, which the spell consumes)",
                 "duration": "8 hours",
-                "classes": "Bard, Cleric (Knowledge), Ranger, Wizard, Fighter (Eldritch Knight)",
+                "classes": "Bard, Cleric (Knowledge), Ranger, Wizard, Fighter (Eldritch Knight), Scout (Underdark Scout)",
                 "text": "For the duration, you hide a target that you touch from divination magic. The target can be a willing creature or a place or an object no larger than 10 feet in any dimension. The target can't be targeted by any divination magic or perceived through magical scrying sensors."
             },
             {
@@ -5612,7 +5612,7 @@ var spelldata = {
                 "range": "Self",
                 "components": "V, S, M (ashes from a burned leaf of mistletoe and a sprig of spruce)",
                 "duration": "Concentration, up to 1 hour",
-                "classes": "Cleric (Trickery), Druid, Druid (Grassland), Ranger",
+                "classes": "Cleric (Trickery), Druid, Druid (Grassland), Ranger, Scout (Underdark Scout)",
                 "text": "A veil of shadows and silence radiates from you, masking you and your companions from detection. For the duration, each creature you choose within 30 feet of you (including you) has a +10 bonus to Dexterity (Stealth) checks and can't be tracked except by magical means. A creature that receives this bonus leaves behind no tracks or other traces of its passage."
             },
             {
@@ -5881,7 +5881,7 @@ var spelldata = {
                 "range": "10 feet",
                 "components": "V, S",
                 "duration": "Up to 1 hour",
-                "classes": "Bard, Sorcerer, Warlock, Wizard, Fighter (Eldritch Knight), Rogue (Arcane Trickster)",
+                "classes": "Bard, Sorcerer, Warlock, Wizard, Fighter (Eldritch Knight), Rogue (Arcane Trickster),Scout (Underdark Scout)",
                 "text": [
                     "This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range.",
                     "",
@@ -6009,7 +6009,7 @@ var spelldata = {
                 "range": "Self",
                 "components": "V, S",
                 "duration": "10 minutes",
-                "classes": "Druid",
+                "classes": "Druid, Scout (Underdark Scout)",
                 "text": [
                     "A flickering flame appears in your hand. The flame remains there for the duration and harms neither you nor your equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The spell ends if you dismiss it as an action or if you cast it again.",
                     "",
@@ -6071,7 +6071,7 @@ var spelldata = {
                 "range": "Touch",
                 "components": "V, S",
                 "duration": "Concentration, up to 1 hour",
-                "classes": "Cleric, Druid, Druid (Desert), Paladin (Ancients), Paladin (Vengeance), Ranger, Sorcerer, Wizard, Fighter (Eldritch Knight), Artificer (UA), Cleric (Forge), Cleric (Protection)",
+                "classes": "Cleric, Druid, Druid (Desert), Paladin (Ancients), Paladin (Vengeance), Ranger, Sorcerer, Wizard, Fighter (Eldritch Knight), Artificer (UA), Cleric (Forge), Cleric (Protection), Scout (Underdark Scout)",
                 "text": "For the duration, the willing creature you touch has resistance to one damage type of your choice - acid, cold, fire, lightning, or thunder."
             },
             {
@@ -6097,7 +6097,7 @@ var spelldata = {
                 "range": "Touch",
                 "components": "V, S",
                 "duration": "1 hour",
-                "classes": "Cleric, Druid, Paladin, Ranger, Artificer (UA)",
+                "classes": "Cleric, Druid, Paladin, Ranger, Artificer (UA), Scout (Underdark Scout)",
                 "text": [
                     "You touch a creature. If it is poisoned, you neutralize the poison. If more than one poison afflicts the target, you neutralize on poison that you know is present, or you neutralize one at random.",
                     "",
@@ -6302,7 +6302,7 @@ var spelldata = {
                 "range": "Touch",
                 "components": "V, S",
                 "duration": "Instantaneous",
-                "classes": "Cleric, Paladin, Warlock, Wizard, Fighter (Eldritch Knight)",
+                "classes": "Cleric, Paladin, Warlock, Wizard, Fighter (Eldritch Knight), Scout (Underdark Scout)",
                 "text": "At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner's attunement to the object so it can be removed or discarded."
             },
             {
@@ -6515,7 +6515,7 @@ var spelldata = {
                 "range": "Self",
                 "components": "V, S, M (A pinch of Talc and a small sprinkling of powdered silver)",
                 "duration": "1 hour",
-                "classes": "Bard, Sorcerer, Wizard",
+                "classes": "Bard, Sorcerer, Wizard, Scout (Underdark Scout)",
                 "text": "For the duration, you see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent."
             },
             {
@@ -6545,7 +6545,7 @@ var spelldata = {
                 "range": "Unlimited",
                 "components": "V, S, M (A short piece of fine copper wire)",
                 "duration": "1 round",
-                "classes": "Cleric, Warlock (Great Old One), Wizard, Fighter (Eldritch Knight), Warlock (Seeker)",
+                "classes": "Cleric, Warlock (Great Old One), Wizard, Fighter (Eldritch Knight), Warlock (Seeker), Scout (Underdark Scout)",
                 "text": [
                     "You send a short message of twenty-five words or less to a creature with you are familiar. The creature hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables creatures with Intelligence scores of at least 1 to understand the meaning of your message.",
                     "",
@@ -6866,7 +6866,7 @@ var spelldata = {
                 "range": "120 feet",
                 "components": "V, S, M (a drop of molasses)",
                 "duration": "Concentration, up to 1 minute",
-                "classes": "Druid (Arctic), Sorcerer, Wizard, Cleric (Protection)",
+                "classes": "Druid (Arctic), Sorcerer, Wizard, Cleric (Protection), Scout (Underdark Scout)",
                 "text": [
                     "You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration.",
                     "",
@@ -6887,7 +6887,7 @@ var spelldata = {
 				"range": "Touch",
 				"components": "S,M (25 feet of rope, which the spell consumes)",
 				"duration": "8 hours",
-				"classes": "Druid, Ranger, Wizard",
+				"classes": "Druid, Ranger, Wizard, Scout (Underdark Scout)",
 				"text": [
 					"As you cast this spell, you use the rope to create a circle with a 5-foot radius on the ground or the floor. When you finish casting, the rope disappears and the circle becomes a magic trap.",
 					"This trap is nearly invisible, requiring a successful Intelligence (Investigation) check against your spell save DC to be discerned.",
@@ -6943,7 +6943,7 @@ var spelldata = {
                 "range": "Touch",
                 "components": "V, S",
                 "duration": "Instantaneous",
-                "classes": "Cleric",
+                "classes": "Cleric, Scout (Underdark Scout)",
                 "text": "You touch a living creature that has 0 hit points. The creature becomes stable. This spell has no effect on undead or constructs."
             },
             {
@@ -6966,7 +6966,7 @@ var spelldata = {
                 "range": "10 feet",
                 "components": "V, S, M (burning incense)",
                 "duration": "10 minutes",
-                "classes": "Bard, Cleric, Cleric (Knowledge), Warlock (Undying), Warlock (Raven Queen)",
+                "classes": "Bard, Cleric, Cleric (Knowledge), Warlock (Undying), Warlock (Raven Queen), Scout (Underdark Scout)",
                 "text": [
                     "You grant the semblance of life and intelligence to a corpse of your choice within range, allowing it to answer the questions you pose. The corpse must still have a mouth and can't be undead. The spell fails if the corpse was the target of this spell within the last 10 days.",
                     "",
@@ -6981,7 +6981,7 @@ var spelldata = {
                 "range": "Self (30-foot radius)",
                 "components": "V, S",
                 "duration": "10 minutes",
-                "classes": "Bard, Druid, Ranger",
+                "classes": "Bard, Druid, Ranger, Scout (Underdark Scout)",
                 "text": [
                     "You imbue plants within 30 feet of you with limited sentience and animation, giving them the ability to communicate with you and follow your simple commands. You can question plants about events in the spell's area within the past day, gaining information about creatures that have passed, weather, and other circumstances.",
                     "",
@@ -7002,7 +7002,7 @@ var spelldata = {
                 "range": "Touch",
                 "components": "V, S, M (a drop of bitumen and a spider)",
                 "duration": "Concentration, up to 1 hour",
-                "classes": "Druid (Forest), Druid (Mountain), Druid (Underdark), Sorcerer, Warlock, Wizard, Artificer (UA)",
+                "classes": "Druid (Forest), Druid (Mountain), Druid (Underdark), Sorcerer, Warlock, Wizard, Artificer (UA), Scout (Underdark Scout)",
                 "text": "Until the spell ends, one willing creature you touch gains the ability to move up, down, and across vertical surfaces and upside down along ceilings, while leaving its hands free. The target also gains a climbing speed equal to its walking speed."
             },
             {
@@ -7098,7 +7098,7 @@ var spelldata = {
                 "range": "90 feet",
                 "components": "V, S, M (a rotten egg or several skunk cabbage leaves)",
                 "duration": "Concentration, up to 1 minute",
-                "classes": "Bard, Druid (Swamp), Druid (Underdark), Sorcerer, Warlock (Fiend), Wizard",
+                "classes": "Bard, Druid (Swamp), Druid (Underdark), Sorcerer, Warlock (Fiend), Wizard, Scout (Underdark Scout)",
                 "text": [
                     "You create a 20-foot-radius sphere of yellow, nauseating gas centered on a point within range. The cloud spreads around corners, and its area is heavily obscured. The cloud lingers in the air for the duration.",
                     "",
@@ -7115,7 +7115,7 @@ var spelldata = {
                 "range": "Touch",
                 "components": "V, S, M (soft clay, which must be worked into roughly the desired shape of the stone object)",
                 "duration": "Instantaneous",
-                "classes": "Cleric, Druid, Druid (Mountain), Druid (Underdark), Wizard, Artificer (UA)",
+                "classes": "Cleric, Druid, Druid (Mountain), Druid (Underdark), Wizard, Artificer (UA), Scout (Underdark Scout)",
                 "text": "You touch a stone object of Medium size or smaller or a section of stone no more than 5 feet in any dimension and form it into any shape that suits your purpose. So, for example, you could shape a large rock into a weapon, idol, or coffer, or make a small passage through a wall, as long as the wall is less than 5 feet thick. You could also shape a stone door or its frame to seal the door shut. The object you create can have up to two hinges and a latch, but finer mechanical detail isn't possible."
             },
             {
@@ -7126,7 +7126,7 @@ var spelldata = {
                 "range": "Touch",
                 "components": "V, S, M (diamond dust worth 100 gp, which the spell consumes)",
                 "duration": "Concentration, up to 1 hour",
-                "classes": "Cleric (War), Druid, Druid (Mountain), Paladin (Ancients), Ranger, Sorcerer, Wizard, Fighter (Eldritch Knight), Artificer (UA)",
+                "classes": "Cleric (War), Druid, Druid (Mountain), Paladin (Ancients), Ranger, Sorcerer, Wizard, Fighter (Eldritch Knight), Artificer (UA), Scout (Underdark Scout)",
                 "text": "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage."
             },
             {
@@ -7525,7 +7525,7 @@ var spelldata = {
                 "range": "30 feet",
                 "components": "V, S, M (a drop of mercury)",
                 "duration": "1 hour",
-                "classes": "Wizard",
+                "classes": "Wizard, Scout (Underdark Scout)",
                 "text": [
                     "This spell creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for the duration, and can hold up to 500 pounds. If more weight is placed on it, the spell ends, and everything on the disk falls to the ground.",
                     "",
@@ -7752,7 +7752,7 @@ var spelldata = {
                 "range": "Touch",
                 "components": "V, M (a small clay model of a ziggurat)",
                 "duration": "1 hour",
-                "classes": "Bard, Cleric, Sorcerer, Warlock, Wizard",
+                "classes": "Bard, Cleric, Sorcerer, Warlock, Wizard, Scout (Underdark Scout)",
                 "text": "This spell grants the creature you touch the ability to understand any spoken language it hears. Moreover, when the target speaks, any creature that knows at least one language and can hear the target understands what it says."
             },
             {
@@ -7871,7 +7871,7 @@ var spelldata = {
                 "range": "30 feet",
                 "components": "S",
                 "duration": "Concentration, up to 1 round",
-                "classes": "Bard, Sorcerer, Warlock, Wizard, Fighter (Eldritch Knight), Rogue (Arcane Trickster)",
+                "classes": "Bard, Sorcerer, Warlock, Wizard, Fighter (Eldritch Knight), Rogue (Arcane Trickster), Scout (Underdark Scout)",
                 "text": "You extend your hand and point a finger at a target in range. Your magic grants you a brief insight into the target's defenses. On your next turn, you gain advantage on your first attack roll against the target, provided that this spell hasn't ended."
             },
             {
@@ -8187,7 +8187,7 @@ var spelldata = {
                 "range": "30 feet",
                 "components": "V, S, M (a short reed or piece of straw)",
                 "duration": "24 hours",
-                "classes": "Druid, Druid (Coast), Ranger, Sorcerer, Wizard, Artificer (UA)",
+                "classes": "Druid, Druid (Coast), Ranger, Sorcerer, Wizard, Artificer (UA), Scout (Underdark Scout)",
                 "text": "This spell grants up to ten willing creatures you can see within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration."
             },
             {
@@ -8443,7 +8443,7 @@ var spelldata = {
 				"range": "Self",
 				"components": "V",
 				"duration": "Concentration, up to 1 minute",
-				"classes": "Ranger",
+				"classes": "Ranger, Scout (Underdark Scout)",
 				"text": [
 					"You move like the wind. Until the spell ends, your movement doesn’t provoke opportunity attacks.",
 					"Once before the spell ends, you can give yourself advantage on one weapon attack roll on your turn. That attack deals an extra 1d8 force damage on a hit. Whether you hit or miss, your walking speed increases by 30 feet until the end of that turn.",
