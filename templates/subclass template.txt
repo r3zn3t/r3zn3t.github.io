@@ -1,11 +1,11 @@
 					//subclass
 					{
-						"name": "Otherworldly Patron: The Noble Genie (XLN)",
+						"name": "Scout Discipline: Dread Commando",
 						"text": [
 							"",
 						],
-						"subclass": "Otherworldly Patron: The Noble Genie (XLN)",
-						"parent": "Otherworldly Patron",
+						"subclass": "Scout Discipline: Dread Commando",
+						"parent": "Scout Discipline",
 						"issubclass": "YES",
 						"_optional": "YES"
 					},
@@ -13,11 +13,11 @@
 					
 					//subclass feature
 					{
-						"name": "The Noble Genie: ",
+						"name": "Dread Commando: ",
 						"text": [
 							"",
 						],
-						"subclass": "Otherworldly Patron: The Noble Genie (XLN)",
-						"parent": "The Noble Genie",
+						"subclass": "Scout Discipline: Dread Commando",
+						"parent": "Dread Commando",
 						"_optional": "YES"
 					 },
