@@ -37,6 +37,21 @@ var spelldata = {
                 ],
                 "roll": "1d6"
             },
+			{
+				"name": "Absorb Hazard",
+				"source": "BGE",
+				"level": "4",
+				"school": "A",
+				"ritual": "",
+				"time": "1 reaction",
+				"range": "30 ft.",
+				"components": "V,S",
+				"duration": "Instantaneous",
+				"classes": "Bard, Sorcerer, Warlock, Wizard, Artificer (UA)",
+				"text": [
+					"As you see an attack that would deal more damage than usual, you can reduce the lethality of the blow. Whenever yourself or a creature you can see within range has a critical attack upon them, you can reduce it to a normal attack.",
+				],
+			},
             {
                 "name": "Acid Splash",
                 "level": "0",
@@ -92,6 +107,22 @@ var spelldata = {
                     "At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, a target's hit points increase by an additional 5 for each slot level above 2nd."
                 ]
             },
+			{
+				"name": "Air Blade",
+				"source": "BGE",
+				"level": "0",
+				"school": "I",
+				"ritual": "",
+				"time": "1 action",
+				"range": "30 ft.",
+				"components": "S,V",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Druid",
+				"text": [
+					"You move your hands in a fashion that a wave of air forms a blade, slashing any creature in its path. Make a ranged spell attack against the target. Any loose objects that weigh less than one pound flies in a random direction, along with any uncovered flames are extinguished. On a hit, the target takes 1d6 slashing damage.",
+					"This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and again at 17th level (4d6).",
+				],
+			},
             {
                 "name": "Alarm",
                 "level": "1",
@@ -130,6 +161,22 @@ var spelldata = {
                 ],
                 "roll": "1d6+1"
             },
+			{
+				"name": "Animal Conduit",
+				"source": "BGE",
+				"level": "2",
+				"school": "D",
+				"ritual": "YES",
+				"time": "1 minute",
+				"range": "Touch",
+				"components": "V,S,M (a single eye agate gem worth 50 gp)",
+				"duration": "Concentration, up to 1 hour",
+				"classes": "Druid, Ranger",
+				"text": [
+					"You touch a willing creature, and you gain control of the creature. You can perform its actions and observe the world through its senses, including touch, taste and hearing. You continue to observe the world through the beast until you dismiss it or end the spell early.",
+					"While you are using the beast in this way, your body is under the blinded and deafened conditions. Your humanoid body speed becomes 0 for the spell duration and is effectively incapacitated.",
+				],
+			},
             {
                 "name": "Animal Friendship",
                 "level": "1",
@@ -207,7 +254,7 @@ var spelldata = {
                 "range": "120 feet",
                 "components": "V, S",
                 "duration": "Concentration, up to 1 minute",
-                "classes": "Bard, Sorcerer, Wizard, Cleric (Forge)",
+                "classes": "Bard, Sorcerer, Wizard, Cleric (Forge), Artificer (UA)",
                 "text": [
                     "Objects come to life at your command. Choose up to ten nonmagical objects within range that are not being worn or carried. Medium targets count as two objects, Large targets count as four objects, Huge targets count as eight objects. You can't animate any object larger than Huge. Each target animates and becomes a creature under your control until the spell ends or until reduced to 0 hit points.",
                     "",
@@ -232,6 +279,21 @@ var spelldata = {
                     "At Higher Levels: If you cast this spell using a spell slot of 6th level or higher, you can animate two additional objects for each slot level above 5th."
                 ]
             },
+			{
+				"name": "Anticipation",
+				"source": "BGE",
+				"level": "0",
+				"school": "D",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "S,V",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Cleric",
+				"text": [
+					"You touch one willing creature. Once before the spell ends, the first attack directed at the target has disadvantage. The spell then ends.",
+				],
+			},
             {
                 "name": "Antilife Shell",
                 "level": "5",
@@ -606,7 +668,7 @@ var spelldata = {
                 "range": "120 feet",
                 "components": "V, S, M (an eggshell and a snakeskin glove)",
                 "duration": "Concentration, up to 1 minute",
-                "classes": "Wizard",
+                "classes": "Wizard, Artificer (UA)",
                 "text": [
                     "You create a Large hand of shimmering, translucent force in an unoccupied space that you can see within range. The hand lasts for the spell's duration, and it moves at your command, mimicking the movements of your own hand.",
                     "",
@@ -1847,7 +1909,7 @@ var spelldata = {
                 "range": "30 feet",
                 "components": "V, S, M (a tiny piece of matter of the same type of the item you plan to create)",
                 "duration": "Special",
-                "classes": "Sorcerer, Wizard, Rogue (Arcane Trickster), Cleric (Forge)",
+                "classes": "Sorcerer, Wizard, Rogue (Arcane Trickster), Cleric (Forge), Artificer (UA)",
                 "text": [
                     "You pull wisps of shadow material from the Shadowfell to create a nonliving object of vegetable matter within range - soft goods, rope, wood, or something similar. You can also use this spell to create mineral objects such as stone, crystal, or metal. The object created must be no larger than a 5-foot cube, and the object must be of a form and material that you have seen before.",
                     "",
@@ -4503,7 +4565,7 @@ var spelldata = {
                 "range": "Self",
                 "components": "V, S, M (incense worth at least 250 gp, which the spell consumes, and four ivory strips worth at least 50 gp each)",
                 "duration": "Instantaneous",
-                "classes": "Bard, Cleric, Cleric (Knowledge), Warlock (Undying), Wizard, Warlock (Seeker)",
+                "classes": "Bard, Cleric, Cleric (Knowledge), Warlock (Undying), Wizard, Warlock (Seeker), Artificer (UA)",
                 "text": [
                     "Name or describe a person, place, or object. The spell brings to your mind a brief summary of the significant lore about the thing you named. The lore might consist of current tales, forgotten stories, or even secret lore that has never been widely known. If the thing you named isn't of legendary importance, you gain no information.",
                     "",
@@ -4565,7 +4627,7 @@ var spelldata = {
                 "range": "60 feet",
                 "components": "V, S, M (either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end)",
                 "duration": "Concentration, up to 10 minutes",
-                "classes": "Sorcerer, Wizard, Warlock (Seeker)",
+                "classes": "Sorcerer, Wizard, Warlock (Seeker), Artificer (UA)",
                 "text": [
                     "One creature or object of your choice that you can see within range rises vertically, up to 20 feet, and remains suspended there for the duration. The spell can levitate a target that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected.",
                     "",
@@ -5315,7 +5377,7 @@ var spelldata = {
                 "range": "30 feet",
                 "components": "V, S",
                 "duration": "Concentration, up to 1 minute",
-                "classes": "Bard, Cleric (Trickery), Wizard, Rogue (Arcane Trickster)",
+                "classes": "Bard, Cleric (Trickery), Wizard, Rogue (Arcane Trickster), Artificer (UA)",
                 "text": [
                     "You attempt to reshape another creature's memories. One creature that you can see must make a Wisdom saving throw. If you are fighting the creature, it has advantage on the saving throw. On a failed save, the target becomes charmed by you for the duration. The charmed target is incapacitated and unaware of its surroundings, though it can still hear you. If it takes any damage or is targeted by another spell, this spell ends, and none of the target's memories are modified.",
                     "",
@@ -6465,7 +6527,7 @@ var spelldata = {
                 "range": "Self",
                 "components": "V, S, M (a focus worth at least 1,000 gp, such as a crystal ball, a silver mirror, or a font filled with holy water)",
                 "duration": "Concentration, up to 10 minutes",
-                "classes": "Bard, Cleric, Cleric (Knowledge), Cleric (Light), Druid, Druid (Coast), Druid (Swamp), Paladin (Vengeance), Warlock, Wizard",
+                "classes": "Bard, Cleric, Cleric (Knowledge), Cleric (Light), Druid, Druid (Coast), Druid (Swamp), Paladin (Vengeance), Warlock, Wizard, Artificer (UA)",
                 "text": [
                     "You can see and hear a particular creature you choose that is on the same plane of existence as you. The target must make a Wisdom saving throw, which is modified by how well you know the target and the sort of physical connection you have to it. If a target knows you're casting this spell, it can fail the saving throw voluntarily if it wants to be observed.",
                     "",
@@ -6515,7 +6577,7 @@ var spelldata = {
                 "range": "Self",
                 "components": "V, S, M (A pinch of Talc and a small sprinkling of powdered silver)",
                 "duration": "1 hour",
-                "classes": "Bard, Sorcerer, Wizard, Scout (Underdark Scout)",
+                "classes": "Bard, Sorcerer, Wizard, Scout (Underdark Scout), Artificer (UA)",
                 "text": "For the duration, you see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent."
             },
             {
@@ -6797,8 +6859,8 @@ var spelldata = {
 				"time": "1 action",
 				"range": "Touch",
 				"components": "V,S",
-				"duration": "Concentratiom, up to 1 hour",
-				"classes": "Bard, Sorcerer, Wizard",
+				"duration": "Concentration, up to 1 hour",
+				"classes": "Bard, Sorcerer, Wizard, Artificer (UA)",
 				"text": [
 					"Your magic deepens a creature’s understanding of its own talent. You touch one willing creature and give it expertise in one skill of your choice; until the spell ends, the creature doubles its proficiency bonus for ability checks it makes that use the chosen skill.",
 					"You must choose a skill in which the target is proficient and that isn’t already benefiting from an effect, such as Expertise, that doubles its proficiency bonus.",
@@ -7764,7 +7826,7 @@ var spelldata = {
                 "range": "120 feet",
                 "components": "V, S, M (clay and water)",
                 "duration": "Instantaneous",
-                "classes": "Druid, Wizard",
+                "classes": "Druid, Wizard, Artificer (UA)",
                 "text": [
                     "You choose an area of stone or mud that you can see that fits within a 40-foot cube and that is within range, and choose one of the following effects.",
                     "",
