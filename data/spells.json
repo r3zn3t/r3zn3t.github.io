@@ -361,6 +361,56 @@ var spelldata = {
                     "A creature that successfully saves against this effect is immune to it for 1 minute, after which time it can be affected again."
                 ]
             },
+			{
+				"name": "Apparition",
+				"source": "BGE",
+				"level": "0",
+				"school": "I",
+				"ritual": "",
+				"time": "1 action",
+				"range": "30 ft.",
+				"components": "S,V",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"You create the illusion of a creature out of the inky mists sourced from the Shadowfell. This creature can be any creature of your choice, as long as it is Medium size or smaller. This apparition acts as though it is the real creature you created, but does not deal damage.",
+					"Choose one creature within range. A target creature must make an Intelligence saving throw. On a successful save, the creature knows that the apparition is a hallucination, but is still visible to the target creature.",
+					"This spell can affect an additional creature when you reach 5th level (2), 11th level (3), and 17th level (4).",
+				],
+			},
+			{
+				"name": "Arcane Arrow",
+				"source": "BGE",
+				"level": "1",
+				"school": "T",
+				"ritual": "",
+				"time": "1 bonus action",
+				"range": "Self",
+				"components": "V",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Bard, Sorcerer, Warlock, Wizard, Artificer (UA), Ranger, Scout (Underdark Scout)",
+				"text": [
+					"You select one piece of ammunition that you can touch. When you do so, the weapon you fire the ammunition from deals force damage instead of the normal weapon damage, with the same damage die.",
+					"In addition, you can summon the arrow back into your hand as a bonus action. This effect lasts for as long as you maintain concentration on the spell or until the spell ends.",
+				],
+			},
+			{
+				"name": "Arcane Explosion",
+				"source": "BGE",
+				"level": "3",
+				"school": "EV",
+				"ritual": "",
+				"time": "1 action",
+				"range": "150 ft.",
+				"components": "V,S,M (A sprinkle of sulfur and lithium)",
+				"duration": "Instantaneous",
+				"classes": "Bard, Sorcerer, Warlock, Wizard, Artificer (UA)",
+				"text": [
+					"A sudden explosion of violets and blues comes from an area within range, then slowly expands to engulf anything around it. Each creature within a 10 foot radius, centered on the point you choose, must make a Dexterity saving throw.",
+					"On a failed save, a target takes 3d6 force damage and 3d6 psychic damage, and is then pushed 10 feet into the center of the spell. Unsecured objects that weigh less than 15 pounds are moved 10 feet towards the center of the radius. On a successful save, the target only takes half of the damage.",
+					"<b>At Higher Levels</b>: When you cast this spell using a spell slot of 4th level or higher, the force damage increases by 1d6 for each slot above 3rd.",
+				],
+			},
             {
                 "name": "Arcane Eye",
                 "level": "4",
@@ -395,6 +445,22 @@ var spelldata = {
                     "Any creature or object entering the portal exits from the other portal as if the two were adjacent to each other, passing through a portal from the non-portal side has no effect. The mist that fills each portal is opaque and blocks vision through it. On your turn, you can rotate the rings as a bonus action so that the active side faces in a different direction."
                 ]
             },
+			{
+				"name": "Arcane Grasp",
+				"source": "BGE",
+				"level": "0",
+				"school": "T",
+				"ritual": "",
+				"time": "1 action",
+				"range": "15 ft.",
+				"components": "S,V",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"You attempt to lift a creature with the magical forces you manipulate. When you cast the cantrip, and as your action each round for the duration, you can exert your will on one creature of Medium size or smaller that you can see within range. You can affect the same target round after round, or choose a new one at any time. If you switch targets, the prior target is no longer affected by the spell.",
+					"Make an ability check with your spellcasting ability contested by the creature’s Strength check. If you win the contest, you move the creature up to 15 feet in any direction horizontally, but not vertically, as long as they are still within range. If a creature would be moved to an area that has no solid object underneath it, the creature stays in the closest 5 foot square with solid ground, and the spell ends.",
+				],
+			},
             {
                 "name": "Arcane Lock",
                 "level": "2",
@@ -410,6 +476,39 @@ var spelldata = {
                     "While affected by this spell, the object is more difficult to break or force open; the DC to break it or pick any locks on it increases by 10."
                 ]
             },
+			{
+				"name": "Arcane Projectile",
+				"source": "BGE",
+				"level": "1",
+				"school": "A",
+				"ritual": "",
+				"time": "1 reaction",
+				"range": "Self",
+				"components": "V,S",
+				"duration": "Instantaneous",
+				"classes": "Bard, Sorcerer, warlock, Wizard",
+				"text": [
+					"As a reaction to a ranged attack that you can see, you wave your arms in a circular pattern, creating two holes and attempt to fire the projectile back. If a ranged attack would hit you, it instead misses, and travels up to the same distance that it was traveled to reach you.",
+					"Select one target that you can see. Make a ranged spell attack against the target. On a hit, the creature takes 1d6 force damage.",
+					"<b>At Higher Levels</b>: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each spell slot above 1st.",
+				],
+			},
+			{
+				"name": "Arcane Shield",
+				"source": "BGE",
+				"level": "1",
+				"school": "A",
+				"ritual": "",
+				"time": "1 reaction",
+				"range": "30 ft.",
+				"components": "V,S",
+				"duration": "1 round",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"As a reaction to an attack towards a person that you can see, you wave your arms in a triangular pattern, creating a barrier of protection. Select one target that you can see being attacked. Until the start of your next turn, the target creature has a +1 bonus to AC, including against the triggering attack, and they take no damage from <i>magic missile</i>.",
+					"<b>At Higher Levels</b>: When you cast this spell using a spell slot of 2nd level or higher, the bonus to AC increases by +1 for each spell slot above 1st.",
+				],
+			},
             {
                 "name": "Armor of Agathys",
                 "level": "1",
@@ -425,6 +524,21 @@ var spelldata = {
                     "At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, both the temporary hit points and the cold damage increase by 5 for each slot level above 1st."
                 ]
             },
+			{
+				"name": "Armor of Mindartis",
+				"source": "BGE",
+				"level": "1",
+				"school": "A",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "V,S,M (a purple silk strip)",
+				"duration": "8 hours",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"You touch a willing creature who isn't wearing any form of armor, including the mage armor spell or similar effects. The target's base AC becomes 13 + its spellcasting ability modifier. The spell ends if the target dons armor or you dismiss the spell as an action.",
+				],
+			},
             {
                 "name": "Arms of Hadar",
                 "level": "1",
@@ -441,6 +555,23 @@ var spelldata = {
                 ],
                 "roll": "2d6"
             },
+			{
+				"name": "Astral Guardian",
+				"source": "BGE",
+				"level": "3",
+				"school": "C",
+				"ritual": "",
+				"time": "1 action",
+				"range": "30 ft.",
+				"components": "V,S,M (a tourmaline gem worth 100 gp, which the spell consumes)",
+				"duration": "Instantaneous",
+				"classes": "Cleric, Paladin",
+				"text": [
+					"You summon a glimmering creature from the silver sea. As an action, select a place within range. The creature is summoned to that point. The creature is Medium sized, has hit points equal to your hit point maximum, has an AC equal to your AC, and has a flying speed equal to your speed. The creature is considered ethereal.",
+					"As a bonus action, you can move the creature. Whenever it enters an occupied space from another creature, that target creature must make a Wisdom saving throw. On a failure, the target creature takes 6d6 psychic damage.",
+					"<b>At Higher Levels</b>: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot above 3rd.",
+				],
+			},
             {
                 "name": "Astral Projection",
                 "level": "9",
@@ -802,6 +933,21 @@ var spelldata = {
                 ],
                 "roll": "d20"
             },
+			{
+				"name": "Bloom",
+				"source": "BGE",
+				"level": "1",
+				"school": "T",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "V,S",
+				"duration": "Instantaneous",
+				"classes": "Druid, Ranger",
+				"text": [
+					"You touch a small seed or plant and grow it to maturity within a matter of seconds. The flower cannot be larger than 2 feet in any direction when fully developed. If fruit would be harvested off of the plant, you may do so but only enough for one person.",
+				],
+			},
             {
                 "name": "Blur",
                 "level": "2",
@@ -854,6 +1000,21 @@ var spelldata = {
                     "4d8"
                 ]
             },
+			{
+				"name": "Brand",
+				"source": "BGE",
+				"level": "1",
+				"school": "D",
+				"ritual": "",
+				"time": "1 action",
+				"range": "30 ft.",
+				"components": "V,S",
+				"duration": "Concentration, up to 10 minutes",
+				"classes": "Cleric, Paladin",
+				"text": [
+					"You point at a creature that you can see within range. The target creature must make a Wisdom saving throw. On a failure, you know exactly where the creature is, even if they become hidden or turn invisible, until the spell ends or you dismiss the spell.",
+				],
+			},
             {
                 "name": "Branding Smite",
                 "level": "2",
@@ -870,6 +1031,21 @@ var spelldata = {
                 ],
                 "roll": "2d6"
             },
+			{
+				"name": "Bright Rot",
+				"source": "BGE",
+				"level": "3",
+				"school": "N",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Self",
+				"components": "V,S,M (a bag of chicken bones)",
+				"duration": "Concentration, up to 10 minutes",
+				"classes": "Druid, Ranger",
+				"text": [
+					"You emit a bright, blinding light that covers your entire body. It appears like a majestic aura, that some may interpret as a divine radiance. Whenever you get hit by a melee attack, the attacking creature must make a Dexterity saving throw. On a failure, the creature takes 3d6 necrotic and 3d6 radiant damage. On a success, the creature takes half damage.",
+				],
+			},
             {
                 "name": "Burning Hands",
                 "level": "1",
@@ -1014,6 +1190,55 @@ var spelldata = {
                 "roll": "10d8"
             },
 			{
+				"name": "Chaos Blast",
+				"source": "BGE",
+				"level": "2",
+				"school": "EV",
+				"ritual": "",
+				"time": "1 action",
+				"range": "60 ft.",
+				"components": "V,S,M (an onyx gem worth 50 gp)",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"You send a ray of chaotic sludge that looks as if the rainbow had been twisted together. Make a ranged spell attack. On a hit, the creature takes 2d6 damage, determined on the table below.",
+					"<style>table#mytable tr:nth-child(even){background-color:#dddddd;} table#mytable th{border:1px solid black;} table#mytable tr{border:1px solid black;text-align:center;} table#mytable td{border:1px solid black;}",
+					"</style>",
+					"<table id='mytable'>",
+						"<tr>",
+							"<th>d6</th>",
+							"<th>Damage Type</th>",
+						"</tr>",
+						"<tr>",
+							"<td>1</td>",
+							"<td>Acid</td>",
+						"</tr>",
+						"<tr>",
+							"<td>2</td>",
+							"<td>Thunder</td>",
+						"</tr>",
+						"<tr>",
+							"<td>3</td>",
+							"<td>Cold</td>",
+						"</tr>",
+						"<tr>",
+							"<td>4</td>",
+							"<td>Poison</td>",
+						"</tr>",
+						"<tr>",
+							"<td>5</td>",
+							"<td>Fire</td>",
+						"</tr>",
+						"<tr>",
+							"<td>6</td>",
+							"<td>Lightning</td>",
+						"</tr>",
+					"</table>",
+					"Once there is a successful hit, you can use your action to maintain concentration on this spell. If you do, you automatically hit. The target creature takes 2d6 damage, determined on the table once more.",
+					"<b>At Higher Levels</b>: Whenever you cast this spell at 3rd level or higher, you roll an additional 1d6 damage, determined by another roll on the <i>Chaos Blast Damage Table</i> found above, for every spell slot above 2nd.",
+				],
+			},
+			{
 				"name": "Chaos Bolt",
 				"source": "XGE",
 				"level": "1",
@@ -1126,6 +1351,23 @@ var spelldata = {
                     "4d8"
                 ]
             },
+			{
+				"name": "Chorus",
+				"source": "BGE",
+				"level": "0",
+				"school": "EN",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Self",
+				"components": "V,S",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Bard, Cleric, Druid, Rogue, Scout (Underdark Scout), Sorcerer, Wizard",
+				"text": [
+					"You create an infectious choir, singing loudly. Select 2 creatures within 30 feet of you that you can see. If the target creatures share a language with you, they must make a Wisdom saving throw. On a failure, the creatures sing along with you and are unable to make an action or movement during their turn. The creature can repeat the saving throw at the beginning of their turns.",
+					"On a success, the creature cannot be affected for 24 hours. If a creature does not share a common language with you, the creature automatically succeeds.",
+					"This spell can affect additional creatures, increasing by 2 when you reach 5th level (4), 11th level (6) and again at 17th level (8).",
+				],
+			},
             {
                 "name": "Chromatic Orb",
                 "level": "1",
@@ -1343,6 +1585,21 @@ var spelldata = {
                     "For example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns."
                 ]
             },
+			{
+				"name": "Communicate Idea",
+				"source": "BGE",
+				"level": "2",
+				"school": "D",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "S",
+				"duration": "Instantaneous",
+				"classes": "Cleric, Paladin, Artificer (UA)",
+				"text": [
+					"You touch a willing creature, transmitting a complex idea, plan or picture into their mind. The target creature then fully understands the idea that you are telling them.",
+				],
+			},
             {
                 "name": "Compelled Duel",
                 "level": "1",
@@ -1389,6 +1646,38 @@ var spelldata = {
                     "A target isn't compelled to move into an obviously deadly hazard, such as a fire pit, but it will provoke opportunity attacks to move in the designated direction."
                 ]
             },
+			{
+				"name": "Conceal",
+				"source": "BGE",
+				"level": "0",
+				"school": "I",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "S",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Bard, Sorcerer, Warlock, Wizard, Scout (Underdark Scout)",
+				"text": [
+					"You touch a small object that is smaller than 1 foot in any direction. For the duration of the spell, the item is magically concealed from view. Any creature that searches for the item must make a Wisdom saving throw. On a failure, the creature fails to find the object. On a success, the creature finds the object. If the concealed object is threatening, the creature has advantage on the saving throw.",
+					"This spell can affect additional objects, increasing by 2 when you reach 5th level (3), 11th level (5) and again at 17th level (7).",
+				],
+			},
+			{
+				"name": "Concussive Blast",
+				"source": "BGE",
+				"level": "0",
+				"school": "EV",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "S",
+				"duration": "Instantaneous",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"A blast of concussive force emits from your hand, knocking anything away from your palm. Make a melee spell attack. On a hit, the target takes 1d8 force damage. If the target is an object, the object takes maximum damage. If your attack roll lands on a 1, the blast backfires, and you take the damage instead.",
+					"This spell's damage increases by 1d8 and failure chance increases by 1 when you reach 5th level (2d8 damage, failure at 1 or 2), 11th level (3d8, failure at 1, 2 or 3), and again at 17th level (4d8, failure at 1, 2, 3 or 4).",
+				],
+			},
             {
                 "name": "Cone of Cold",
                 "level": "5",
@@ -1796,6 +2085,22 @@ var spelldata = {
                 ],
                 "roll": "1d6"
             },
+			{
+				"name": "Corrosion",
+				"source": "BGE",
+				"level": "4",
+				"school": "C",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Self",
+				"components": "S,M (a single black pearl worth 500 gp)",
+				"duration": "Concentration, up to 10 minutes",
+				"classes": "Druid, Ranger, Artificer (UA)",
+				"text": [
+					"You emit an aura of corrosion around you that affects metallic items. This aura reaches a 15 foot radius, centered on you. Any time a nonmagical metallic item starts its turn or enters inside the 15 foot radius, it takes a -1 to its hit points or armor class. Whenever an item has received a total reduction of -5 for armor class or hit points, the item is destroyed.",
+					"Whenever an item is outside of the radius, it does not lose this reduction. Instead, it must be repaired with smith's tools. The DC is set at your spell save DC.",
+				],
+			},
             {
                 "name": "Counterspell",
                 "level": "3",
@@ -1811,6 +2116,23 @@ var spelldata = {
                     "At Higher Level. When you cast this spell using a spell slot of 4th level or higher, the interrupted spell has no effect if its level is less than or equal to the level of the spell slot you used."
                 ]
             },
+			{
+				"name": "Create Air",
+				"source": "BGE",
+				"level": "1",
+				"school": "C",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Self",
+				"components": "V,S,M (a small bag that is closed",
+				"duration": "Instantaneous",
+				"classes": "Druid, Ranger",
+				"text": [
+					"You open a small bag or pouch, releasing a pocket of air around you and one other creature. There is enough air here that both you and the other creature can breath fresh air for one round.",
+					"Whenever the air is released, it will push away any foul air or air of ill effects, such as the <i>cloudkill</i> spell.",
+					"<b>At Higher Levels</b>: When you cast this spell at 2nd level or higher, there is additional fresh air allowing one other creature to breathe for every spell slot above 1st.",
+				],
+			},
             {
                 "name": "Create Bonfire",
                 "source": "EEPC",
@@ -1973,6 +2295,22 @@ var spelldata = {
                 "text": "Holy power radiates from you in an aura with a 30-foot radius, awakening boldness in friendly creatures. Until the spell ends, the aura moves with you, centered on you. While in the aura, each non-hostile creature in the aura (including you) deals an extra 1d4 radiant damage when it hits with a weapon attack.",
                 "roll": "1d4"
             },
+			{
+				"name": "Cryo Caltrops",
+				"source": "BGE",
+				"level": "0",
+				"school": "C",
+				"ritual": "",
+				"time": "1 action",
+				"range": "30 ft.",
+				"components": "S,M (sprinkle of water)",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Druid, Ranger",
+				"text": [
+					"You select an area within 30 feet of you that you can see. That point creates a mass of caltrops made of ice, extending in a 10 foot radius. Any creature that moves within the radius must make a Dexterity saving throw. On a failure, the creature takes 1d4 cold damage and has their movement slowed by 10 feet. On a success, the creature takes no damage.",
+					"This spell's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and again at 17th level (4d4).",
+				],
+			},
             {
                 "name": "Cure Wounds",
                 "level": "1",
@@ -2019,6 +2357,22 @@ var spelldata = {
 					"Threads of dark power leap from your fingers to pierce up to five Small or Medium corpses you can see within range. Each corpse immediately stands up and becomes undead. You decide whether it is a zombie or a skeleton (the statistics for zombies and skeletons are in the <i>Monster Manual</i>), and it gains a bonus to its attack and damage rolls equal to your spellcasting ability modifier.",
 					"You can use a bonus action to mentally command the creatures you make with this spell, issuing the same command to all of them. To receive the command, a creature must be within 60 feet of you. You decide what action the creatures will take and where they will move during their next turn, or you can issue a general command, such as to guard a chamber or passageway against your foes. If you issue no commands, the creatures do nothing except defend themselves against hostile creatures. Once given an order, the creatures continue to follow it until their task is complete.",
 					"<b><i>At Higher Levels</i></b>. When you cast this spell using a spell slot of 6th level or higher, you animate up to two additional corpses for each slot level above 5th.",
+				],
+			},
+			{
+				"name": "Dark Radiance",
+				"source": "BGE",
+				"level": "0",
+				"school": "N",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Self",
+				"components": "V,S",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Cleric",
+				"text": [
+					"You become infused with false energy that seems harmless. You emit bright light for 20 feet and dim light for another 10 feet. Whenever you are hit by melee attack, the creature that attacked you must make a Dexterity saving throw. On a failure, the creature takes 1d6 necrotic damage, and cannot recover hit points until the beginning of their next turn.",
+					"This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and again at 17th level (4d6).",
 				],
 			},
             {
@@ -2083,6 +2437,38 @@ var spelldata = {
                     "If any of this spell's area overlaps with an area of darkness created by a spell of 2nd level or lower, the spell that created the darkness is dispelled."
                 ]
             },
+			{
+				"name": "Death Gate",
+				"source": "BGE",
+				"level": "0",
+				"school": "A",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "S,V",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Cleric",
+				"text": [
+					"You touch one creature that is dying. Once before the spell ends, if the target creature would be hit by an attack roll, you instead take the damage. The target creature does not fail any death saving throws from the attack. The spell then ends.",
+				],
+			},
+			{
+				"name": "Death Touch",
+				"source": "BGE",
+				"level": "1",
+				"school": "N",
+				"ritual": "",
+				"time": "1 action",
+				"range": "60 ft.",
+				"components": "V,S",
+				"duration": "Instantaneous",
+				"classes": "Cleric, Paladin",
+				"text": [
+					"You point at a single creature, attempting to curse them with a quick death. If the target creature has hit points equal to or less than your total level, the creature reaches 0 hit points. If not, the creature must make a Wisdom saving throw.",
+					"On a failure, the target creature takes 1d8 necrotic damage. On a success, the creature takes no damage.",
+					"<b>At Higher Levels</b>: When you cast this spell at 2nd level or higher, you increase the damage by 1d8 per slot above 1st level.",
+				],
+			},
             {
                 "name": "Death Ward",
                 "level": "4",
@@ -2131,6 +2517,22 @@ var spelldata = {
                     "Each time you cast this spell, you can create a new demiplane, or have the shadowy door connect to a demiplane you created with a previous casting of this spell. Additionally, if you know the nature and contents of a demiplane created by a casting of this spell by another creature, you can have the shadowy door connect to its demiplane instead."
                 ]
             },
+			{
+				"name": "Demise Dart",
+				"source": "BGE",
+				"level": "0",
+				"school": "N",
+				"ritual": "",
+				"time": "1 action",
+				"range": "60 ft.",
+				"components": "S",
+				"duration": "Instantaneous",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"You point at a creature, forming a dart of decay. Make a ranged spell attack against the target. On a hit, the target takes 1d8 necrotic damage.",
+					"This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and again at 17th level (4d8).",
+				],
+			},
             {
                 "name": "Destructive Wave",
                 "level": "5",
@@ -2224,6 +2626,38 @@ var spelldata = {
                 ],
                 "roll": "4d6"
             },
+			{
+				"name": "Dimensional Anchor",
+				"source": "BGE",
+				"level": "4",
+				"school": "A",
+				"ritual": "YES",
+				"time": "1 minute",
+				"range": "30 ft.",
+				"components": "V,S,M (a length of robe that has been soaked in salt water)",
+				"duration": "Concentration, up to 10 minutes",
+				"classes": "Bard, Sorcerer, Warlock, Wizard, Artificer (UA)",
+				"text": [
+					"You create a loop out of the rope used as a material component. Based off of the length of rope, you create a radius in which spells such as <i>misty step</i> automatically fail if their spell level is 4th level or lower. Spells of 5th level or higher must make a Wisdom saving throw. On a success, the spell works. On a failure, the spell does not work and the creature takes 2d10 force damage and 2d10 psychic damage.",
+					"The rope cannot be destroyed or moved unless by yourself or friendly creatures that you choose.",
+				],
+			},
+			{
+				"name": "Disarm",
+				"source": "BGE",
+				"level": "2",
+				"school": "EN",
+				"ritual": "",
+				"time": "1 action",
+				"range": "60 ft.",
+				"components": "V,S",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Cleric, Paladin",
+				"text": [
+					"You point at a single creature, attempting to persuade a hostile target to drop their weapon. Select one creature. That creature must make a Charisma saving throw. On a failure, the creature follows your orders, becoming disarmed. A hostile creature has advantage on the saving throw.",
+					"Once the spell ends, the creature knows that you used this spell, and may react appropriately.",
+				],
+			},
             {
                 "name": "Disguise Self",
                 "level": "1",
@@ -2483,6 +2917,21 @@ var spelldata = {
                 ],
                 "roll": "3d6"
             },
+			{
+				"name": "Drill",
+				"source": "BGE",
+				"level": "3",
+				"school": "T",
+				"ritual": "",
+				"time": "1 action",
+				"range": "10 ft.",
+				"components": "V,S,M a Chrysoberyl gem worth 100 gp)",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Druid, Ranger",
+				"text": [
+					"You select a mass of rock or some sort of stone. An arcane beam forms from your chest, drilling and burrowing into the stone at a rate of 5 feet per round.",
+				],
+			},
             {
                 "name": "Druidcraft",
                 "level": "0",
@@ -2552,6 +3001,21 @@ var spelldata = {
                 ],
                 "roll": "1d8"
             },
+			{
+				"name": "Earth Trap",
+				"source": "BGE",
+				"level": "0",
+				"school": "C",
+				"ritual": "",
+				"time": "1 action",
+				"range": "90 ft.",
+				"components": "S",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Druid ranger",
+				"text": [
+					"The soil twists as structures of rock trap the feet of your enemy. You select a single target within range that you can see and is not incorporeal. The selected creature must make a Strength saving throw. On a failure, the creature is restrained. The creature may repeat the saving throw at the beginning of its turn.",
+				],
+			},
             {
                 "name": "Earth Tremor",
                 "source": "EEPC",
@@ -2730,6 +3194,21 @@ var spelldata = {
                     "At Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
                 ]
             },
+			{
+				"name": "Enhance Capability",
+				"source": "BGE",
+				"level": "4",
+				"school": "T",
+				"ritual": "YES",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "V,S,M (a pair of silver rings worth at least 100 gp)",
+				"duration": "Concentration, up to 10 minutes",
+				"classes": "Cleric, Paladin",
+				"text": [
+					"You grant temporary enhancements to a willing creature that you touch, placing a ring on their finger. Select an ability score, such as Strength or Intelligence. That creature applies a bonus to the selected ability score equal to your spellcasting ability modifier. This bonus lasts for the spell duration.",
+				],
+			},
             {
                 "name": "Enlarge/Reduce",
                 "level": "2",
@@ -2855,6 +3334,38 @@ var spelldata = {
                 ],
                 "roll": "3d6"
             },
+			{
+				"name": "Excitement of Battle",
+				"source": "BGE",
+				"level": "0",
+				"school": "D",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "S,V",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Cleric",
+				"text": [
+					"You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one attack roll of its choice. It can roll the die before or after making the attack roll. The spell then ends.",
+				],
+			},
+			{
+				"name": "Exile Circle",
+				"source": "BGE",
+				"level": "0",
+				"school": "A",
+				"ritual": "",
+				"time": "1 action",
+				"range": "10 ft.",
+				"components": "S,V,M (a pinch of powdered silver or holy water, a strip of cloth written with fine ink that has been blessed)",
+				"duration": "1 minute",
+				"classes": "Cleric",
+				"text": [
+					"You create a small area that harms certain creatures whenever they enter it. Select an area within range. You manifest a magical barrier, taking the form of a 5-foot wide, and 10-foot tall cylinder, centered on that point. Choose only one of the following types of creatures: celestials, elementals, fey, fiends, or undead.",
+					"Whenever a creature of the selected type enters the area for the first time, the creature must make a Wisdom saving throw. On a failure, the creature takes either 1d6 radiant, necrotic, force, or psychic damage. Then the spell ends.",
+					"This spell can affect an additional creature without ending when you reach 5th level (2), 11th level (3), and 17th level (4).",
+				],
+			},
             {
                 "name": "Expeditious Retreat",
                 "level": "1",
@@ -2866,6 +3377,21 @@ var spelldata = {
                 "classes": "Sorcerer, Warlock, Wizard, Artificer (UA), Paladin (Treachery)",
                 "text": "This spell allows you to move at an incredible pace. When you cast this spell, and then as a bonus action on each of your turns until the spell ends, you can take the Dash action."
             },
+			{
+				"name": "Expiry Sight",
+				"source": "BGE",
+				"level": "0",
+				"school": "D",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "S",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Cleric",
+				"text": [
+					"You imbue a willing creature with the foresight of their death. Whenever the target creature makes a death saving throw, the creature can add their proficiency bonus to the roll. Once they do, the spell ends.",
+				],
+			},
             {
                 "name": "Eyebite",
                 "level": "6",
@@ -2885,6 +3411,21 @@ var spelldata = {
                     "Sickened: The target has disadvantage on attack rolls and ability checks. At the end of each of its turns, it can make another Wisdom saving throw. If it succeeds, the effect ends."
                 ]
             },
+			{
+				"name": "Eyes of Fate",
+				"source": "BGE",
+				"level": "2",
+				"school": "D",
+				"ritual": "YES",
+				"time": "1 minute",
+				"range": "Self",
+				"components": "V,S",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Cleric, Paladin",
+				"text": [
+					"You gain access from your divine being, in which you gain insight on people's true intentions and their emotions. For the duration, if you roll lower that a 10 on Wisdom (Insight) checks, you can treat it as rolling a 10.",
+				],
+			},
             {
                 "name": "Fabricate",
                 "level": "4",
@@ -3010,6 +3551,21 @@ var spelldata = {
                     "For the spell's duration, or until you use an action to touch the target and dismiss the spell, the target appears dead to all outward inspection and to spells used to determine the target's status. The target is blinded and incapacitated, and its speed drops to 0. The target has resistance to all damage except psychic damage. If the target is diseased or poisoned when you cast the spell, or becomes diseased or poisoned while under the spell's effect, the disease and poison have no effect until the spell ends."
                 ]
             },
+			{
+				"name": "Fighting Words",
+				"source": "BGE",
+				"level": "1",
+				"school": "EN",
+				"ritual": "",
+				"time": "1 action",
+				"range": "30 ft.",
+				"components": "V,S",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"You shout at a single target, provoking a fight. Select a target creature within range. The creature must make a Charisma saving throw. On a failure, the creature must spend its movement to reach you and its actions to attack you with non-lethal damage. On a success, the creature ignores you. If the creature cannot hear you or does not share a similar language, the creature automatically succeeds.",
+				],
+			},
             {
                 "name": "Find Familiar",
                 "level": "1",
@@ -3034,6 +3590,22 @@ var spelldata = {
                     "Finally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your attack modifier for the roll."
                 ]
             },
+			{
+				"name": "Find Foe",
+				"source": "BGE",
+				"level": "0",
+				"school": "D",
+				"ritual": "",
+				"time": "1 action",
+				"range": "100 ft. radius",
+				"components": "V,S,M (sprinkle of silver powder)",
+				"duration": "Instantaneous",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"You concentrate on a single type of creature, trying to determine its location. Choose from the following types of creatures: aberration, beast, construct, fey, fiend, humanoid (one specific, such as elf or human), plant, or undead.",
+					"One of the creatures of that type must make a Wisdom saving throw. On a fail, you locate one of the creatures you choose as long as it within the radius. You cannot pick a specific person, such as Mindartis the Mad. You know how close they are to you and which direction they are moving, if they are.",
+				],
+			},
             {
                 "name": "Find Steed",
                 "level": "2",
@@ -3236,6 +3808,22 @@ var spelldata = {
                     "3d6"
                 ]
             },
+			{
+				"name": "Flame Cluster",
+				"source": "BGE",
+				"level": "0",
+				"school": "EV",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Self",
+				"components": "V,S",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Cleric",
+				"text": [
+					"You create a flame that float softly around you. Whenever a creature starts their turn or enters a space within 5 feet of you, that creature must make a Dexterity saving throw. On a failed save, the creature takes 1d6 fire damage.",
+					"Once the creature has taken damage, the flame is extinguished. The amount of flames that are created increases by 1 when you reach 5th level (2), 11th level (3) and again at 17th level (4).",
+				],
+			},
             {
                 "name": "Flame Strike",
                 "level": "5",
@@ -3272,6 +3860,21 @@ var spelldata = {
                 ],
                 "roll": "2d6"
             },
+			{
+				"name": "Flash",
+				"source": "BGE",
+				"level": "0",
+				"school": "C",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Self",
+				"components": "S",
+				"duration": "Instantaneous",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"In a blinding flash, the vision of your foes becomes distorted. One creature within 5 feet of you must make a Constitution saving throw. On a failure, they become stunned until the beginning of their next turn.",
+				],
+			},
             {
                 "name": "Flesh to Stone",
                 "level": "6",
@@ -3291,6 +3894,21 @@ var spelldata = {
                     "If you maintain your concentration on this spell for the entire possible duration, the creature is turned to stone until the effect is removed."
                 ]
             },
+			{
+				"name": "Flourish",
+				"source": "BGE",
+				"level": "3",
+				"school": "T",
+				"ritual": "",
+				"time": "1 minute",
+				"range": "30 ft.",
+				"components": "V,S,M (a pair of chrysoprase gems worth 10 gp each)",
+				"duration": "Instantaneous",
+				"classes": "Druid, Ranger",
+				"text": [
+					"You wave your hand over an empty, barren field. As you do so, plant life sprouts and develops into fully grown plants, bearing fruit. You get to choose the plant type, as long as the plant is not magical, is not an incredibly rare plant, and as long as the plant is natively grown in the area.",
+				],
+			},
             {
                 "name": "Fly",
                 "level": "3",
@@ -3430,6 +4048,21 @@ var spelldata = {
                     "4d6"
                 ]
             },
+			{
+				"name": "Frozen Fire",
+				"source": "BGE",
+				"level": "3",
+				"school": "EV",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Self",
+				"components": "V,S,M (a sapphire and ruby gem, each worth at least 50 gp)",
+				"duration": "Instantaneous",
+				"classes": "Bard, Sorcerer, Warlock, Wizard, Artificer (UA)",
+				"text": [
+					"A small gem of blue ice forms in your hand which does not melt, with a small flickering flame that emits light but no heat. When you say the command word of your choice, the ice melts and the fire expands into a 10 foot radius. Any creature in the radius must make a Dexterity saving throw. On a failure, the creature takes 4d6 cold damage and 4d6 fire damage. On a success, the creature takes half damage.",
+				],
+			},
             {
                 "name": "Gaseous Form",
                 "level": "3",
@@ -3502,6 +4135,22 @@ var spelldata = {
                     "The spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don't count against the time limit of spells such as raise dead."
                 ]
             },
+			{
+				"name": "Ghoulish Touch",
+				"source": "BGE",
+				"level": "2",
+				"school": "N",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "V,S,M (a fingernail of someone deceased)",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Cleric, Paladin",
+				"text": [
+					"You scratch a creature with a finger nail, bestowing the ghoulish curse of paralysis. Make a melee spell attack. The target creature must make a Constitution saving throw on a hit. On a failure, the creature becomes paralyzed for the duration of the spell. Constructs and undead creatures automatically succeed on the saving throw.",
+					"The paralyzed creature can repeat its saving throw at the start of its turn. If a creature is within 5 feet of the paralyzed creature, they must also succeed on a Constitution saving throw. On a failure, the creature becomes poisoned for 1d4 hours from the awful stench from the paralyzed creature, mimicking a ghoul.",
+				],
+			},
             {
                 "name": "Giant Insect",
                 "level": "4",
@@ -3918,6 +4567,22 @@ var spelldata = {
                     "When the spell ends, the target can't move or take actions until after its next turn, as a wave of lethargy sweeps over it."
                 ]
             },
+			{
+				"name": "Headache",
+				"source": "BGE",
+				"level": "1",
+				"school": "EN",
+				"ritual": "",
+				"time": "1 action",
+				"range": "60 ft.",
+				"components": "V,S,M (a single grape that you smash)",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"Select one creature that you can see within range. That creature must make a Wisdom saving throw. On a failure, the creature takes 1d6 psychic damage, along with the stunned condition. On a success, the creature takes only half damage.",
+					"The creature can repeat the saving throw at the end of its turn. A creature that succeeds on its saving throw cannot be affected by this spell for the next 24 hours.",
+				],
+			},
             {
                 "name": "Heal",
                 "level": "6",
@@ -4142,6 +4807,21 @@ var spelldata = {
                     "At Higher Levels: When you cast this spell using a spell slot of 3rd or 4th level, you can maintain your concentration on the spell for up to 8 hours. When you use a spell slot of 5th level or higher, you can maintain your concentration on the spell for up to 24 hours."
                 ]
             },
+			{
+				"name": "Hush",
+				"source": "BGE",
+				"level": "1",
+				"school": "A",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "V,S,M (ash of a burned oak leaf)",
+				"duration": "Concentration, up to 1 hour",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"You touch one willing creature. For the duration of this spell, the creature has a +5 bonus to their Dexterity (Stealth) checks.",
+				],
+			},
             {
                 "name": "Hypnotic Pattern",
                 "level": "3",
@@ -4157,6 +4837,22 @@ var spelldata = {
                     "The spell ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor."
                 ]
             },
+			{
+				"name": "Ice Formation",
+				"source": "BGE",
+				"level": "0",
+				"school": "EV",
+				"ritual": "",
+				"time": "1 round",
+				"range": "30 ft.",
+				"components": "V,S",
+				"duration": "Instantaneous",
+				"classes": "Druid, Ranger",
+				"text": [
+					"A small wall made of ice forms in a place of your choice. This wall is 5 feet wide, a foot thick, and 3 feet tall. The ice must be formed in an area that has at least five feet of water, being either a lake, a puddle or have a source of water.",
+					"A creature on one side of the wall has half-cover. The wall can be destroyed with any source of fire damage or bludgeoning damage.",
+				],
+			},
             {
                 "name": "Ice Knife",
                 "source": "EEPC",
@@ -4557,6 +5253,22 @@ var spelldata = {
                     "When you cast the spell, a loud knock, audible from as far away as 300 feet, emanates from the target object."
                 ]
             },
+			{
+				"name": "Launch Missile",
+				"source": "BGE",
+				"level": "0",
+				"school": "T",
+				"ritual": "",
+				"time": "1 action",
+				"range": "120 ft.",
+				"components": "S,M (an arrow or bolt)",
+				"duration": "Instantaneous",
+				"classes": "Druid, Ranger",
+				"text": [
+					"In a swift action, you send a missile flying through the air at a target. Make a ranged spell attack towards one creature. On a hit, the creature takes 1d6 piercing damage.",
+					"The amount of missiles you can fire increases by 1 when you reach 5th level (2), 11th (3), and again at 17th level (4). You must make a separate ranged spell attack for each missile, providing the material components of each.",
+				],
+			},
             {
                 "name": "Legend Lore",
                 "level": "5",
@@ -4619,6 +5331,21 @@ var spelldata = {
                 "classes": "Bard, Cleric, Cleric (Life), Druid, Paladin, Paladin (Devotion), Ranger, Artificer (UA)",
                 "text": "You touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned."
             },
+			{
+				"name": "Lethality",
+				"source": "BGE",
+				"level": "1",
+				"school": "T",
+				"ritual": "YES",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "V,S,M (a single iron nail)",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Cleric, Paladin",
+				"text": [
+					"Select two weapons that deal only nonlethal damage. For the duration, those weapons deal only lethal damage. In addition, you can select two improvised weapons. For the duration of this spell, these two weapons deal 1d6 damage instead.",
+				],
+			},
             {
                 "name": "Levitate",
                 "level": "2",
@@ -4667,6 +5394,21 @@ var spelldata = {
                     "If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell."
                 ]
             },
+			{
+				"name": "Light Disguise",
+				"source": "BGE",
+				"level": "0",
+				"school": "I",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "V,S",
+				"duration": "Concentration, up to 10 minutes",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"You touch a fabric, small item or a willing humanoid and change the color of the target for the duration of the spell. You can select a specific color or an array of patterns.",
+				],
+			},
             {
                 "name": "Lightning Arrow",
                 "level": "3",
@@ -4899,6 +5641,22 @@ var spelldata = {
                     "When the spell ends, the container is destroyed."
                 ]
             },
+			{
+				"name": "Magic Manacles",
+				"source": "BGE",
+				"level": "0",
+				"school": "C",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "V,S",
+				"duration": "Concentration, up to 10 minutes",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"You touch a target creature's wrist to bind them. The target creature must make a Dexterity saving throw. On a failure, the creature is bound at the wrists with magical manacles. The creature can attempt to escape with another Dexterity saving throw.",
+					"A creature can choose to fail the saving throw. If a creature is restrained, the saving throw is at disadvantage, and if a creature is incapacitated, the saving throw automatically fails.",
+				],
+			},
             {
                 "name": "Magic Missile",
                 "level": "1",
@@ -4970,6 +5728,21 @@ var spelldata = {
                     "At Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the bonus increases to +2. When you use a spell slot of 6th level or higher, the bonus increases to +3."
                 ]
             },
+			{
+				"name": "Magnesis",
+				"source": "BGE",
+				"level": "1",
+				"school": "T",
+				"ritual": "YES",
+				"time": "1 action",
+				"range": "60 ft.",
+				"components": "V,S",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Bard, Sorcerer, Warlock, Wizard, Artificer (UA)",
+				"text": [
+					"You select one object made of either mostly metal or fully metal. You can move that object, including in the air, for the duration of this spell. The object has a movement speed of 15 feet.",
+				],
+			},
             {
                 "name": "Major Image",
                 "level": "3",
@@ -4989,6 +5762,21 @@ var spelldata = {
                     "At Higher Levels: When you cast this spell using a spell slot of 6th level or higher, the spell lasts until dispelled, without requiring your concentration."
                 ]
             },
+			{
+				"name": "Malpractice",
+				"source": "BGE",
+				"level": "3",
+				"school": "N",
+				"ritual": "",
+				"time": "1 reaction",
+				"range": "30 ft.",
+				"components": "V,S,M (a bloodied bandage)",
+				"duration": "Instantaneous",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"You know when a healing spell is being cast and have studied on ways to prevent the wondrous healing. Whenever a healing spell is cast, you select the creature that is casting the spell. The target creature must make a Wisdom saving throw. On a failure, the healing spell inflicts damage, equal to the hit points that would have been restored from the spell. On a success, the healing spell only heals half the total hit points.",
+				],
+			},
             {
                 "name": "Mass Cure Wounds",
                 "level": "5",
@@ -5251,6 +6039,22 @@ var spelldata = {
 					"The walls, turrets, and keep are all made of stone that can be damaged. Each 10—foot—by-10-foot section of stone has AC 15 and 30 hit points per inch of thickness. It is immune to poison and psychic damage. Reducing a section of stone to 0 hit points destroys it and might cause connected sections to buckle and collapse at the DM’s discretion.",
 					"After 7 days or when you cast this spell somewhere else, the fortress harmlessly crumbles and sinks back into the ground, leaving any creatures that were inside it safely on the ground.",
 					"Casting this spell on the same spot once every 7 days for a year makes the fortress permanent.",
+				],
+			},
+			{
+				"name": "Migraine",
+				"source": "BGE",
+				"level": "3",
+				"school": "EM",
+				"ritual": "",
+				"time": "1 action",
+				"range": "60 ft.",
+				"components": "V,S,M (a single orange that you smash)",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Cleric, Paladin",
+				"text": [
+					"Select one creature that you can see within range. That creature must make a Wisdom saving throw. On a failure, the creature takes 4d10 psychic damage, along with the blinded condition. On a success, the creature takes only half damage.",
+					"The creature can repeat the saving throw at the end of its turn. A creature that succeeds on its saving throw cannot be affected by this spell for the next 24 hours.",
 				],
 			},
             {
@@ -5666,6 +6470,21 @@ var spelldata = {
                     "A dancing creature must use all its movement to dance without leaving its space and has disadvantage on Dexterity saving throws and attack rolls. While the target is affected by this spell, other creatures have advantage on attack rolls against it. As an action, a dancing creature makes a Wisdom saving throw to regain control of itself. On a successful save, the spell ends."
                 ]
             },
+			{
+				"name": "Passing Ward",
+				"source": "BGE",
+				"level": "0",
+				"school": "A",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "S,V",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Druid, Ranger",
+				"text": [
+					"You touch one creature that is dying. Once before the spell ends, the creature may choose to roll a successful death saving throw. This may happen before or after the death saving throw is rolled, but before the result is declared a success or failure. The spell then ends.",
+				],
+			},
             {
                 "name": "Pass Without Trace",
                 "level": "2",
@@ -5692,6 +6511,22 @@ var spelldata = {
                     "When the opening disappears, any creatures or objects still in the passage created by the spell are safely ejected to an unoccupied space nearest to the surface on which you cast the spell."
                 ]
             },
+			{
+				"name": "Perplex",
+				"source": "BGE",
+				"level": "0",
+				"school": "I",
+				"ritual": "",
+				"time": "1 action",
+				"range": "60 ft.",
+				"components": "S,V",
+				"duration": "Instantaneous",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"You unleash a colorful mass of lights, laced with subtle illusions at a creature you can see within range. If the target can see the attack, it must succeed on an Intelligence saving throw or take 1d4 psychic damage and have disadvantage on the next saving throw it makes before the end of its next turn.",
+					"This spell's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).",
+				],
+			},
             {
                 "name": "Phantasmal Force",
                 "level": "2",
@@ -5746,6 +6581,22 @@ var spelldata = {
                     "For the duration, you or a creature you choose can ride the steed. The creature uses the statistics for a riding horse, except it has a speed of 100 feet and can travel 10 miles in an hour, or 13 miles at a fast pace. When the spell ends, the steed gradually fades, giving the rider 1 minute to dismount. The spell ends if you use an action to dismiss it or if the steed takes any damage."
                 ]
             },
+			{
+				"name": "Pious Strike",
+				"source": "BGE",
+				"level": "0",
+				"school": "EV",
+				"ritual": "",
+				"time": "1 action",
+				"range": "120 ft.",
+				"components": "V,S",
+				"duration": "Instantaneous",
+				"classes": "Cleric",
+				"text": [
+					"In an instant, your strikes become imbued with radiant energy, which shine out in beams. Make a ranged spell attack. On a hit, you deal 1d8 radiant damage. The beams emit 10 feet of bright light, and an additional 10 feet of dim light.",
+					"The amount of damage increases by 1d8 when you reach 5th level (2d8), 11th (3d8), and again at 17th level (4d8).",
+				],
+			},
             {
                 "name": "Planar Ally",
                 "level": "6",
@@ -6167,6 +7018,39 @@ var spelldata = {
                 ]
             },
 			{
+				"name": "Psyche",
+				"source": "BGE",
+				"level": "3",
+				"school": "N",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Touch",
+				"components": "S",
+				"duration": "Instantaneous",
+				"classes": "Cleric, Paladin",
+				"text": [
+					"You attempt to drain the mental fortitude from a creature to cause fear. Select a target creature within 5 feet of you. The selected creature must make an Intelligence saving throw. On a failure, the creature has a 1d4 Intelligence reduction and takes 4d8 psychic damage. On a success, the creature on takes half damage and no Intelligence reduction.",
+					"If this spell is used on a creature that has an Intelligence lower than 6, this spell automatically fails.",
+					"<b>At Higher Levels</b>: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot above 3rd.",
+				],
+			},
+			{
+				"name": "Psychic Howl",
+				"source": "BGE",
+				"level": "0",
+				"school": "T",
+				"ritual": "",
+				"time": "1 action",
+				"range": "60 ft.",
+				"components": "V,S",
+				"duration": "Instantaneous",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"In a moment, you change the winds around a point of your choice, for a 10 foot radius. All creatures in the radius must make an Intelligence saving throw. On a failure, the creature takes 1d6 psychic damage. On a success, the creatures take half of the damage.",
+					"The amount of damage increases by 1d6 when you reach 5th level (2d6), 11th (3d6), and again at 17th level (4d6).",
+				],
+			},
+			{
 				"name": "Psychic Scream",
 				"source": "XGE",
 				"level": "9",
@@ -6215,6 +7099,40 @@ var spelldata = {
                     "This spell can be found in the Elemental Evil Player's Companion"
                 ]
             },
+			{
+				"name": "Quench",
+				"source": "BGE",
+				"level": "3",
+				"school": "T",
+				"ritual": "",
+				"time": "1 action",
+				"range": "120 ft.",
+				"components": "V,S,M (a vial of water)",
+				"duration": "Instantaneous",
+				"classes": "Druid, Ranger",
+				"text": [
+					"You select a point within range. Every nonmagical flame within 30 feet of that point becomes extinguished as a breeze of frost cools everything. If there is a magical flame within the radius, you must make an Intelligence (Arcana) check, with the DC equal to 10 + the spell level. On a success, the magical fire is also put out.",
+					"Every creature within this radius must also make a Dexterity saving throw. On a failure, the creature takes 6d6 cold damage and their movement is slowed by 10 feet until the end of their next turn. On a success, they only take half damage. Fire elementals or similar creatures make this save at disadvantage.",
+					"<b>At Higher Levels</b>: When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 and the radius increases by 5 ft. for each slot above 3rd.",
+				],
+			},
+			{
+				"name": "Quicksand",
+				"source": "BGE",
+				"level": "2",
+				"school": "T",
+				"ritual": "",
+				"time": "1 action",
+				"range": "60 ft.",
+				"components": "V,S,M (a pinch of dust)",
+				"duration": "1 minute",
+				"classes": "Druid, Ranger",
+				"text": [
+					"You select a point of dirt, sand or stone within range. That point becomes the center of a 10 foot radius, which turns into quicksand. Quicksand is considered difficult terrain for movement. Whenever a creature ends its turn in quicksand, the creature must make a Strength saving throw. On a failure, the creature is restrained. On a success, the creature is freed.",
+					"If a creature is restrained in quicksand, they can attempt to make a Strength (Athletics) check against your spell save DC to free themselves.",
+					"<b>At Higher Levels</b>: When you cast this spell using a spell slot of 4th level or higher, the radius increases by 5' for each slot above 2nd.",
+				],
+			},
             {
                 "name": "Raise Dead",
                 "level": "5",
@@ -6288,6 +7206,22 @@ var spelldata = {
                     "4d8"
                 ]
             },
+			{
+				"name": "Ray of Light",
+				"source": "BGE",
+				"level": "1",
+				"school": "EV",
+				"ritual": "",
+				"time": "1 action",
+				"range": "60 ft.",
+				"components": "V,S",
+				"duration": "Instantaneous",
+				"classes": "Cleric, Paladin",
+				"text": [
+					"You fire a beam of light at a target creature. Make a ranged spell attack. On a hit, the creature takes 2d8 radiant damage.",
+					"<b>At Higher Levels</b>: When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot above 1st.",
+				],
+			},
             {
                 "name": "Ray of Sickness",
                 "level": "1",
@@ -6367,6 +7301,22 @@ var spelldata = {
                 "classes": "Cleric, Paladin, Warlock, Wizard, Fighter (Eldritch Knight), Scout (Underdark Scout)",
                 "text": "At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner's attunement to the object so it can be removed or discarded."
             },
+			{
+				"name": "Renovate",
+				"source": "BGE",
+				"level": "3",
+				"school": "T",
+				"ritual": "",
+				"time": "1 minute",
+				"range": "Touch",
+				"components": "V,S,M (a vial of adhesive, a metal nail and a foot of hempen rope)",
+				"duration": "Instantaneous",
+				"classes": "Cleric, Paladin, Artificer (UA)",
+				"text": [
+					"Your ability to magical repair objects enhances, fixing objects that seem beyond repair. You can repair a 10 foot cube worth of objects by casting this spell. As long as the atoms that made up the object are there, such as ashes of burned wood, the object is repaired. Included in this is constructs, but not magical items. If this spell is used on a construct, the construct recovers hit points equal to 2d8 + your spellcasting ability modifier.",
+					"<b>At Higher Levels</b>: When you cast this spell using a spell slot of 4th level or higher, the amount of hit points a construct can recover increases by 1d8 for each slot above 3rd.",
+				],
+			},
             {
                 "name": "Resistance",
                 "level": "0",
@@ -6599,6 +7549,22 @@ var spelldata = {
                     "A creature can use its action to inspect a target and make an Intelligence (Investigation) check against your spell save DC. If it succeeds, it becomes aware that the target is disguised."
                 ]
             },
+			{
+				"name": "Semblance",
+				"source": "BGE",
+				"level": "0",
+				"school": "I",
+				"ritual": "",
+				"time": "1 action",
+				"range": "30 ft.",
+				"components": "S,V",
+				"duration": "Instantaneous",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"You create the illusion of another cantrip of your choice towards a creature. Make a ranged spell attack against the target. On a hit, the target takes 1d8 psychic damage.",
+					"This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+				],
+			},
             {
                 "name": "Sending",
                 "level": "3",
@@ -6753,6 +7719,22 @@ var spelldata = {
                 "classes": "Cleric, Cleric (War), Paladin, Artificer (UA)",
                 "text": "A shimmering field appears and surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration."
             },
+			{
+				"name": "Shield of Salazar",
+				"source": "BGE",
+				"level": "3",
+				"school": "A",
+				"ritual": "",
+				"time": "1 reaction",
+				"range": "150 ft.",
+				"components": "V,S,M (a pendant with 5 rivets in it)",
+				"duration": "Instantaneous",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"As a reaction to an area of effect spell that you can see, you wave your arms in a cubic pattern, creating a barrier of protection. Select an area within range. Each creature within a 10-foot cube centered on that point, including creatures that are hostile to you, have the benefits of this spell.",
+					"If a creature inside of this area is subjected to an effect that allows them to make a Dexterity saving throw to only take half damage, they instead take no damage on a success, and only half damage if they fail.",
+				],
+			},
             {
                 "name": "Shillelagh",
                 "level": "0",
@@ -6764,6 +7746,21 @@ var spelldata = {
                 "classes": "Druid",
                 "text": "The wood of a club or quarterstaff you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a d8. The weapon also becomes magical, if it isn't already. The spell ends if you cast it again or if you let go of the weapon."
             },
+			{
+				"name": "Shocking Boom",
+				"source": "BGE",
+				"level": "3",
+				"school": "EV",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Self",
+				"components": "V,S,M (a single metal rod)",
+				"duration": "Concentration, up to 10 minutes",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"You radiate a field of twisting, semi-transparent gray matter around you, that sparks out at anything nearby. Whenever you get hit by a melee attack, the attacking creature must make a Dexterity saving throw. On a failure, the creature takes 3d6 lightning and 3d6 thunder damage. On a success, the creature takes half damage.",
+				],
+			},
             {
                 "name": "Shocking Grasp",
                 "level": "0",
@@ -7056,6 +8053,38 @@ var spelldata = {
                     "This spell can cause the plants created by the entangle spell to release a restrained creature."
                 ]
             },
+			{
+				"name": "Spectral Shield",
+				"source": "BGE",
+				"level": "0",
+				"school": "A",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Self",
+				"components": "V,S",
+				"duration": "Instantaneous",
+				"classes": "Cleric",
+				"text": [
+					"You increase your AC by 1 until the beginning of your next turn. If the attack would not hit due to your increased armor class, the attack misses. In addition, if you are the target of magic missile, the attack automatically misses.",
+				],
+			},
+			{
+				"name": "Spell Storage",
+				"source": "BGE",
+				"level": "4",
+				"school": "T",
+				"ritual": "YES",
+				"time": "10 minutes",
+				"range": "Touch",
+				"components": "V,S,M (a precious gem worth 500 gp or more)",
+				"duration": "Up to 24 hours",
+				"classes": "Bard, Sorcerer, Warlock, Wizard, Artificer (UA)",
+				"text": [
+					"You imbue a spell of 3rd level or higher that you have prepared into a gem for later use. You can pass this object to a different creature, in which case allows the creature to activate the spell. If the spell has a point of origin, the origin is the gem itself.",
+					"If the spell requires a saving throw, the DC is your own spell save DC. The spell casted is equal to the base spell level. If the spell requires concentration, the gem itself maintains concentration.",
+					"If the spell is not used within 24 hours, the spell magic dissipates, unless you spend another spell slot to restore that magic to it. After one use, the gem cannot cast another spell until another spell is stored in it. This gem can only contain one spell at a time, and attempting to store another will remove the first spell.",
+				],
+			},
             {
                 "name": "Spider Climb",
                 "level": "2",
@@ -7124,6 +8153,23 @@ var spelldata = {
                     "1d8+SPELL"
                 ]
             },
+			{
+				"name": "Spite",
+				"source": "BGE",
+				"level": "3",
+				"school": "EN",
+				"ritual": "",
+				"time": "1 bonus action",
+				"range": "90 ft.",
+				"components": "V,S,M (tongue of squirrel)",
+				"duration": "Instantaneous",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"Your emotions take the better of you, filled with hatred and spite. Select a single target creature. Until the spell ends, whenever you deal damage to the creature that does not require a saving throw, you deal an additional 2d8 necrotic damage. In addition, declare one ability of your choice. The target creature automatically fails all skill checks with the associated ability, and has disadvantage on saving throws of the chosen ability score.",
+					"If the target creature drops to 0 hit points, the spell ends. A <i>remove curse</i> spell cast on the target ends the spell early.",
+					"<b>At Higher Levels</b>: When you cast this spell using a spell slot of 4th level or higher, the amount of abilities that you can declare increases by 1 for each slot above 3rd.",
+				],
+			},
             {
                 "name": "Staggering Smite",
                 "level": "4",
@@ -7246,6 +8292,21 @@ var spelldata = {
                     "10d6"
                 ]
             },
+			{
+				"name": "Stun",
+				"source": "BGE",
+				"level": "0",
+				"school": "EN",
+				"ritual": "",
+				"time": "1 action",
+				"range": "30 ft.",
+				"components": "V,S",
+				"duration": "Instantaneous",
+				"classes": "Druid, Ranger",
+				"text": [
+					"You select a creature that you can see within range. The target creature must make a Wisdom saving throw. On a failure, the creature is incapacitated until the end of your next turn. If the creature is hostile, the target creature has advantage on the saving throw.",
+				],
+			},
             {
                 "name": "Suggestion",
                 "level": "2",
@@ -7578,6 +8639,21 @@ var spelldata = {
 					"Casting this spell on the same spot every day for a year makes this effect permanent.",
 				],
 			},
+			{
+				"name": "Temporal Shift",
+				"source": "BGE",
+				"level": "0",
+				"school": "A",
+				"ritual": "",
+				"time": "1 action",
+				"range": "Self",
+				"components": "V,S",
+				"duration": "Instantaneous",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"You begin to blink in and out of existence momentarily. As a action, any one attack of your choice automatically misses you until the beginning of your next turn. If the attack is a natural 20, you cannot select that attack to miss. You reappear at the beginning of your turn.",
+				],
+			},
             {
                 "name": "Tenser's Floating Disk",
                 "level": "1",
@@ -7817,6 +8893,21 @@ var spelldata = {
                 "classes": "Bard, Cleric, Sorcerer, Warlock, Wizard, Scout (Underdark Scout)",
                 "text": "This spell grants the creature you touch the ability to understand any spoken language it hears. Moreover, when the target speaks, any creature that knows at least one language and can hear the target understands what it says."
             },
+			{
+				"name": "Toxin",
+				"source": "BGE",
+				"level": "0",
+				"school": "C",
+				"ritual": "",
+				"time": "1 action",
+				"range": "30 ft.",
+				"components": "V,S",
+				"duration": "Instantaneous",
+				"classes": "Druid, Ranger",
+				"text": [
+					"Your mouth opens, spraying a toxin all over a single creature within range. The creature must make a Constitution saving throw. On a failure, the creature has the poisoned condition for 1d4 hours. The creature can repeat the saving throw at the start of every hour.",
+				],
+			},
             {
                 "name": "Transmute Rock",
                 "source": "EEPC",
@@ -7963,6 +9054,22 @@ var spelldata = {
                     "1d10"
                 ]
             },
+			{
+				"name": "Unknown Energy",
+				"source": "BGE",
+				"level": "0",
+				"school": "EV",
+				"ritual": "",
+				"time": "1 action",
+				"range": "60 ft.",
+				"components": "V,S",
+				"duration": "Instantaneous",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"You point you finger at a single target, and the creature's body or mind starts to feel an unwelcome pressure. Make a range spell attack. On a hit, you deal either 1d8 psychic or 1d8 force damage of your choice.",
+					"The amount of damage increases by 1d8 when you reach 5th level (2d8), 11th (3d8), and again at 17th level (4d8).",
+				],
+			},
             {
                 "name": "Unseen Servant",
                 "level": "1",
@@ -8435,6 +9542,22 @@ var spelldata = {
                 "roll": "1d12"
             },
 			{
+				"name": "Wither",
+				"source": "BGE",
+				"level": "2",
+				"school": "N",
+				"ritual": "",
+				"time": "1 action",
+				"range": "120 ft.",
+				"components": "V,S",
+				"duration": "Instantaneous",
+				"classes": "Cleric, Paladin",
+				"text": [
+					"You create multiple balls of necrotic energy. Make three range spell attacks, which can be divided however you like. On a hit, the creature takes 2d8 necrotic damage, and cannot recover hit points until the beginning of your next turn.",
+					"<b>At Higher Levels</b>: When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot above 2nd.",
+				],
+			},
+			{
 				"name": "Word of Radiance",
 				"source": "XGE",
 				"level": "0",
@@ -8495,6 +9618,22 @@ var spelldata = {
                 "classes": "Paladin, Warlock (Hexblade), Sorcerer (Stone)",
                 "text": "The next time you hit with a melee weapon attack during this spell's duration, your attack deals an extra 1d6 psychic damage. Additionally, if the target is a creature, it must make a Wisdom saving throw or be frightened of you until the spell ends. As an action, the creature can make a Wisdom check against your spell save DC to steel its resolve and end this spell."
             },
+			{
+				"name": "Yawn",
+				"source": "BGE",
+				"level": "0",
+				"school": "EN",
+				"ritual": "",
+				"time": "1 Action",
+				"range": "30 ft.",
+				"components": "S,V",
+				"duration": "Concentration, up to 1 minute",
+				"classes": "Bard, Sorcerer, Warlock, Wizard",
+				"text": [
+					"You yawn loudly towards one creature, making them drowsy. Choose one creature within range. A target creature must make a Wisdom saving throw. On a failure, the creature has disadvantage on saving throws to maintain concentration until the spell ends.",
+					"If the creature takes damage or spends their action to make themselves alert, the spell ends.",
+				],
+			},
 			{
 				"name": "Zephyr Strike",
 				"source": "XGE",
