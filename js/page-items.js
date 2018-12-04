@@ -30,6 +30,7 @@ function parsesource (src) {
 	if (source == "Xanathar's Lost Notes to Everything Else") source = "XLN";
 	if (source == "Middle Finger of Vecna") source = "MFoV";
 	if (source == "Tomb of Annihilation") source = "ToA";
+	if (source == "Waterdeep - Dragon Heist") source = "WDH";
 	return source;
 }
 
@@ -47,6 +48,7 @@ function parsetype (type) {
 	if (type === "PA") return "Armor (Plate)"
 	if (type === "AS") return "Sword (any)"
 	if (type === "AW") return "Weapon (any)"
+	if (type === "BAT") return "Weapon (Battleaxe)"
 	if (type === "ACROSS") return "Weapon (Crossbow)"
 	if (type === "DAG") return "Weapon (Dagger)"
 	if (type === "FLA") return "Weapon (Flail)"
