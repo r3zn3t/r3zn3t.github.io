@@ -82,7 +82,7 @@ function loadmonsters() {
 	// parse all the monster data
 	for (var i = 0; i < monsters.length; i++) {
 		var name = monsters[i].name;
-		var cookiename = document.cookie.split(";").pop();
+		var cookiename = decodeURIComponent(window.location.href.split("#").pop());
 		if(monsters[i].name === cookiename) {
 
 			var source = "";
@@ -268,7 +268,7 @@ function usemonster (id) {
 	monsters = monsterdata.compendium.monster;
 	var mon = monsters[id];
 	
-	var name = document.cookie.split(";").pop();
+	var name = decodeURIComponent(window.location.href.split("#").pop());
 	var source = "";
 	var origsource = "";
 	var type = "";
