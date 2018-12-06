@@ -91,6 +91,16 @@ var featdata = {
             ]
          },
 		 {
+            "name": "Arcane Armor",
+            "source": "Balasar's Guide to Exploration",
+			"prerequisite": "The ability to cast at least one spell",
+            "text": [
+               "You manifest magic around you, granting you additional protection. While you are not wearing any armor, your base AC equals 10 + your Dexterity modifier + your spellcasting ability modifier.",
+			   null,
+			   "Source: Balasar's Guide to Exploration, page 85",
+            ]
+         },
+		 {
             "name": "Arcanist",
             "source": "Unearthed Arcana: Feats",
             "text": [
@@ -274,6 +284,29 @@ var featdata = {
                "Source: Player's Handbook, page 165"
             ]
          },
+		 {
+            "name": "Conserve Momentum",
+            "source": "Balasar's Guide to Exploration",
+			"prerequisite": "The ability to use heavy weapons",
+            "text": [
+               "You're able to use the weight of heavier weapons to good use. If you miss with a melee attack while using a weapon with the heavy property, you can make an additional attack as a bonus action. The attack must be with within 5 feet of both the original target and yourself.",
+			   null,
+			   "Source: Balasar's Guide to Exploration, page 85",
+            ]
+         },
+		 {
+            "name": "Cover Master",
+            "source": "Balasar's Guide to Exploration",
+			"prerequisite": "",
+            "text": [
+               "You've learned that taking cover is key to survival, and you can use it to the best of your ability. You gain the following benefits:",
+			   "• Whenever you are behind cover that is light, such as shrubs and tall grass, you may treat it as half cover.",
+			   "• Whenever you are behind an object that is normally half cover, you may treat it as three-quarters cover.",
+			   "• Whenever you are behind an object that is normally three- quarters cover, you may treat it as full cover.",
+			   null,
+			   "Source: Balasar's Guide to Exploration, page 86",
+            ]
+         },
          {
             "name": "Crossbow Expert",
             "source": "Player's Handbook",
@@ -287,6 +320,19 @@ var featdata = {
                "• When you use the Attack action and attack with a one-handed weapon, you can use a bonus action to attack with a loaded hand crossbow you are holding.",
                null,
                "Source: Player's Handbook, page 165"
+            ]
+         },
+		 {
+            "name": "Dagger Master",
+            "source": "Balasar's Guide to Exploration",
+			"prerequisite": "",
+            "text": [
+               "You know the workings of a dagger, from the very point down to the end of the hilt. You gain the following benefits:",
+			   "• Any attack that hits a surprised creature with a dagger is considered an automatic critical hit.",
+			   "• You gain advantage on Dexterity (Sleight of Hand) checks in order to conceal your dagger.",
+			   "• You may conceal you dagger on your body. Any creature attempting to search you for weapons does so at disadvantage in order to find this weapon.",
+			   null,
+			   "Source: Balasar's Guide to Exploration, page 86",
             ]
          },
          {
@@ -988,6 +1034,18 @@ var featdata = {
                   null
                ]
             }
+         },
+		 {
+            "name": "Killshot",
+            "source": "Rob's Homebrew",
+			"prerequisite": "13+ Dexterity or 13+ Strength",
+            "text": [
+               "You apply a killing blow to a creature caught off guard.",
+			   "During a surprise round, against enemies with a CR equal to or lower than 1/2 your prof mod rounded down:",
+			   "When using a melee or ranged weapon, each attack that hits an enemy causes them to make a dexterity saving throw against the attack total. On a fail, you hit a vital spot and they are reduced to 0 hit points, on a success they take their normal damage.",
+			   null,
+			   "Source: Rob's Homebrew, page 1",
+            ]
          },
          {
             "name": "Lightly Armored",
