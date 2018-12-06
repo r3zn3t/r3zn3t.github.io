@@ -268,7 +268,7 @@ function usemonster (id) {
 	var mon = monsters[id];
 
 	var x = document.cookie;
-	//alert(x);
+	alert(window.location.href);
 	
 	var name = x;
 	var source = "";
