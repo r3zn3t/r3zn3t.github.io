@@ -81,8 +81,10 @@ function loadmonsters() {
 
 	// parse all the monster data
 	for (var i = 0; i < monsters.length; i++) {
+			var x = window.location;
+			loc = x.split("=").pop();
 		var name = monsters[i].name;
-		if(monsters[i].name === document.cookie){
+		if(monsters[i].name === "Abominable Yeti"{
 
 			var source = "";
 			var origsource = "";
@@ -266,11 +268,8 @@ function usemonster (id) {
 	$("#stats").html(tabledefault);
 	monsters = monsterdata.compendium.monster;
 	var mon = monsters[id];
-
-	var x = document.cookie;
-	alert(window.location.href);
 	
-	var name = x;
+	var name = document.cookie.split(";").pop();
 	var source = "";
 	var origsource = "";
 	var type = "";
