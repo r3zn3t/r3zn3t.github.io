@@ -10,6 +10,7 @@ function parsesource (src) {
 	if (source === "Plane Shift Kaladesh") source = "PSK";
 	if (source === "Middle Finger of Vecna") source = "MFoV";
 	if (source === "Rule of Law") source = "RoL";
+	if (source === "Balasar's Guide to Exploration") source = "BGE"
 	return source;
 }
 
