@@ -15,6 +15,7 @@ function parsesource (src) {
 	if (source == "Xanathar's Guide to Everything") source = "XGE";
 	if (source == "Plane Shift Kaladesh") source = "PSK";
 	if (source == "Tomb of Annihilation") source = "TOA";
+	if (source == "Rule of Law") source = "RoL";
 	return source;
 }
 
@@ -32,6 +33,7 @@ function parsesourcename (src) {
 	if (source == "Tales from the Yawning Portal") source = "Tales from the Yawning Portal";
 	if (source == "xanathar's guide") source = "Xanathar's Guide to Everything";
 	if (source == "tomb of annihilation") source = "Tomb of Annihilation";
+	if (source == "rule of law") source = "Rule of Law";
 	return source;
 }
 
@@ -82,40 +84,47 @@ function loadmonsters() {
 	// parse all the monster data
 	for (var i = 0; i < monsters.length; i++) {
 		var name = monsters[i].name;
-		if(monsters[i].name === document.cookie){
 
-			var source = "";
-			var origsource = "";
-			var type = "";
-			if (monsters[i].source === undefined) {
-				source = monsters[i].type.split(",");
-				type = source.slice(0, source.length-1).join(",")
-				type = type.split(", Volo's Guide")[0];
-				source = source[source.length - 1];
-			} else {
-				source = monsters[i].source;
-				type = monsters[i].type;
-			}
-			origsource = parsesourcename(source);
-			source = parsesource(source);
-
-			var cr = monsters[i].cr;
-
-
-			$("ul#monsters").append("<li id="+i+" data-link='"+encodeURIComponent(name).replace("'","%27")+"'><span class='name col-xs-4'>"+name+"</span> <span title=\""+origsource+"\" class='col-xs-2 source source"+source+"'>("+source+")</span> <span class='type col-xs-3'>"+type+"</span> <span class='col-xs-3 cr'>CR "+cr+" </span></li>");
-
-			if (!$("select.typefilter:contains('"+type+"')").length && !$("select.typefilter:contains('"+type+" \\(')").length) {
-				$("select.typefilter").append("<option value='"+type+"'>"+type+"</option>")
-			}
-			if (!$("select.sourcefilter option[value='"+parsesource(source)+"']").length) {
-				$("select.sourcefilter").append("<option title=\""+source+"\" value='"+parsesource(source)+"'>"+origsource+"</option>")
-			}
-			if (!$("select.crfilter option[value='"+cr+"']").length) {
-				$("select.crfilter").append("<option title=\""+cr+"\" value='"+cr+"'>"+cr+"</option>")
-			}
+		var source = "";
+		var origsource = "";
+		var type = "";
+		if (monsters[i].source === undefined) {
+			source = monsters[i].type.split(",");
+			type = source.slice(0, source.length-1).join(",")
+			type = type.split(", Volo's Guide")[0];
+			source = source[source.length - 1];
+		} else {
+			source = monsters[i].source;
+			type = monsters[i].type;
 		}
-	}
+		origsource = parsesourcename(source);
+		source = parsesource(source);
 
+		var cr = monsters[i].cr;
+		var mount = monsters[i].mount;
+		var npc = monsters[i].npc;
+		var ismount = "";
+		if (mount === "YES") ismount = "mount";
+		var isnpc = "";
+		if (npc === "YES") isnpc = "npc";
+
+
+		$("ul#monsters").append("<li id="+i+" data-link='"+encodeURIComponent(name).replace("'","%27")+"'><span class='name col-xs-4'>"+name+"</span> <span title=\""+origsource+"\" class='col-xs-2 source source"+source+"'>("+source+")</span> <span class='type col-xs-3'>"+type+"</span> <span class='col-xs-3 cr'>CR "+cr+" </span><span class='mount'>"+ismount+"</span><span class='npc'>"+isnpc+"</span></li>");
+
+		if (!$("select.typefilter:contains('"+type+"')").length && !$("select.typefilter:contains('"+type+" \\(')").length) {
+			$("select.typefilter").append("<option value='"+type+"'>"+type+"</option>")
+		}
+		if (!$("select.sourcefilter option[value='"+parsesource(source)+"']").length) {
+			$("select.sourcefilter").append("<option title=\""+source+"\" value='"+parsesource(source)+"'>"+origsource+"</option>")
+		}
+		if (!$("select.crfilter option[value='"+cr+"']").length) {
+			$("select.crfilter").append("<option title=\""+cr+"\" value='"+cr+"'>"+cr+"</option>")
+		}
+		
+	
+	}
+	$("select.npcfilter").append("<option value='npc'>NPC's</option>")
+	$("select.mountfilter").append("<option value='mount'>Mounts</option>")
 	$("select.typefilter").append("<option value='fiend'>fiend</option>")
 	$("select.typefilter").append("<option value='giant'>giant</option>")
 	$("select.typefilter").append("<option value='humanoid'>humanoid</option>")
@@ -132,7 +141,7 @@ function loadmonsters() {
 	$("select.crfilter option[value=0]").before($("select.crfilter option[value=All]"))
 
 	var options = {
-		valueNames: ['name', 'source', 'type', 'cr']
+		valueNames: ['name', 'source', 'type', 'cr', 'mount', 'npc']
 	}
 
 	var monlist = new List("monstercontainer", options)
@@ -163,12 +172,16 @@ function loadmonsters() {
 		var sourcefilter = $("select.sourcefilter").val();
 		var crfilter = "CR "+$("select.crfilter").val()+" ";
 		var thirdpartyfilter = $("select.3ppfilter").val();
+		var mountfilter = $("select.mountfilter").val();
+		var npcfilter = $("select.npcfilter").val();
 
 		monlist.filter(function(item) {
 			var righttype = false;
 			var rightsource = false;
 			var rightcr = false;
 			var rightparty = false;
+			var rightmount = false;
+			var rightnpc =  false
 
 			if (typefilter === "All" || item.values().type === typefilter) righttype = true;
 			if (sourcefilter === "All" || item.values().source === "("+sourcefilter+")") rightsource = true;
@@ -176,7 +189,11 @@ function loadmonsters() {
 			if (thirdpartyfilter === "All") rightparty = true;
 			if (thirdpartyfilter === "None" && item.values().source.indexOf("3pp") === -1) rightparty = true;
 			if (thirdpartyfilter === "Only" && item.values().source.indexOf("3pp") !== -1) rightparty = true;
-			if (righttype && rightsource && rightcr && rightparty) return true;
+			if (mountfilter === "All" || item.values().mount === mountfilter) rightmount = true;
+			if (mountfilter ===  "Mounts" || item.values().mount === "YES") rightmount = true;
+			if (npcfilter === "All" || item.values().npc === npcfilter) rightnpc = true;
+			if (npcfilter ===  "NPC's" || item.values().npc === "YES") rightnpc = true;
+			if (righttype && rightsource && rightcr && rightparty && rightmount && rightnpc) return true;
 			return false;
 		});
 	});
@@ -248,6 +265,14 @@ function sortmonsters(a, b, o) {
 		if (bcr === "0") bcr = "-4";
 		return (parseInt(bcr) > parseInt(acr)) ? 1 : -1;
 	}
+	
+	if (o.valueName === "mount") {
+		return ((b._values.mount.toLowerCase()) > (a._values.mount.toLowerCase())) ? 1 : -1;
+	}
+	
+	if (o.valueName === "npc") {
+		return ((b._values.npc.toLowerCase()) > (a._values.npc.toLowerCase())) ? 1 : -1;
+	}
 
 	return 1;
 
@@ -267,13 +292,13 @@ function usemonster (id) {
 	monsters = monsterdata.compendium.monster;
 	var mon = monsters[id];
 
-	var x = document.cookie;
-	alert(window.location.href);
-	
-	var name = x;
+	var name = mon.name;
+	getcookiemonster(name);
 	var source = "";
 	var origsource = "";
 	var type = "";
+	var ismount = "";
+	var mount = monsters[id].mount;
 	if (mon.source === undefined) {
 		source = mon.type.split(",");
 		type = source.slice(0, source.length-1).join(",")
@@ -293,8 +318,7 @@ function usemonster (id) {
 		this.src = "img/default.png";
 	}
 	
-	
-	$("th#name").html("<span title=\""+origsource+"\" class='source source"+source+"'>"+source+"<br></span> <a href='img/"+source+"/"+name+".png' target='_blank'>"+name+"</a>");
+	$("th#name").html("<span title=\""+origsource+"\" class='source source"+source+"'>"+source+"<br></span> <a href='img/"+source+"/"+name+".png' target='_blank'><img src='img/"+source+"/"+name+".png' class='token' onerror='imgError(this)'></a>"+"<a href='statblock.html?="+name+"'>"+name+"</a>");
 	
 	var size = parsesize (mon.size);
 	$("td span#size").html(size);
@@ -303,10 +327,10 @@ function usemonster (id) {
 
 	var alignment = mon.alignment;
 	$("td span#alignment").html(alignment);
-
+	
 	var value = mon.value;
 	$("td span#value").html(value);
-	
+
 	var ac = mon.ac;
 	$("td span#ac").html(ac);
 
