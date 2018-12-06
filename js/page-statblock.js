@@ -81,10 +81,9 @@ function loadmonsters() {
 
 	// parse all the monster data
 	for (var i = 0; i < monsters.length; i++) {
-			var x = window.location;
-			loc = x.split("=").pop();
 		var name = monsters[i].name;
-		if(monsters[i].name === "Abominable Yeti"{
+		var cookiename = document.cookie.split(";").pop();
+		if(monsters[i].name === cookiename) {
 
 			var source = "";
 			var origsource = "";
