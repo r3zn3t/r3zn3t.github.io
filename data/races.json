@@ -377,7 +377,7 @@ var racedata = {
             "name": "Genasi (Ice)",
             "source": "Balasar's Guide to Exploration",
             "size": "M",
-            "speed": "30 ft.",
+            "speed": "30",
             "ability": "Con 2, Wis 1",
             "trait": [
                {
@@ -404,7 +404,7 @@ var racedata = {
             "name": "Genasi (Magma)",
             "source": "Balasar's Guide to Exploration",
             "size": "M",
-            "speed": "30 ft.",
+            "speed": "30",
             "ability": "Con 2, Str 1",
             "trait": [
                {
@@ -431,7 +431,7 @@ var racedata = {
             "name": "Genasi (Ooze)",
             "source": "Balasar's Guide to Exploration",
             "size": "M",
-            "speed": "30 ft.",
+            "speed": "30",
             "ability": "Con 2, Cha 1",
             "trait": [
                {
@@ -460,7 +460,7 @@ var racedata = {
             "size": "M",
 			"age": "",
 			"alignment": "",
-            "speed": "30 ft.",
+            "speed": "30",
             "ability": "Con 2, Dex 1",
             "trait": [
                {
