@@ -30,7 +30,7 @@
 					 {
 						"name": "Sub Template: Another Template Flavor",
 						"text": [
-							"This would be a sub template with iptional features from the main template, if applicable.",
+							"This would be a sub template with optional features from the main template, if applicable.",
 						],
 						"subclass": "Sub Template: Another Template Flavor",
 						"parent": "Sub Template",
@@ -47,5 +47,6 @@
 						],
 						"subclass": "Sub Template: Another Template Flavor",
 						"parent": "Another Template Flavor",
+						"suboption": "YES",
 						"_optional": "YES"
 					 },					
