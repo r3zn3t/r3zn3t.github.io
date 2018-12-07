@@ -373,6 +373,116 @@ var racedata = {
                }
             ]
          },
+		 {
+            "name": "Genasi (Ice)",
+            "source": "Balasar's Guide to Exploration",
+            "size": "M",
+            "speed": "30 ft.",
+            "ability": "Con 2, Wis 1",
+            "trait": [
+               {
+                  "name": "Cold Resistance",
+                  "text": [
+                     "You have resistance to cold damage.",
+                  ]
+               },
+			   {
+                  "name": "Evaporate",
+                  "text": [
+                     "You can cast the <i>misty step</i> spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest.",
+                  ]
+               },
+			   {
+                  "name": "Languages",
+                  "text": [
+                     "You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.",
+                  ]
+               },
+            ]
+         },
+		 {
+            "name": "Genasi (Magma)",
+            "source": "Balasar's Guide to Exploration",
+            "size": "M",
+            "speed": "30 ft.",
+            "ability": "Con 2, Str 1",
+            "trait": [
+               {
+                  "name": "Fire Resistance",
+                  "text": [
+                     "You have resistance to fire damage.",
+                  ]
+               },
+			   {
+                  "name": "Supreme Heat",
+                  "text": [
+                     "You can cast the <i>heat metal</i> spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.",
+                  ]
+               },
+			   {
+                  "name": "Languages",
+                  "text": [
+                     "You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.",
+                  ]
+               },
+            ]
+         },
+		 {
+            "name": "Genasi (Ooze)",
+            "source": "Balasar's Guide to Exploration",
+            "size": "M",
+            "speed": "30 ft.",
+            "ability": "Con 2, Cha 1",
+            "trait": [
+               {
+                  "name": "Slippery Skin",
+                  "text": [
+                     "You have advantage on escape checks against being restrained or grappled.",
+                  ]
+               },
+			   {
+                  "name": "Mud Suction",
+                  "text": [
+                     "You can cast the hold person spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.",
+                  ]
+               },
+			   {
+                  "name": "Languages",
+                  "text": [
+                     "You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.",
+                  ]
+               },
+            ]
+         },
+		 {
+            "name": "Genasi (Smoke)",
+            "source": "Balasar's Guide to Exploration",
+            "size": "M",
+			"age": "",
+			"alignment": "",
+            "speed": "30 ft.",
+            "ability": "Con 2, Dex 1",
+            "trait": [
+               {
+                  "name": "Smog Walk",
+                  "text": [
+                     "You can move across difficult terrain without expending any extra movement.",
+                  ]
+               },
+			   {
+                  "name": "Dissipate",
+                  "text": [
+                     "You can cast the blur spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.",
+                  ]
+               },
+			   {
+                  "name": "Languages",
+                  "text": [
+                     "You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.",
+                  ]
+               },
+            ]
+         },
          {
             "name": "Gnome (Forest)",
             "source": "Player's Handbook",
@@ -1713,6 +1823,47 @@ var racedata = {
                      "You can read and write Common and Auran, but you can speak only using your Mimicry trait"
                   ]
                }
+            ]
+         },
+		 {
+            "name": "Kitsune",
+            "source": "Balasar's Guide to Exploration",
+			"age": "120",
+			"alignment": "Usually Chaotic",
+            "size": "M",
+            "speed": "30",
+            "ability": "Dex 2, Wis 1, Cha 1",
+            "trait": [
+               {
+                  "name": "Natural Weapon",
+                  "text": [
+                     "Your bite attack does 1d4 piercing damage. You are proficient with this weapon.",
+                  ]
+               },
+			   {
+                  "name": "Darkvision",
+                  "text": [
+                     "You can see in dim light within 60 feet of you as if it were bright light. In darkness, you can see for 60 feet in it as if it were dim light. You can’t discern color in darkness, only shades of gray.",
+                  ]
+               },
+			   {
+                  "name": "Skirmisher",
+                  "text": [
+                     "You have advantage on checks against being restrained or grappled.",
+                  ]
+               },
+			   {
+                  "name": "Silver tongue",
+                  "text": [
+                     "You gain proficiency with the Deception skill.",
+                  ]
+               },
+			   {
+                  "name": "Languages",
+                  "text": [
+                     "You can speak, read, and write Common, and Sylvan.",
+                  ]
+               },
             ]
          },
          {
