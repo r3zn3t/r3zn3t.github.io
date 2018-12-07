@@ -11,6 +11,7 @@ function parsesource (src) {
 	if (source === "Unearthed Arcana: That Old Black Magic") source = "UA TOBM";
 	if (source === "Unearthed Arcana: Gothic Heroes") source = "UA Gh";
 	if (source === "Xanathar's Lost Notes to Everything Else") source = "XLN";
+	if (source === "Balasar's Guide to Exploration") source = "BGE";
 	return source;
 }
 
@@ -139,14 +140,22 @@ function userace (id) {
 
 	var size = parsesize (currace.size);
 	$("td#size span").html(size);
-	if (size === "") $("td#size").hide();
-
+	if (size === undefined || size === "") $("td#size").hide();
+	
+	var age = currace.age;
+	$("td#age span").html("Up to "+age+" years");
+	if (age === undefined || age === "") $("td#age").hide();
+	
+	var alignment =  currace.alignment;
+	$("td#alignment span").html(alignment);
+	if (alignment === undefined || alignment === "") $("td#alignment").hide();
+	
 	var ability = currace.ability.replace(/(?:\s)(\d)/g, " +$1");
 	$("td#ability span").html(ability);
 
 	var speed = currace.speed;
 	$("td#speed span").html(speed+ "ft. ");
-	if (speed === "") $("td#speed").hide();
+	if (speed === undefined || speed === "") $("td#speed").hide();
 
 	var traitlist = currace.trait;
 	$("tr.trait").remove();
