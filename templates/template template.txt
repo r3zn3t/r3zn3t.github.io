@@ -1,0 +1,51 @@
+		// Template template
+	     {
+            "name": "Test Template",
+            "flavor": [
+				"This is a test of the nested flavor text system. Possibly lots of text here."
+			],
+            "autolevel": [
+               {
+                  "feature": [
+                     {
+                        "name": "Some Feature",
+                        "text": [
+                           "Some Feature Text",
+                        ]
+                     },
+					 {
+                        "name": "Another Feature",
+                        "text": [
+                           "More Feature Text",
+                        ]
+                     },
+                  ],
+                  "_level": "1"
+               },
+            ],
+         },
+		 
+		 
+					//Subtemplate Template
+					 {
+						"name": "Sub Template: Another Template Flavor",
+						"text": [
+							"This would be a sub template with iptional features from the main template, if applicable.",
+						],
+						"subclass": "Sub Template: Another Template Flavor",
+						"parent": "Sub Template",
+						"issubclass": "YES",
+						"_optional": "YES"
+					},
+					
+					
+					//Subtemplate feature
+					{
+						"name": "Another Template Flavor: ",
+						"text": [
+							"",
+						],
+						"subclass": "Sub Template: Another Template Flavor",
+						"parent": "Another Template Flavor",
+						"_optional": "YES"
+					 },					
