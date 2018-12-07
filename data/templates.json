@@ -1,0 +1,51 @@
+var templatedata = {
+   "compendium": {
+      "template": [
+	     {
+            "name": "Test Template",
+            "flavor": [
+				"This is a test of the nested flavor text system. Possibly lots of text here."
+			],
+            "autolevel": [
+               {
+                  "feature": [
+                     {
+                        "name": "Some Feature",
+                        "text": [
+                           "Some Feature Text",
+                        ]
+                     },
+					 {
+                        "name": "Another Feature",
+                        "text": [
+                           "More Feature Text",
+                        ]
+                     },
+					 {
+						"name": "Sub Template: Another Template Flavor",
+						"text": [
+							"This would be a sub template with iptional features from the main template, if applicable.",
+						],
+						"subclass": "Sub Template: Another Template Flavor",
+						"parent": "Sub Template",
+						"issubclass": "YES",
+						"_optional": "YES"
+					},
+					{
+						"name": "Another Template Flavor: Ultra template Attack",
+						"text": [
+							"This is the subtemplate ultra attack!",
+						],
+						"subclass": "Sub Template: Another Template Flavor",
+						"parent": "Another Template Flavor",
+						"_optional": "YES"
+					 },
+                  ],
+                  "_level": "1"
+               },
+            ],
+         },
+
+      ],
+   }
+}
