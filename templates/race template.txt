@@ -2,6 +2,8 @@
 		 {
             "name": "",
             "source": "",
+			"age": "",
+			"alignment": "",
             "size": "M",
             "speed": "",
             "ability": "Dex 2, Wis 1",
