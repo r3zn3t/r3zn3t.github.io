@@ -285,6 +285,17 @@ var featdata = {
             ]
          },
 		 {
+            "name": "Combat Champion",
+            "source": "Balasar's Guide to Exploration",
+			"prerequisite": "",
+            "text": [
+               "You know exactly what it takes to survive on the battlefield - training and reflexes. To be better than your opponent is to push yourself further in training.",
+			   "You learn on fighting style of your choice from the fighter class. You cannot learn a fighting style that you already have picked before. ",
+			   null,
+			   "Source: Balasar's Guide to Exploration, page 85",
+            ]
+         },
+		 {
             "name": "Conserve Momentum",
             "source": "Balasar's Guide to Exploration",
 			"prerequisite": "The ability to use heavy weapons",
@@ -637,7 +648,16 @@ var featdata = {
 			   "Source: Xanathar's Guide to Everything",
             ]
          },
-
+		 {
+            "name": "Dual Caster",
+            "source": "Rob's Homebrew",
+			"prerequisite": "The ability to cast cantrips",
+            "text": [
+               "You have mastered the ability to cast multiple spells at once. When you use an action to cast a cantrip, you can also use your bonus action to cast a second cantrip. ",
+			   null,
+			   "Source: Rob's Homebrew, page 1",
+            ]
+         },	
          {
             "name": "Dual Wielder",
             "source": "Player's Handbook",
@@ -738,7 +758,6 @@ var featdata = {
 			   "Source: Unearthed Arcana - Feats",
             ]
          },
-
 		 {
             "name": "Empathetic",
             "source": "Unearthed Arcana: Feats",
@@ -748,6 +767,17 @@ var featdata = {
 			   "• You gain proficiency in the Insight skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it. ",
 			   "• You can use your action to try to get uncanny insight about one humanoid you can see within 30 feet of you. Make a Wisdom (Insight) check contested by the target's Charisma (Deception) check. If your check succeeds, you have advantage on attack rolls and ability checks against the target until the end of your next turn. ",
 			   "Source: Unearthed Arcana - Feats",
+            ]
+         },
+		 {
+            "name": "Endure Pain",
+            "source": "Balasar's Guide to Exploration",
+			"prerequisite": "Charisma or Constitution of 13 or higher",
+            "text": [
+               "You can handle more pain than most people could. When you reach 0 hit points, you do not fall unconscious until you fail your first death saving throw.", 
+			   "While dying in this state, you cannot make reactions, cannot take the Move action, and cannot take the Attack action.",
+			   null,
+			   "Source: Balasar's Guide to Exploration, page 86",
             ]
          },
 		 {
@@ -1009,6 +1039,18 @@ var featdata = {
 			   "• You gain proficiency in the Investigation skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
 			   "• You can take the Search action as a bonus action. ",
 			   "Source: Unearthed Arcana - Feats",
+            ]
+         },
+		 {
+            "name": "Irrepressible",
+            "source": "Balasar's Guide to Exploration",
+			"prerequisite": "Proficiency in chosen saving throw",
+            "text": [
+               "You are an unstoppable force in the face of adversity. You can the following benefits:",
+			   "• Increase your chosen ability score by 1, to a maximum of 20.",
+			   "• You add twice your proficiency bonus to the chosen ability saving throw, instead of your normal proficiency bonus. ",
+			   null,
+			   "Source: Balasar's Guide to Exploration, page 86",
             ]
          },
          {
