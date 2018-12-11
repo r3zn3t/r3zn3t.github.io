@@ -18,10 +18,10 @@ var templatedata = {
 						   "<b><i>Size and Type: </i></b> The creature's type changes to undead. Do not recalculate attack bonuses, saves, or skills. The creature's size remains unchanged.",
 						   "<b><i>Hit Dice: </i></b> Humanoids - based on class. Monsters - based on size.",
 						   "<b><i>Speed: </i></b> Same as the base creature. If the base creature has a swim speed, the vampire retains the ability to swim and is not vulnerable to immersion in running water.",
-						   "<b><i>AC Bonus: </i></b> Per variation (Spawn, Full, Master)",
-						   "<b><i>Ability Point Bonus: </i></b> Per variation (Spawn, Full, Master)",
-						   "<b><i>Skills: </i></b> Per variation (Spawn, Full, Master)",
-						   "<b><i>Feats: </i></b> Per variation (Spawn, Full, Master)",
+						   "<b><i>AC Bonus: </i></b> Per variation (Spawn, Full, Lord)",
+						   "<b><i>Ability Point Bonus: </i></b> Per variation (Spawn, Full, Lord)",
+						   "<b><i>Skills: </i></b> Per variation (Spawn, Full, Lord)",
+						   "<b><i>Feats: </i></b> Per variation (Spawn, Full, Lord)",
 						   "<b><i>Damage Resistance: </i></b> Vampires are resistant to cold and electric damage, as well as damage taken by non-magical weapons. Silvered weapons will damage them, though the level of silvering affects each variation of Vampire differently. <br>&nbsp;&nbsp;&nbsp; • <i>Silvered (Plated)</i> - You can silver a single weapon or ten pieces of ammunition for 100 gp. <br>&nbsp;&nbsp;&nbsp; • <i>Silvered (Enchanted)</i> - A silvered (plated) weapon that is enchanted to a level of  +1 or better. <br>&nbsp;&nbsp;&nbsp; • <i>Silvered (Blessed)</i> - A silvered (plated) weapon blessed by a Cleric of a good-aligned deity by way of the <i>Ceremony</i> Spell.",
 						   "<b><i>Damage Immunities:</i></b> Vampires (all variations) are immune to necrotic damage.",
 						   "<b><i>Attack:</i></b> A vampire retains all the attacks of the base creature and also gains a claw attack if it didn’t already have one. If the base creature can use weapons, the vampire retains this ability. A creature with natural weapons retains those natural weapons. A vampire fighting without weapons uses its claw attack or other natural weapons (if it has any). A vampire armed with a weapon uses its claws, other natural weapons, or weapon, whichever it desires.",
@@ -86,7 +86,7 @@ var templatedata = {
 							"</table>",
 							"<b><i>Bite/Drain Attack:</i></b> Vampires feed off the blood life force of living creatures, draining blood with a bite attack that renders their victims helpless. A vampire is able to bite a willing creature, a creature that is incapacitated, or a creature that has been grappled by the vampire.",
 							"&nbsp;&nbsp;&nbsp; • The bite attack does necrotic and piercing damage (amount per variant) which reduces the target's hit point maximum by the amount of necrotic damage taken - the vampire gains an equal amount of temporary hit points as the amount of necrotic damage dealt by this attack. <br>&nbsp;&nbsp;&nbsp; • The bitten creature remains grappled, and can re-roll their check to break the grapple each round on their turn - if they fail, the vampire can continue to drain them by dealing piercing and necrotic damage each round, further reducing the creature's hit points and gaining temporary hit points. <br>&nbsp;&nbsp;&nbsp; • The reduction in the bitten creatures' hit points lasts until the creature finishes a long rest - a creature whose hit points are reduced to 0 in this manner dies. <br>&nbsp;&nbsp;&nbsp; • A creature slain in this manner rises the following night as a vampire spawn under the vampire's control (not applicable for spawn variation).",
-							"<b><i>Abilities:</i></b> <br>&nbsp;&nbsp;&nbsp; • <i>Spider Climb:</i> Per variant (Spawn, Full, Master) <br>&nbsp;&nbsp;&nbsp; • <i>Regeneration:</i> Per variant (Spawn, Full, Master)",
+							"<b><i>Abilities:</i></b> <br>&nbsp;&nbsp;&nbsp; • <i>Spider Climb:</i> Per variant (Spawn, Full, Lord) <br>&nbsp;&nbsp;&nbsp; • <i>Regeneration:</i> Per variant (Spawn, Full, Lord)",
                         ]
                      },
 					 {
@@ -100,21 +100,21 @@ var templatedata = {
 						"_optional": "YES"
 					},
 					{
-						"name": "Creating a Vampire: Full Vampire",
+						"name": "Creating a Vampire: Vampire",
 						"text": [
 							"This is a full vampire.",
 						],
-						"subclass": "Creating a Vampire: Full Vampire",
+						"subclass": "Creating a Vampire: Vampire",
 						"parent": "Creating a Vampire",
 						"issubclass": "YES",
 						"_optional": "YES"
 					},
 					{
-						"name": "Creating a Vampire: Master Vampire",
+						"name": "Creating a Vampire: Vampire Lord",
 						"text": [
-							"This is a master vampire.",
+							"This is a vampire lord.",
 						],
-						"subclass": "Creating a Vampire: Master Vampire",
+						"subclass": "Creating a Vampire: Vampire Lord",
 						"parent": "Creating a Vampire",
 						"issubclass": "YES",
 						"_optional": "YES"
@@ -133,7 +133,7 @@ var templatedata = {
 					 {
                         "name": "Slaying a Vampire",
                         "text": [
-                           "When a Full or Master Vampire drops to 0 Hit Points outside its Resting place, it transforms into a cloud of mist instead of falling unconscious, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.", 
+                           "When a Vampire or Vampire Lord drops to 0 Hit Points outside its Resting place, it transforms into a cloud of mist instead of falling unconscious, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.", 
 						   "While it has 0 Hit Points in mist form, it can't revert to its vampire form, and it must reach its Resting place within 2 hours or be destroyed. Once in its Resting place, it reverts to its vampire form. It is then Paralyzed until it regains at least 1 hit point.",
 						   "After spending 1 hour in its Resting place with 0 Hit Points, it regains 1 hit point.",
                         ]
