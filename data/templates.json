@@ -112,7 +112,7 @@ var templatedata = {
 					{
 						"name": "Creating a Vampire: Master Vampire",
 						"text": [
-							"This is a full vampire.",
+							"This is a master vampire.",
 						],
 						"subclass": "Creating a Vampire: Master Vampire",
 						"parent": "Creating a Vampire",
