@@ -90,6 +90,36 @@ var templatedata = {
                         ]
                      },
 					 {
+						"name": "Creating a Vampire: Vampire Spawn",
+						"text": [
+							"This is a vampire spawn.",
+						],
+						"subclass": "Creating a Vampire: Vampire Spawn",
+						"parent": "Creating a Vampire",
+						"issubclass": "YES",
+						"_optional": "YES"
+					},
+					{
+						"name": "Creating a Vampire: Full Vampire",
+						"text": [
+							"This is a full vampire.",
+						],
+						"subclass": "Creating a Vampire: Full Vampire",
+						"parent": "Creating a Vampire",
+						"issubclass": "YES",
+						"_optional": "YES"
+					},
+					{
+						"name": "Creating a Vampire: Master Vampire",
+						"text": [
+							"This is a full vampire.",
+						],
+						"subclass": "Creating a Vampire: Master Vampire",
+						"parent": "Creating a Vampire",
+						"issubclass": "YES",
+						"_optional": "YES"
+					},
+					 {
                         "name": "Vampire Weaknesses",
                         "text": [
                            "All variations of Vampire have the following weaknesses unless otherwise noted in their variation:",
