@@ -2,44 +2,119 @@ var templatedata = {
    "compendium": {
       "template": [
 	     {
-            "name": "Test Template",
+            "name": "Vampire (RHB)",
             "flavor": [
-				"This is a test of the nested flavor text system. Possibly lots of text here."
+				"&nbsp;&nbsp;&nbsp; Vampires are pale, humanoid beings who are neither dead nor alive. They are Undead, feeding from the life force of living things. They have dark, even reddish eyes and long, sharp fangs that can be retracted at will. They are known for their strength, speed, and charm, which can be a very deadly combination. Apart from their gained undead appearance, they look very similar to whatever they looked like in life. <br><br> &nbsp;&nbsp;&nbsp; Like liches, they often embrace finery and decadence and may assume the guise of nobility. Despite their human appearance, vampires can be easily recognized, for they cast no shadows and throw no reflections in mirrors."
 			],
             "autolevel": [
                {
                   "feature": [
                      {
-                        "name": "Some Feature",
+                        "name": "Creating a Vampire",
                         "text": [
-                           "Some Feature Text",
+                           "'Vampire' is an acquired template that can be added to any humanoid or monstrous humanoid creature (referred to hereafter as the base creature).",
+						   "<b><i>Class Features: </i></b> A vampire uses all the base creatures statistics and special abilities except as noted. Vampires speak any languages they knew in life.",
+						   "<b><i>Alignment:</i></b> Vampires are always of evil alignment (any).",
+						   "<b><i>Size and Type: </i></b> The creature's type changes to undead. Do not recalculate attack bonuses, saves, or skills. The creature's size remains unchanged.",
+						   "<b><i>Hit Dice: </i></b> Humanoids - based on class. Monsters - based on size.",
+						   "<b><i>Speed: </i></b> Same as the base creature. If the base creature has a swim speed, the vampire retains the ability to swim and is not vulnerable to immersion in running water.",
+						   "<b><i>AC Bonus: </i></b> Per variation (Spawn, Full, Master)",
+						   "<b><i>Ability Point Bonus: </i></b> Per variation (Spawn, Full, Master)",
+						   "<b><i>Skills: </i></b> Per variation (Spawn, Full, Master)",
+						   "<b><i>Feats: </i></b> Per variation (Spawn, Full, Master)",
+						   "<b><i>Damage Resistance: </i></b> Vampires are resistant to cold and electric damage, as well as damage taken by non-magical weapons. Silvered weapons will damage them, though the level of silvering affects each variation of Vampire differently. <br>&nbsp;&nbsp;&nbsp; • <i>Silvered (Plated)</i> - You can silver a single weapon or ten pieces of ammunition for 100 gp. <br>&nbsp;&nbsp;&nbsp; • <i>Silvered (Enchanted)</i> - A silvered (plated) weapon that is enchanted to a level of  +1 or better. <br>&nbsp;&nbsp;&nbsp; • <i>Silvered (Blessed)</i> - A silvered (plated) weapon blessed by a Cleric of a good-aligned deity by way of the <i>Ceremony</i> Spell.",
+						   "<b><i>Damage Immunities:</i></b> Vampires (all variations) are immune to necrotic damage.",
+						   "<b><i>Attack:</i></b> A vampire retains all the attacks of the base creature and also gains a claw attack if it didn’t already have one. If the base creature can use weapons, the vampire retains this ability. A creature with natural weapons retains those natural weapons. A vampire fighting without weapons uses its claw attack or other natural weapons (if it has any). A vampire armed with a weapon uses its claws, other natural weapons, or weapon, whichever it desires.",
+						   "<b><i>Claw Attack:</i></b> A vampire fighting without weapons uses either its claws or its natural weapons (if it has any). If armed with a weapon, it usually uses the weapon as its primary attack along with its claws or other natural weapon as a secondary attack.  For the claw attack, use the appropriate damage value from the table below according to the vampire’s size, adding any additional modifiers. Creatures that have other kinds of natural weapons retain their old damage values or use the appropriate value from the table below, whichever is better. <br>&nbsp;&nbsp;&nbsp; • When a vampire successfully hits a creature with a claw attack, it can also make an attempt to grapple its target (DC per variant).",
+						   "<style>table#mytable tr:nth-child(odd){background-color:#dddddd;} table#mytable th{text-align:center;} th#myheader{background-color:#fdf1dc;} table#mytable tr{text-align:center;}",
+							"</style>",
+							"<table id='mytable'>",
+								"<tr>",
+									"<th class='border' colspan='8'></th>",
+								"</tr",
+								"<tr>",
+									"<th id='myheader' colspan='4' style='font-size:15px'>Claw Attack Damage Table</th>",
+									"<th id='myheader' colspan='5'></th>",
+								"</tr>",
+								"<tr>",
+									"<th id='myheader' colspan='4'></th>",
+									"<th id='myheader' colspan='4'></th>",
+								"</tr>",
+								"<tr>",
+									"<th id='myheader'><b>Size</b></th>",
+									"<th id='myheader'><b>Damage</b></th>",
+								"</tr>",
+								"<tr>",
+									"<td>Fine</td>",
+									"<td>1</td>",
+								"</tr>",
+								"<tr>",
+									"<td>Diminutive</td>",
+									"<td>1d2</td>",
+								"</tr>",
+								"<tr>",
+									"<td>Tiny</td>",
+									"<td>1d3</td>",
+								"</tr>",
+								"<tr>",
+									"<td>Small</td>",
+									"<td>1d4</td>",
+								"</tr>",
+								"<tr>",
+									"<td>Medium</td>",
+									"<td>1d6</td>",
+								"</tr>",
+								"<tr>",
+									"<td>Large</td>",
+									"<td>2d6</td>",
+								"</tr>",
+								"<tr>",
+									"<td>Huge</td>",
+									"<td>3d6</td>",
+								"</tr>",
+								"<tr>",
+									"<td>Gargantuan</td>",
+									"<td>4d6</td>",
+								"</tr>",
+								"<tr>",
+									"<td>Colossal</td>",
+									"<td>5d6</td>",
+								"</tr>",
+								"<tr>",
+									"<th class='border' colspan='8'></th>",
+								"</tr>",
+							"</table>",
+							"<b><i>Bite/Drain Attack:</i></b> Vampires feed off the blood life force of living creatures, draining blood with a bite attack that renders their victims helpless. A vampire is able to bite a willing creature, a creature that is incapacitated, or a creature that has been grappled by the vampire.",
+							"&nbsp;&nbsp;&nbsp; • The bite attack does necrotic and piercing damage (amount per variant) which reduces the target's hit point maximum by the amount of necrotic damage taken - the vampire gains an equal amount of temporary hit points as the amount of necrotic damage dealt by this attack. <br>&nbsp;&nbsp;&nbsp; • The bitten creature remains grappled, and can re-roll their check to break the grapple each round on their turn - if they fail, the vampire can continue to drain them by dealing piercing and necrotic damage each round, further reducing the creature's hit points and gaining temporary hit points. <br>&nbsp;&nbsp;&nbsp; • The reduction in the bitten creatures' hit points lasts until the creature finishes a long rest - a creature whose hit points are reduced to 0 in this manner dies. <br>&nbsp;&nbsp;&nbsp; • A creature slain in this manner rises the following night as a vampire spawn under the vampire's control (not applicable for spawn variation).",
+							"<b><i>Abilities:</i></b> <br>&nbsp;&nbsp;&nbsp; • <i>Spider Climb:</i> Per variant (Spawn, Full, Master) <br>&nbsp;&nbsp;&nbsp; • <i>Regeneration:</i> Per variant (Spawn, Full, Master)",
                         ]
                      },
 					 {
-                        "name": "Another Feature",
+                        "name": "Vampire Weaknesses",
                         "text": [
-                           "More Feature Text",
+                           "All variations of Vampire have the following weaknesses unless otherwise noted in their variation:",
+						   "<b><i>Holy Symbol:</i></b> A vampire cannot tolerate a strongly presented Holy Symbol, and will recoil from it - it is not harmed, simply held at bay. The vampire cannot touch or make melee attacks against the creature holding the Holy Symbol while the Symbol is being presented in this manner.",
+						   "<b><i>Forbiddance:</i></b> The vampire can't enter a residence without an invitation from one of the occupants.",
+						   "<b><i>Harmed by Running Water:</i></b> The vampire takes 20 acid damage if it ends its turn in running water.",
+						   "<b><i>Stake to the Heart:</i></b> If a piercing weapon made of wood is driven into the vampire's heart while the vampire is Incapacitated in its Resting place, the vampire is Paralyzed until the stake is removed.",
+						   "<b><i>Sunlight Hypersensitivity:</i></b> When a vampire starts its turn in sunlight for the first time, it takes half its hit points in damage, and takes 20 radiant damage on every successive turn it starts in sunlight. While in sunlight, it has disadvantage on Attack rolls, Ability Checks, and Saving Throws.",
                         ]
                      },
 					 {
-						"name": "Sub Template: Another Template Flavor",
-						"text": [
-							"This would be a sub template with iptional features from the main template, if applicable.",
-						],
-						"subclass": "Sub Template: Another Template Flavor",
-						"parent": "Sub Template",
-						"issubclass": "YES",
-						"_optional": "YES"
-					},
-					{
-						"name": "Another Template Flavor: Ultra template Attack",
-						"text": [
-							"This is the subtemplate ultra attack!",
-						],
-						"subclass": "Sub Template: Another Template Flavor",
-						"parent": "Another Template Flavor",
-						"_optional": "YES"
-					 },
+                        "name": "Slaying a Vampire",
+                        "text": [
+                           "When a Full or Master Vampire drops to 0 Hit Points outside its Resting place, it transforms into a cloud of mist instead of falling unconscious, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.", 
+						   "While it has 0 Hit Points in mist form, it can't revert to its vampire form, and it must reach its Resting place within 2 hours or be destroyed. Once in its Resting place, it reverts to its vampire form. It is then Paralyzed until it regains at least 1 hit point.",
+						   "After spending 1 hour in its Resting place with 0 Hit Points, it regains 1 hit point.",
+                        ]
+                     },
+					 {
+                        "name": "Vampire Characters",
+                        "text": [
+                           "Vampires are always evil, which causes characters of certain classes to lose some class abilities. A vampire cleric or paladin can only draw power from evil-aligned domains or deities, and lose any abilities or spells from good-aligned ones.",
+                        ]
+                     },
+					 
                   ],
                   "_level": "1"
                },
