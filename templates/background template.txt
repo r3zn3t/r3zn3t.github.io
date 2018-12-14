@@ -5,6 +5,12 @@
             "proficiency": "",
             "trait": [
                {
+                  "name": "Origin",
+                  "text": [
+                     "<br>",
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "",
@@ -195,6 +201,6 @@
 						"</tr>",
 					"</table>",
                    ]
-               }
+               },
             ]
          },
