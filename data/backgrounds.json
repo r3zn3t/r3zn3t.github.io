@@ -1000,6 +1000,74 @@ var backgrounddata = {
                }
             ]
          },
+		 {
+            "name": "Butler",
+            "source": "Balasar's Guide to Exploration",
+            "proficiency": "",
+            "trait": [
+               {
+                  "name": "Origin",
+                  "text": [
+                     "<br>Growing up in households of wealthy, you've always been called upon to take care of the owners. Bringing dishes, cleaning the homestead, answering doors or whatever else it might be, you know how it feels to be relied on for all tasks.",
+					 "<br>How did you come to be a butler? Were you raised in the household with other family members that were maids? Perhaps you were hired because there was an open position? Did you owe a debt to someone?",
+                  ]
+               },
+			   {
+                  "name": "Skill Proficiencies",
+                  "text": [
+                     "History, Performance",
+                  ]
+               },
+               {
+                  "name": "Languages",
+                  "text": [
+                     "Two of your choice",
+                  ]
+               },
+               {
+                  "name": "Equipment",
+                  "text": [
+                     "A set of fine clothes, a pouch containing 10 gp",
+                  ]
+               },
+               {
+                  "name": "<i>Knowledge of Nobility</i>",
+                  "text": [
+                     "You can more easily recognize households of nobility, based on the insignia on the banners, last names of the family, or even where the family resides.",
+                  ]
+               },
+               {
+                  "name": "Suggested Characteristics",
+                  "text": [
+                     "Use the tables for the <b>noble</b> background in the <i>Player's Handbook</i> as a basis for your traits and motivations, modifying the entries as you see fit.",
+					 "<style>table#mytable tr:nth-child(odd){background-color:#dddddd;} table#mytable th{text-align:center;} th#myheader{background-color:#fdf1dc;} table#mytable tr{text-align:center;}",
+					 "</style>",
+					"<table id='mytable' style='width:300px;border:1px solid black'>",
+						"<tr>",
+							"<th id='myheader'>d4</th>",
+							"<th id='myheader'>I became a butler because...</th>",
+						"</tr>",
+						"<tr>",
+							"<td>1</td>",
+							"<td>The life of wealth always impressed me</td>",
+						"</tr>",
+						"<tr>",
+							"<td>2</td>",
+							"<td>I was born into a family that were house servants</td>",
+						"</tr>",
+						"<tr>",
+							"<td>3</td>",
+							"<td>Secrets are always spilled around those not deemed important, and I wanted blackmail</td>",
+						"</tr>",
+						"<tr>",
+							"<td>4</td>",
+							"<td>I am more comfortable being seen and not heard, a perfect job for me</td>",
+						"</tr>",
+					"</table>",
+                   ]
+               },
+            ]
+         },
          {
             "name": "Charlatan",
             "source": "Player's Handbook",
@@ -1387,6 +1455,141 @@ var backgrounddata = {
                }
             ]
          },
+		 {
+            "name": "Diplomat",
+            "source": "Balasar's Guide to Exploration",
+            "proficiency": "",
+            "trait": [
+               {
+                  "name": "Origin",
+                  "text": [
+                     "<br>Wide grasslands, the open sky, and communicating with nobility are only some of the perks. Being one with your words, you either having a tongue of silver or perhaps you have words as sweet has honey. You can nearly convince anyone of anything you set your mind to.",
+                  ]
+               },
+			   {
+                  "name": "Skill Proficiencies",
+                  "text": [
+                     "Deception, Persuasion",
+                  ]
+               },
+               {
+                  "name": "Languages",
+                  "text": [
+                     "Two of your choice",
+                  ]
+               },
+               {
+                  "name": "Equipment",
+                  "text": [
+                     "A set of fine clothes, a pouch containing 10 gp",
+                  ]
+               },
+               {
+                  "name": "<i>Noble Bargaining</i>",
+                  "text": [
+                     "While communicating with a noble family that you have been hired by, you are able to more easily get additional help, such as a horse drawn cart.",
+                  ]
+               },
+               {
+                  "name": "Suggested Characteristics",
+                  "text": [
+                     "Use the tables for the <b>noble</b> background in the <i>Player's Handbook</i> as a basis for your traits and motivations, modifying the entries as you see fit.",
+					 "<style>table#mytable tr:nth-child(odd){background-color:#dddddd;} table#mytable th{text-align:center;} th#myheader{background-color:#fdf1dc;} table#mytable tr{text-align:center;}",
+					 "</style>",
+					"<table id='mytable' style='width:300px;border:1px solid black'>",
+						"<tr>",
+							"<th id='myheader'>d4</th>",
+							"<th id='myheader'>I became a diplomat becuase...</th>",
+						"</tr>",
+						"<tr>",
+							"<td>1</td>",
+							"<td>My parents couldn't afford to take care of me as a child</td>",
+						"</tr>",
+						"<tr>",
+							"<td>2</td>",
+							"<td>I had a natural talent and was noticed</td>",
+						"</tr>",
+						"<tr>",
+							"<td>3</td>",
+							"<td>I had been caught for a crime, and my punishment was to learn the trade</td>",
+						"</tr>",
+						"<tr>",
+							"<td>4</td>",
+							"<td>I always had envy for the local guild and wanted to join</td>",
+						"</tr>",
+					"</table>",
+                   ]
+               },
+            ]
+         },
+		 {
+            "name": "Demonologist",
+            "source": "Balasar's Guide to Exploration",
+            "proficiency": "",
+            "trait": [
+               {
+                  "name": "Origin",
+                  "text": [
+                     "<br>To study the ways of a devil or demon is not a noble cause, but a much required one. You have spent endless nights pouring through ancient tomes, learning the ways of controlling and banishing demons. You know what really makes their blood boil, how to manipulate them, and to get exactly what you want from them.",
+					 "<br>Although people may call you mad, you know that your hard work will eventually pay off. Demons are forever eternal in the abyss, but hopefully your knowledge will keep them out of Faerun.",
+                  ]
+               },
+			   {
+                  "name": "Skill Proficiencies",
+                  "text": [
+                     "History, Religion",
+                  ]
+               },
+               {
+                  "name": "Languages",
+                  "text": [
+                     "Abyssal and Infernal",
+                  ]
+               },
+               {
+                  "name": "Equipment",
+                  "text": [
+                     "Equipment: A backpack, a set of common clothes, a hooded cloak, several books on the origin of demons, a bedroll, a sack of salt, a pouch containing 5 gp.",
+                  ]
+               },
+               {
+                  "name": "<i>Fiendish Lore</i>",
+                  "text": [
+                     "Whenever you come across a piece of lore for devils and demons, you can recognize their names more easily. In addition, you have advantage on History or Religion checks in order to recall their information.",
+                  ]
+               },
+               {
+                  "name": "Suggested Characteristics",
+                  "text": [
+                     "Use the tables for any background in the <i>Player's Handbook</i> as a basis for your traits and motivations, modifying the entries as you see fit.",
+					 "<style>table#mytable tr:nth-child(odd){background-color:#dddddd;} table#mytable th{text-align:center;} th#myheader{background-color:#fdf1dc;} table#mytable tr{text-align:center;}",
+					 "</style>",
+					"<table id='mytable' style='width:300px;border:1px solid black'>",
+						"<tr>",
+							"<th id='myheader'>d4</th>",
+							"<th id='myheader'>I became a demonologist becuase...</th>",
+						"</tr>",
+						"<tr>",
+							"<td>1</td>",
+							"<td>My parents couldn't afford to take care of me as a child</td>",
+						"</tr>",
+						"<tr>",
+							"<td>2</td>",
+							"<td>I had a natural talent and was noticed</td>",
+						"</tr>",
+						"<tr>",
+							"<td>3</td>",
+							"<td>I had been caught for a crime, and my punishment was to learn the trade</td>",
+						"</tr>",
+						"<tr>",
+							"<td>4</td>",
+							"<td>I always had envy for the local guild and wanted to join</td>",
+						"</tr>",
+					"</table>",
+                   ]
+               },					 
+            ]
+         },
          {
             "name": "Entertainer",
             "source": "Player's Handbook",
@@ -1656,6 +1859,157 @@ var backgrounddata = {
 					"</table>",
                    ]
                }
+            ]
+         },
+		 {
+            "name": "Executioner",
+            "source": "Balasar's Guide to Exploration",
+            "proficiency": "",
+            "trait": [
+               {
+                  "name": "Origin",
+                  "text": [
+                     "<br>Empires rise and fall, and so do the criminals that live there. When evil needs put down, you were there to bring the blade. While many don't see much of the same that you do, it must have been satisfying knowing that one less trouble plagued the world. Coin is coin, and although it isn't the best job that people want, you know that there will always be a demand for it.",
+                  ]
+               },
+			   {
+                  "name": "Skill Proficiencies",
+                  "text": [
+                     "Athletics, Intimidation",
+                  ]
+               },
+               {
+                  "name": "Languages",
+                  "text": [
+                     "One of your choice",
+                  ]
+               },
+			   {
+                  "name": "Weapon Proficiencies",
+                  "text": [
+                     "Battleaxes and greataxes",
+                  ]
+               },
+               {
+                  "name": "Equipment",
+                  "text": [
+                     "The executioner mask and axe that you used, a pouch containing 5 gp.",
+                  ]
+               },
+               {
+                  "name": "<i>Capital Punishment</i>",
+                  "text": [
+                     "Whenever you confront criminals, you can execute criminals as long as you have justifiable cause for your actions. Whenever you do so, you must be in possession of your executioner wear and it must be donned. If not, guards may punish you as they see fit.",
+                  ]
+               },
+               {
+                  "name": "Suggested Characteristics",
+                  "text": [
+                     "Use the tables for the <b>soldier</b> background in the <i>Player's Handbook</i> as a basis for your traits and motivations, modifying the entries as you see fit.",
+					 "<style>table#mytable tr:nth-child(odd){background-color:#dddddd;} table#mytable th{text-align:center;} th#myheader{background-color:#fdf1dc;} table#mytable tr{text-align:center;}",
+					 "</style>",
+					"<table id='mytable' style='width:300px;border:1px solid black'>",
+						"<tr>",
+							"<th id='myheader'>d4</th>",
+							"<th id='myheader'>I became an executioner because...</th>",
+						"</tr>",
+						"<tr>",
+							"<td>1</td>",
+							"<td>My parents couldn't afford to take care of me as a child</td>",
+						"</tr>",
+						"<tr>",
+							"<td>2</td>",
+							"<td>I had a natural talent and was noticed</td>",
+						"</tr>",
+						"<tr>",
+							"<td>3</td>",
+							"<td>I had been caught for a crime, and my punishment wasto learn the trade</td>",
+						"</tr>",
+						"<tr>",
+							"<td>4</td>",
+							"<td>I always had envy for the local guild and wanted to join</td>",
+						"</tr>",
+					"</table>",
+                   ]
+               },
+            ]
+         },
+		 {
+            "name": "",
+            "source": "",
+            "proficiency": "",
+            "trait": [
+               {
+                  "name": "Origin",
+                  "text": [
+                     "<br>",
+                  ]
+               },
+			   {
+                  "name": "Skill Proficiencies",
+                  "text": [
+                     "",
+                  ]
+               },
+			   {
+                  "name": "Tool Proficiencies",
+                  "text": [
+                     "",
+                  ]
+               },
+               {
+                  "name": "Languages",
+                  "text": [
+                     "",
+                  ]
+               },
+               {
+                  "name": "Equipment",
+                  "text": [
+                     "",
+                  ]
+               },
+               {
+                  "name": "Feature: <i></i>",
+                  "text": [
+                     "",
+                  ]
+               },
+               {
+                  "name": "Suggested Characteristics",
+                  "text": [
+                     "",
+                   ]
+               },
+               {
+                  "name": "Personality Trait",
+                  "text": [
+                     "<style>table#mytable tr:nth-child(odd){background-color:#dddddd;} table#mytable th{text-align:center;} th#myheader{background-color:#fdf1dc;} table#mytable tr{text-align:center;}",
+					 "</style>",
+					"<table id='mytable' style='width:300px;border:1px solid black'>",
+						"<tr>",
+							"<th id='myheader'>d8</th>",
+							"<th id='myheader'>Personality Trait</th>",
+						"</tr>",
+						"<tr>",
+							"<td>1</td>",
+							"<td></td>",
+						"</tr>",
+						"<tr>",
+							"<td>2</td>",
+							"<td></td>",
+						"</tr>",
+						"<tr>",
+							"<td>3</td>",
+							"<td></td>",
+						"</tr>",
+						"<tr>",
+							"<td>4</td>",
+							"<td></td>",
+						"</tr>",
+					"</table>",
+                   ]
+               },
             ]
          },
 		 {
@@ -2237,6 +2591,80 @@ var backgrounddata = {
                      "Since you come from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you."
                   ]
                }
+            ]
+         },
+		 {
+            "name": "Gravedigger",
+            "source": "Balasar's Guide to Exploration",
+            "proficiency": "",
+            "trait": [
+               {
+                  "name": "Origin",
+                  "text": [
+                     "<br>You have buried many people in your life time, including your family, best friends and guardsmen. It is difficult doing this job, watching loved one be torn apart, but that is just how life comes to be.",
+					 "<br>You've been doing this for a large portion of your life, breaking your back and shovels to make big enough graves. The only good thing about this job is that it will never come to an end, as people are always passing.",
+                  ]
+               },
+			   {
+                  "name": "Skill Proficiencies",
+                  "text": [
+                     "Athletics, Medicine",
+                  ]
+               },
+               {
+                  "name": "Languages",
+                  "text": [
+                     "One of your choice",
+                  ]
+               },
+			   {
+                  "name": "Weapon Proficiency",
+                  "text": [
+                     "Warpick",
+                  ]
+               },
+               {
+                  "name": "Equipment",
+                  "text": [
+                     "A shovel made of iron and wood, a mess kit, a bedroll, a backpack and a small pouch with 5 gp.",
+                  ]
+               },
+               {
+                  "name": "<i>No Rest For The Weary</i>",
+                  "text": [
+                     "If a character has died within the past 24 hours, you can spend your long rest preparing the body and digging a grave for that person. If you do so, you get the benefits of a full rest.",
+                  ]
+               },
+               {
+                  "name": "Suggested Characteristics",
+                  "text": [
+                     "Use the tables for any background in the <i>Player's Handbook</i> as a basis for your traits and motivations, modifying the entries as you see fit.",
+					 "<style>table#mytable tr:nth-child(odd){background-color:#dddddd;} table#mytable th{text-align:center;} th#myheader{background-color:#fdf1dc;} table#mytable tr{text-align:center;}",
+					 "</style>",
+					"<table id='mytable' style='width:300px;border:1px solid black'>",
+						"<tr>",
+							"<th id='myheader'>d4</th>",
+							"<th id='myheader'>I became a gravedigger because...</th>",
+						"</tr>",
+						"<tr>",
+							"<td>1</td>",
+							"<td>My parents couldn't afford to take care of me as a child</td>",
+						"</tr>",
+						"<tr>",
+							"<td>2</td>",
+							"<td>I had a natural talent and was noticed</td>",
+						"</tr>",
+						"<tr>",
+							"<td>3</td>",
+							"<td>I had been caught for a crime, and my punishment was to learn the trade</td>",
+						"</tr>",
+						"<tr>",
+							"<td>4</td>",
+							"<td>I always had envy for the local guild and wanted to join</td>",
+						"</tr>",
+					"</table>",
+                   ]
+               },
             ]
          },
          {
@@ -3172,6 +3600,79 @@ var backgrounddata = {
             ]
          },
 		 {
+            "name": "Prisoner",
+            "source": "Balasar's Guide to Exploration",
+            "proficiency": "",
+            "trait": [
+               {
+                  "name": "Origin",
+                  "text": [
+                     "<br>For some reason, you had been caught for a crime. Maybe you were in the wrong place at the wrong time, or perhaps you were left to take the fall from your group. What were you doing that got you caught? Picking locks of small merchant chests, or were you threatening people to give them protection?",
+                  ]
+               },
+			   {
+                  "name": "Skill Proficiencies",
+                  "text": [
+                     "Intimidation, Sleight of Hand",
+                  ]
+               },
+			   {
+                  "name": "Tool Proficiencies",
+                  "text": [
+                     "Thieves' Tools",
+                  ]
+               },
+               {
+                  "name": "Languages",
+                  "text": [
+                     "One of your choice",
+                  ]
+               },
+               {
+                  "name": "Equipment",
+                  "text": [
+                     "A set of dark clothes, a pouch containing 10 gp",
+                  ]
+               },
+               {
+                  "name": "<i>Prison Break</i>",
+                  "text": [
+                     "You know the inner workings of cuffs and manacles, their function and how to use that to your advantage. Whenever your hands are bound, you can take time to free yourself, being either rope knots or shackles.",
+                  ]
+               },
+               {
+                  "name": "Suggested Characteristics",
+                  "text": [
+                     "Use the tables for the <b>criminal</b> background in the <i>Player's Handbook</i> as a basis for your traits and motivations, modifying the entries as you see fit.",
+					 "<style>table#mytable tr:nth-child(odd){background-color:#dddddd;} table#mytable th{text-align:center;} th#myheader{background-color:#fdf1dc;} table#mytable tr{text-align:center;}",
+					 "</style>",
+					"<table id='mytable' style='width:300px;border:1px solid black'>",
+						"<tr>",
+							"<th id='myheader'>d4</th>",
+							"<th id='myheader'>I became a prisoner becuase...</th>",
+						"</tr>",
+						"<tr>",
+							"<td>1</td>",
+							"<td>My parents couldn't afford to take care of me as a child, <br> and I turned to a life of crime</td>",
+						"</tr>",
+						"<tr>",
+							"<td>2</td>",
+							"<td>I lacked natural talent as a criminal and was noticed</td>",
+						"</tr>",
+						"<tr>",
+							"<td>3</td>",
+							"<td>I had been caught for a crime, and it was just the natural progression</td>",
+						"</tr>",
+						"<tr>",
+							"<td>4</td>",
+							"<td>I never enjoyed the responsibility of freedom<td>",
+						"</tr>",
+					"</table>",
+                   ]
+               },
+            ]
+         },
+		 {
             "name": "Retired Adventurer",
             "source": "Xanathar's Lost Notes to Everything Else",
             "proficiency": "History, Insight",
@@ -3430,6 +3931,79 @@ var backgrounddata = {
                      "When you need to, you can secure free passage on a sailing ship for yourself and your adventuring companions. You might sail on the ship you served on, or another ship you have good relations with (perhaps one captained by a former crewmate). Because you're calling in a favor, you can't be certain of a schedule or route that will meet your every need. Your Dungeon Master will determine how long it takes to get where you need to go. In return for your free passage, you and your companions are expected to assist the crew during the voyage."
                   ]
                }
+            ]
+         },
+		 {
+            "name": "Scavenger",
+            "source": "Balasar's Guide to Exploration",
+            "proficiency": "",
+            "trait": [
+               {
+                  "name": "Origin",
+                  "text": [
+                     "<br>Abandoned homes, battlefields and even trash piles have treasure to be found. The treasure might look worthless or ordinary to most, but you know how to make it shine like a gem. You've risked your life countless times - to disease, to poisons, to sharp objects and wild feral beasts. In the end, you find what you were looking for and even more.",
+                  ]
+               },
+			   {
+                  "name": "Skill Proficiencies",
+                  "text": [
+                     "Investigation, Survival",
+                  ]
+               },
+			   {
+                  "name": "Tool Proficiencies",
+                  "text": [
+                     "Tinker's tools",
+                  ]
+               },
+               {
+                  "name": "Languages",
+                  "text": [
+                     "One of your choice",
+                  ]
+               },
+               {
+                  "name": "Equipment",
+                  "text": [
+                     "A pouch containing 10 gp and various little trinkets and supplies that you've gathered, along with smith's tools.",
+                  ]
+               },
+               {
+                  "name": "<i>Sharp Eyes</i>",
+                  "text": [
+                     "When viewing possible items of worth, you can make a reasonable estimate on the real cost of the item. On top of that, you can take apart items to gain objects that you can create other things with, such as screws.",
+                  ]
+               },
+               {
+                  "name": "Suggested Characteristics",
+                  "text": [
+                     "Use the tables for any background in the Player's Handbook as a basis for your traits and motivations, modifying the entries as you see fit.",
+					 "<style>table#mytable tr:nth-child(odd){background-color:#dddddd;} table#mytable th{text-align:center;} th#myheader{background-color:#fdf1dc;} table#mytable tr{text-align:center;}",
+					 "</style>",
+					"<table id='mytable' style='width:300px;border:1px solid black'>",
+						"<tr>",
+							"<th id='myheader'>d4</th>",
+							"<th id='myheader'>I became a scavenger becuase...</th>",
+						"</tr>",
+						"<tr>",
+							"<td>1</td>",
+							"<td>My parents were hoarders and taught me that everything has its value</td>",
+						"</tr>",
+						"<tr>",
+							"<td>2</td>",
+							"<td>Merchants are crooks! The best things can be found in the trash</td>",
+						"</tr>",
+						"<tr>",
+							"<td>3</td>",
+							"<td>Pillaging is an art, and I am the artist</td>",
+						"</tr>",
+						"<tr>",
+							"<td>4</td>",
+							"<td>People are so wasteful! Who would throw away something like this?</td>",
+						"</tr>",
+					"</table>",
+                   ]
+               },
             ]
          },
          {
