@@ -251,7 +251,7 @@ var templatedata = {
 							"<b><i>Holy Symbol</i></b>: A holy symbol strongly presented keeps the spawn at bay - they cannot willingly approach the bearer nearer than a distance of 20 ft. and cannot make melee attacks against them. If a spawn is touched by a holy symbol presented in this manner, on each turn the symbol touches the spawn it takes 1d6 radiant damage.",
 							"<b><i>Forbiddance</i></b>: The Spawn can't enter a residence without an invitation from one of the occupants. If a spawn enters a residence without permission (presumably forced), they are destroyed immediately.",
 							"<b><i>Harmed by Running Water</i></b>: The spawn is instantly destroyed if it travels through or ends its turn in running water.",
-							"<b><i>Stake to the Heart</i></b>: If a piercing weapon made of wood is driven into the spawn's heart, the spawn is destroyed immediately. DC to stake = Spawn Base AC + Spawn Prof Mod (attacks to the heart are rolled with disadvantage)",
+							"<b><i>Stake to the Heart</i></b>: If a piercing weapon made of wood is driven into the spawn's heart, the spawn is destroyed immediately. <br> DC to stake = Spawn Base AC + Spawn Prof Mod (attacks to the heart are rolled with disadvantage)",
 							"<b><i>Sunlight Sensitivity</i></b>: A spawn that is exposed to sunlight is destroyed immediately",
 						],
 						"subclass": "Creating a Vampire: Vampire Spawn",
