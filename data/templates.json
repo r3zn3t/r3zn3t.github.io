@@ -259,10 +259,10 @@ var templatedata = {
 						"suboption": "YES",
 						"_optional": "YES"
 					 },
-					 "//": "",
-					 "//": "-----------------------Vampire Start-----------------------",
-					 "//": "",
 					{
+						"//": "",
+						"//": "-----------------------Vampire Start-----------------------",
+						"//": "",
 						"name": "Creating a Vampire: Vampire",
 						"text": [
 							"This is a full vampire.",
@@ -272,11 +272,11 @@ var templatedata = {
 						"issubclass": "YES",
 						"_optional": "YES"
 					},
+					{
 					 "//": "",
 					 "//": "-------------------Vampire Lord Start-----------------------",
 					 "//": "",
-					{
-						"name": "Creating a Vampire: Vampire Lord",
+					"name": "Creating a Vampire: Vampire Lord",
 						"text": [
 							"This is a vampire lord.",
 						],
