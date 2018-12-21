@@ -236,7 +236,7 @@ var templatedata = {
 					 {
 						"name": "Attacks/Abilities",
 						"text": [
-							"<b><i>Claw attack (Medium Size) (2 Attacks)</i></b>: + STR or DEX Mod to hit, 1d6 + STR or DEX Mod Slashing Damage. After a successful claw attack, the spawn can then make a grapple check.",
+							"<b><i>Claw attack (Medium Size) (2 Attacks)</i></b>: + STR or DEX Mod to hit, 1d6 + STR or DEX Mod Slashing Damage. <br> After a successful claw attack, the spawn can then make a grapple check.",
 							"<b><i>Bite Attack</i></b>: After a successful grapple, the spawn rolls a melee attack with advantage, and on a hit deals 1d8 + STR or DEX Mod Piercing and 1d8 Necrotic damage - the spawn heals a number of hit points equal to the necrotic damage dealt by this bite attack (if they are at full health, they do not benefit from this ability). <br> The max hit points of the target are reduced by a number equal to the necrotic damage taken - hit points reduced in this manner can be healed by potions or healing spells, but otherwise return after a long rest.",
 							"<b><i>Regeneration</i></b>: The spawn regains 10 hit points at the beginning of each round, as long as they were not damaged by radiant damage, holy water, or a silvered weapon on the preceding round.",
 						],
@@ -265,13 +265,96 @@ var templatedata = {
 						"//": "",
 						"name": "Creating a Vampire: Vampire",
 						"text": [
-							"This is a full vampire.",
+							"Vampires are the most 'Human' of all the undead. Those that do not shed their former humanity completely, may still maintain a mockery of their old life. Many take up stations of great influence and power (such as a noble) within a mortal society. The benefits they gain are numerous. They can maintain discretion, use their natural powers of influence (which may make destroying them difficult), and have access to living beings to feed upon.",
 						],
 						"subclass": "Creating a Vampire: Vampire",
 						"parent": "Creating a Vampire",
 						"issubclass": "YES",
 						"_optional": "YES"
 					},
+					{
+						"name": "Vampire Progression",
+						"text": [
+							"After spending at least 100 years as a Vampire and attaining a level equal to 15th level or above, a Vampire may evolve into a Vampire Lord. There are rumors of other ways to become a Vampire Lord, but the specifics have been lost to time.",
+						],
+						"subclass": "Creating a Vampire: Vampire",
+						"parent": "Vampire",
+						"suboption": "YES",
+						"_optional": "YES"
+					 },
+					 {
+						"name": "Bonuses",
+						"text": [
+							"<b><i>AC Bonus</i></b>: +2 <br> <b><i>Ability Point Bonus</i></b> +4 to STR, DEX, CON, INT, WIS, and CHA",
+						],
+						"subclass": "Creating a Vampire: Vampire",
+						"parent": "Vampire",
+						"suboption": "YES",
+						"_optional": "YES"
+					 },
+					 {
+						"name": "Skill Proficiencies",
+						"text": [
+							"<b>Pick 2 from</b>: acrobatics, athletics, deception, intimidation, perception, persuasion, and stealth. <br> You can add your proficiency modifier to the chosen skills - if you are already proficient with the skill, double your proficiency modifier.",
+						],
+						"subclass": "Creating a Vampire: Vampire",
+						"parent": "Vampire",
+						"suboption": "YES",
+						"_optional": "YES"
+					 },
+					 {
+						"name": "Damage Resistances/Immunities",
+						"text": [
+							"• Resistant to Cold and Electric damage <br> • Resistance to Slashing, Piercing, and Bludgeoning damage from weapons that are not enchanted and Silvered (Plated) <br> • Immunity to necrotic damage",
+						],
+						"subclass": "Creating a Vampire: Vampire",
+						"parent": "Vampire",
+						"suboption": "YES",
+						"_optional": "YES"
+					 },
+					 {
+						"name": "Attacks/Abilities",
+						"text": [
+							"<b><i>Claw Attack (medium size) (2 Attacks)</i></b>: Prof + STR or Dex Mod to hit, 1d6 +(STR or Dex Mod) Slashing damage, 1d6 necrotic. <br> After a successful hit with their claws, the Vampire rolls their grapple check with advantage.",
+							"<b><i>Bite Attack</i></b>: After a successful grapple check, the Vampire deals 2d8+ STR or Dex Mod piercing, 2d8 necrotic damage - the Vampire heals a number of hit points equal to the necrotic damage dealt by this bite attack (if they are at full health, they gain temporary hit points equal to the excess - up to a maximum of 1/2 their max hit points). <br> The max hit points of the target are reduced by a number equal to the necrotic damage taken - hit points reduced in this manner can only be regained by magical healing (such as the <i>cure wounds</i> spell).",
+							"<b><i>Regeneration</i></b>: The Vampire regains 15 hit points at the beginning of each round, as long as they were not damaged by radiant damage or holy water on the preceding round.",
+							"<b><i>Shapechanger</i></b>: If the Vampire isn't in sunlight or running water, it can use its action to polymorph into a tiny bat, a rat, a wolf, a medium cloud of mist, or back into its true form. <br> &nbsp;&nbsp;&nbsp;• <i><u>While in bat form</u></i>, the vampire can't speak, its walking speed is 5 feet, and it has a flying speed of 30 feet. Its statistics become that of the form it takes. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies. <br> &nbsp;&nbsp;&nbsp;• <i><u>While in rat form</u></i>, the vampire can't speak, its walking speed is 20 feet. Its statistics become that of the form it takes. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies. <br> &nbsp;&nbsp;&nbsp;• <i><u>While in wolf form</u></i>, the vampire can't speak, its walking speed is 40 feet.  Its statistics become that of the form it takes. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies. <br> &nbsp;&nbsp;&nbsp;• <i><u>While in mist form</u></i>, the vampire can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight.",
+							"<b><i>Children of the Night (1 per short rest)</i></b>: The vampire is able to magically call either 2d4 swarms of rats, 2d4 swarms of bats, or 3d6  wolves, which arrive in a time frame at the DM's discretion based on location and setting. The called creatures act as allies of the vampire, obeying its spoken commands for a number of hours equal to the vampire's CHA mod, until the vampire dies, or until the vampire dismisses them as a bonus action.",
+							"<b><i>Charming Gaze</i></b>: The vampire targets one humanoid it can see within 30 ft. of it. If the target can see the vampire, the target must succeed on a Wisdom saving throw (DC = 8 + Prof + CHA Mod) against this magic or be charmed by the vampire. The charmed target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack. Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect.",
+							"<b><i>Vampiric Army</i></b>: A vampire can control a number of spawn that it has created up to a max equal to its Prof Mod + it's CHA mod.",
+						],
+						"subclass": "Creating a Vampire: Vampire",
+						"parent": "Vampire",
+						"suboption": "YES",
+						"_optional": "YES"
+					 },
+					 {
+						"name": "Legendary Actions",
+						"text": [
+							"The Vampire can take 3 legendary actions per round (either on their own turn, or in reaction to another's), choosing from the options below. It regains spent legendary actions at the start of its turn.",
+							"<b><i>Move</i></b>: The vampire uses a legendary action to move up to its speed, without provoking attacks of opportunity.",
+							"<b><i>Attack</i></b>: The Vampire uses a legendary action to make an attack with either a weapon (if applicable) or with its claw attack.",
+							"<b><i>Bite (Costs 2 actions)</i></b>: When the vampire has successfully grappled a target, it can spend 2 legendary actions to use an additional bite attack, dealing piercing and necrotic damage.",
+						],
+						"subclass": "Creating a Vampire: Vampire",
+						"parent": "Vampire",
+						"suboption": "YES",
+						"_optional": "YES"
+					 },
+					 {
+						"name": "Weaknesses",
+						"text": [
+							"<b><i>Holy Symbol</i></b>: A cleric strongly presenting a holy symbol can make a Turn Undead check against the Vampire's Charisma save to hold it at bay - on a failed save the Vampire cannot approach within a distance of 20 ft. of the wielder (if the vampire is closer than that, they must use their movement until they are farther than 20 ft. away), and cannot make attacks against them. On each successive turn the cleric can use an action to continue to keep the Vampire at bay, so long as the holy symbol is still being presented.",
+							"<b><i>Forbiddance</i></b>: The Vampire cannot enter a residence without an invitation from one of the occupants. If a Vampire enters a residence without permission (presumably forced), they immediately turn to mist and must return to their resting place before they can return to their original form.",
+							"<b><i>Harmed by Running Water</i></b>: The vampire takes 30 acid damage if it travels through running water, and is instantly destroyed if it ends its turn in running water.",
+							"<b><i>Stake to the Heart</i></b>: If a piercing weapon made of wood is driven into the Vampire's heart, it is paralyzed until the stake is removed. <br> Stake DC = Vampire's base AC + Prof * 2 (attacks against heart rolled with disadvantage) - a failed stake provokes an attack of opportunity for the Vampire, along with a chance to grapple on a hit.",
+							"<b><i>Sunlight Sensitivity</i></b>: A Vampire that is exposed to sunlight suffers radiant damage equal to 1/3 of its total hit points for the first round exposed, and the vampire must make a Con saving throw (DC 20) to not fall prone in agony. Each round thereafter that the Vampire is exposed, it suffers 20 radiant damage and the Con saving throw DC is increased by 1.",
+						],
+						"subclass": "Creating a Vampire: Vampire",
+						"parent": "Vampire",
+						"suboption": "YES",
+						"_optional": "YES"
+					 },
 					{
 					 "//": "",
 					 "//": "-------------------Vampire Lord Start-----------------------",
