@@ -163,11 +163,9 @@ var templatedata = {
                         ]
                      },
 					 {
-                        "name": "Slaying a Vampire",
+                        "name": "Slaying a Vampire (Variant Specific - Full, Lord)",
                         "text": [
-                           "When a Vampire or Vampire Lord drops to 0 Hit Points outside its Resting place, it transforms into a cloud of mist instead of falling unconscious, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.", 
-						   "While it has 0 Hit Points in mist form, it can't revert to its vampire form, and it must reach its Resting place within 2 hours or be destroyed. Once in its Resting place, it reverts to its vampire form. It is then Paralyzed until it regains at least 1 hit point.",
-						   "After spending 1 hour in its Resting place with 0 Hit Points, it regains 1 hit point.",
+                           "When a Full or Master Vampire drops to 0 Hit Points outside its Resting place, it transforms into a cloud of mist instead of falling unconscious, provided that it isn't in sunlight or running water. While it has 0 Hit Points in mist form, it can't revert to its vampire form. Once in its Resting place, it reverts to its vampire form. It is then Paralyzed until it regains at least 1 hit point. After spending 1 hour in its Resting place with 0 Hit Points, it regains 1 hit point.",
                         ]
                      },
 					 {
@@ -248,6 +246,7 @@ var templatedata = {
 					 {
 						"name": "Weaknesses",
 						"text": [
+							"<b><i>Fire</i></b>: A vampire spawn takes double damage from attacks or spells that deal fire damage.",
 							"<b><i>Holy Symbol</i></b>: A holy symbol strongly presented keeps the spawn at bay - they cannot willingly approach the bearer nearer than a distance of 20 ft. and cannot make melee attacks against them. If a spawn is touched by a holy symbol presented in this manner, on each turn the symbol touches the spawn it takes 1d6 radiant damage.",
 							"<b><i>Forbiddance</i></b>: The Spawn can't enter a residence without an invitation from one of the occupants. If a spawn enters a residence without permission (presumably forced), they are destroyed immediately.",
 							"<b><i>Harmed by Running Water</i></b>: The spawn is instantly destroyed if it travels through or ends its turn in running water.",
@@ -355,19 +354,125 @@ var templatedata = {
 						"suboption": "YES",
 						"_optional": "YES"
 					 },
+					 {
+						"name": "Slaying a Vampire",
+						"text": [
+							"When a Vampire drops to 0 Hit Points outside its Resting place, it transforms into a cloud of mist instead of falling unconscious, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed. While it has 0 Hit Points in mist form, it can't revert to its vampire form, and it must reach its Resting place within 2 hours or be destroyed. Once in its Resting place, it reverts to its vampire form. It is then Paralyzed until it regains at least 1 hit point.",
+							"A Vampire can be destroyed by driving a stake into its heart while it is paralyzed in its resting place.",
+							"After spending 1 hour in its Resting place with 0 Hit Points, it regains 1 hit point.",
+						],
+						"subclass": "Creating a Vampire: Vampire",
+						"parent": "Vampire",
+						"suboption": "YES",
+						"_optional": "YES"
+					 },
 					{
 					 "//": "",
 					 "//": "-------------------Vampire Lord Start-----------------------",
 					 "//": "",
 					"name": "Creating a Vampire: Vampire Lord",
 						"text": [
-							"This is a vampire lord.",
+							"Very few vampires live the duration of time it takes to become a vampire lord and even fewer master their newfound abilities. In the machinations of vampires, the undead creatures vie against the living and against each other. Power is all, and the accumulation of power is the goal of these foul beings. Sometimes they rise up against their creators; on rare occasions they succeed in breaking the iron control of their 'master'. These creatures can go beyond the normal vampire, and become an even more vile and horrible undead: a vampire lord. Few are ever seen, or recognized if seen. Possessing few of the weaknesses of their lesser kindred, they walk among mortals with little fear of discovery.",
+							" Unlike normal vampires, a vampire lord does not look the least bit unusual. It looks exactly like it did when alive and in the peak of health. It has lost the pale, hardened, almost feral look of the vampire.",
 						],
 						"subclass": "Creating a Vampire: Vampire Lord",
 						"parent": "Creating a Vampire",
 						"issubclass": "YES",
 						"_optional": "YES"
 					},
+					{
+						"name": "Bonuses",
+						"text": [
+							"<b><i>AC Bonus</i></b>: +3 <br> <b><i>Ability Point Bonus</i></b>: +4 to STR, DEX, CON, INT, WIS, and CHA",
+						],
+						"subclass": "Creating a Vampire: Vampire Lord",
+						"parent": "Vampire Lord",
+						"suboption": "YES",
+						"_optional": "YES"
+					 },
+					 {
+						"name": "Skill Proficiencies",
+						"text": [
+							"<b> Pick 2 from:</b> acrobatics, athletics, deception, history, intimidation, perception, persuasion, or stealth <br> You can add your proficiency modifier to the chosen skills - if you are already proficient with the skill, double your proficiency modifier.",
+						],
+						"subclass": "Creating a Vampire: Vampire Lord",
+						"parent": "Vampire Lord",
+						"suboption": "YES",
+						"_optional": "YES"
+					 },
+					 {
+						"name": "Damage Resistances/Immunities",
+						"text": [
+							"• Resistance to Cold and Electric damage <br> • Resistance to Slashing, Piercing, and Bludgeoning damage from weapons that are not Silvered (plated) and blessed by a Cleric of a good-aligned deity by way of the <i>Ceremony</i> spell. <br> • Immunity to necrotic damage",
+						],
+						"subclass": "Creating a Vampire: Vampire Lord",
+						"parent": "Vampire Lord",
+						"suboption": "YES",
+						"_optional": "YES"
+					 },
+					 {
+						"name": "Attacks/Abilities",
+						"text": [
+							"<b><i> Claw Attack (medium size) (2 attacks)</i></b>: Prof + STR or DEX Mod to hit,  2d6 + (STR or DEX Mod) slashing, 2d6 + CHA mod necro. <br> After a successful hit with their claws, the Vampire Lord can roll their grapple check with advantage, and their opponent rolls their contesting roll with disadvantage.",
+							"<b><i>Bite Attack</i></b>: After a successful grapple check, the Vampire Lord deals 3d8+ STR or DEX Mod piercing, 3d8 + CHA necrotic damage - the Vampire Lord heals a number of hit points equal to the necrotic damage dealt by this bite attack (if they are at full health, they gain temporary hit points equal to the excess - up to a maximum of 1/2 their max hit points). <br> The max hit points of the target are reduced by a number equal to the necrotic damage taken - hit points reduced in this manner can only be regained by magical healing (such as the <i>cure wounds</i> spell).",
+							"<b><i>Regeneration</i></b>: The Vampire Lord regains 20 hit points at the beginning of each round, as long as they were not damaged by fire damage, radiant damage or holy water on the preceding round.",
+							"<b><i>Unholy Resistance</i></b>: The Vampire Lord adds their CHA mod to all saving throws.",
+							"<b><i>Legendary Resistance</i></b>: If the Vampire Lord fails a saving throw, it can choose to succeed instead.",
+							"<b><i>Shapechanger</i></b>: If the Vampire Lord isn't in sunlight or running water, it can use its action to polymorph into a tiny bat, a rat, a swarm of bats, a swarm of rats, a wolf, a medium cloud of mist, or back into its true form. <br> &nbsp;&nbsp;&nbsp;• <i><u>While in bat form,</u></i> the Vampire Lord can't speak, its walking speed is 5 feet, and it has a flying speed of 30 feet. Its statistics become that of the form it takes. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies. <br> &nbsp;&nbsp;&nbsp;• <i><u>While in rat form,</u></i> the Vampire Lord can't speak, its walking speed is 20 feet. Its statistics become that of the form it takes. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies. <br> &nbsp;&nbsp;&nbsp;• <i><u>While in the swarm of bats form,</u></i>  the Vampire Lord can't speak, its flying speed is 30 feet. Its statistics become that of the form it takes. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies. <br> &nbsp;&nbsp;&nbsp;• <i><u>While in the swarm of rats form,</u></i> the Vampire Lord can't speak, its walking speed is 30 feet. Its statistics become that of the form it takes. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies. <br> &nbsp;&nbsp;&nbsp;• <i><u>While in wolf form,</u></i>  the Vampire Lord can't speak, its walking speed is 40 feet.  Its statistics become that of the form it takes. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies. <br> &nbsp;&nbsp;&nbsp;• <i><u>While in mist form,</u></i> While in mist form, the Vampire Lord can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 40 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight.",
+							"<b><i>Children of the Night (1 per short rest)</i></b>: The Vampire Lord is able to magically call either 2d4 swarms of rats, 2d4 swarms of bats, or 3d6  wolves, which arrive in a time frame at the DM's discretion based on location and setting. The called creatures act as allies of the Vampire Lord, obeying its spoken commands to the best of their ability (ex. patrol an area, attack intruders, inform me when intruders enter my territory, etc.) until the vampire dies, or until the vampire dismisses them as a bonus action.",
+							"<b><i>Charming Gaze</i></b>: The Vampire Lord targets one humanoid within 100 ft. of it. If the target can hear the Vampire Lord (not deafened), the target must succeed on a Wisdom saving throw (DC = 8 + Prof + Cha Mod) against this magic or be charmed. The charmed target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack. Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts for CHA mod days or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect. The charmed creature gets to roll a save at the beginning of each day, as well as when they are told to do something against their beliefs or something that would lead to self-harm.",
+							"<b><i>Vampiric Army</i></b>: A Vampire Lord can control a number of spawn or vampires that it has created up to a max equal to its Prof Mod * 2 + CHA mod.",
+							"<b><i>Fog Cloud</i></b>: The Vampire Lord can cast the <i>Fog Cloud</i> spell as a 1st level spell, at will.",
+							"<b><i>Control Weather</i></b>: The Vampire Lord can cast the <i>Control Weather</i> Spell at will.",
+							"<b><i>Telepathy</i></b>: The Vampire Lord can communicate telepathically up to 200 ft. with any creature that has a language, conveying simple ideas to those that don't. The Vampire Lord can communication with any controlled spawn, controlled vampire, creature it has charmed, or Children of the Night it controls, up to 100 miles.",
+							"<b><i>Telekinesis</i></b>:  The Vampire Lord can use their telekinesis ability CHA mod times per day, with each use lasting CHA mod minutes (unless forcefully broken, or dismissed with a bonus action), and each use requiring an action to activate. The range for this ability is a max of 60 ft. The Vampire can use telekinesis in the following ways: <br> &nbsp;&nbsp;&nbsp;• <i><u>Telekinetic Grapple</u></i>: The Vampire makes a ranged grapple check (DC = 8 + Prof + CHA mod) versus the target's STR saving throw - on a failed save, the target is grappled. Following a successful Grapple, on the next round the Vampire Lord can use an action to squeeze the grappled target to deal 1d6 per CHA mod + CHA Mod force damage. The grappled character gets a chance on each round to break the grapple with an additional check - if the target successfully breaks the grapple, the telekinesis use is ended. A the vampire can also choose to use an action to move the grappled creature instead of dealing damage, up to 30 ft. per round in any direction, up to a maximum of 60 ft. <br> &nbsp;&nbsp;&nbsp;• <i><u>Telekinetic Push</u></i>: The Vampire Lord unleashes a devastating wave of telekinetic energy toward a single target. The attack deals 4d6 + 1d6 per CHA mod + CHA mod force damage - the target then makes a STR saving throw (DC = 8 + Prof + CHA mod), and on a failed save is pushed 5 ft. per CHA mod + 10 ft in the opposite direction. <br> &nbsp;&nbsp;&nbsp;• <i><u>Telekinetic Blast</u></i>: The Vampire Lord unleashes a circular blast of telekinetic energy in a 30ft. Radius. The blast deals 1d6 per CHA mod force damage. The target then makes a STR saving throw (DC = 8 + Prof + CHA mod), and on a failed save is pushed a distance equal to half the distance possible by the Telekinetic Push option. <br> &nbsp;&nbsp;&nbsp;• <i><u>Manipulate Object</u></i>: The vampire is able to manipulate objects weighing up to 500 lbs + 50 lbs per CHA mod, 30 ft. per round, to a max distance of 60 ft. <br> &nbsp;&nbsp;&nbsp;• <i><u>Disarm</u></i>: The Vampire Lord uses their telekinetic ability to attempt to disarm a target (DC = 8 + Prof + CHA mod) versus the target's STR saving throw. On a failed save, the target is disarmed.",
+							"<b><i>Primal Form</i></b>: Tapping into primal evil and hunger older than the stars, the vampire lord can become a truly terrifying monster capable of monstrous damage, taking huge amounts of punishment, but at a loss of some of their mental capabilities. <br> A Vampire Lord can choose to use an action to transform into their primal form once a day, or will automatically transform if reduced to 1/4 of their total hit points. When in their Primal Form, the Vampire Lord gains the following: <br> &nbsp;&nbsp;&nbsp;• <i><u>Fly Speed</u></i>: The Vampire gains a fly speed equal to twice their base land speed. <br> &nbsp;&nbsp;&nbsp;• <i><u>Claw/Bite/Wing Claw damage</u></i>: Claw and Bite damage dice are increased by 1 size for damage dealt, the vampire also gains two additional Wing Claw attacks, whose damage dice are equal to 1 size smaller than the base claw die for their size. The vampire adds CON mod to the damage of all melee attacks as extra necro damage (which heals them). <br> &nbsp;&nbsp;&nbsp;• <i><u>Saving Throw Bonus/Penalty</u></i>: The vampire gains advantage on all skill checks and saving throws attributed to STR, DEX, and CON - and gains disadvantage on all skill checks and saving throws attributed to INT, WIS, and CHA. <br> &nbsp;&nbsp;&nbsp;• <i><u>Legendary Actions</u></i>: The vampire gains an additional Legendary action (which brings the total to 4 per round), and gains two additional options to use along with the actions from the list below (only one of these additional actions can be used per round): &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>Flurry (costs 2 actions)</i>: Double the amount of natural attacks for one round, which are rolled with advantage to hit - on the same round this action is used, all attacks against the vampire are also rolled with advantage to hit. <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>Feed (costs 3 actions)</i>: Grappled, restrained, or helpless creatures can be fed upon using this action, which deals and additional bite die to their bite attack's piercing and necro damage. While the vampire is feeding, all attacks are rolled against it with advantage to hit, and any stake attacks made are made without the vampire's chance for an opportunity to grapple. <br> &nbsp;&nbsp;&nbsp;• <i><u>Damage Absorption</u></i>: All damage dealt to the Vampire is reduced by a number of hit points equal to its CON mod, unless that damage is radiant or fire damage. <br> &nbsp;&nbsp;&nbsp;• <i><u>Damage Vulnerability</u></i>: The Vampire takes double the amount of damage dealt from attacks that deal radiant damage. <br> &nbsp;&nbsp;&nbsp;• <i><u>Ability Restrictions</u></i>: While in their Primal Form, the Vampire cannot concentrate on their magical abilities and thus are unable to use abilities such as shapechange, telekinesis, charming gaze, children of the night, fog cloud, or control weather. <br> &nbsp;&nbsp;&nbsp;• <i><u>Fear Aura</u></i>: While in their Primal Form, the Vampire gains a Fear Aura to a range of 60 ft. Any creatures within that range must make a will save (DC = 8 + Prof + CHA mod) or be frightened, unless they are immune to fear. <br> &nbsp;&nbsp;&nbsp;• <i><u>Sunlight Hypersensitivity</u></i>: When a Vampire Lord in feral form is exposed to sunlight, they take 20 radiant damage per round (total, not doubled through vulnerability to radiant damage)",
+						],
+						"subclass": "Creating a Vampire: Vampire Lord",
+						"parent": "Vampire Lord",
+						"suboption": "YES",
+						"_optional": "YES"
+					 },
+					 {
+						"name": "Legendary Actions",
+						"text": [
+							"The Vampire Lord can take 3 legendary actions per round (either on their own turn, or in reaction to another's), choosing from the options below. It regains spent legendary actions at the start of its turn.",
+							"<b><i>Move</i></b>: The Vampire Lord uses a legendary action to move up to its speed, without provoking attacks of opportunity.",
+							"<b><i>Attack</i></b>: The Vampire Lord uses a legendary action to make an attack with either a weapon (if applicable) or with its claw attack.",
+							"<b><i>Dodge</i></b>: The Vampire Lord uses a legendary action to Dodge (see Dodge action).",
+							"<b><i>Bite (costs 2 actions)</i></b>: When the Vampire Lord has successfully grappled a target, it can spend 2 legendary actions to use an additional bite attack, dealing piercing and necrotic damage.",
+						],
+						"subclass": "Creating a Vampire: Vampire Lord",
+						"parent": "Vampire Lord",
+						"suboption": "YES",
+						"_optional": "YES"
+					 },
+					 {
+						"name": "Weaknesses",
+						"text": [
+							"<b><i>Holy Symbol</i></b>: The Vampire Lord is unaffected by Holy Symbols.",
+							"<b><i>Forbiddance</i></b>: The Vampire Lord cannot enter a residence without an invitation from one of the occupants. If a Vampire Lord enters a residence without permission (presumably forced), they immediately turn to mist and return to the outside of the residence.",
+							"<b><i>Harmed by Running Water</i></b>: The Vampire Lord takes 30 acid damage per round when exposed to running water.",
+							"<b><i>Stake to the Heart</i></b>: If a piercing weapon made of wood is driven into the Vampire Lord's heart, it takes 2d6 piercing damage per round until it uses an action to pull out the stake - they cannot benefit from their regeneration ability while the stake is in, and must wait 1 round after pulling it out before it starts again. Stake DC = Vampire Lord's base AC + Prof * 2 (attacks against heart rolled with disadvantage) - a failed stake provokes an attack of opportunity for the Vampire Lord, along with a chance to grapple on a hit.",
+							"<b><i>Sunlight Sensitivity</i></b>: A Vampire Lord that is exposed to sunlight takes no damage from the sun itself, but is reduced to its weakest possible state. While exposed to sunlight it has disadvantage on all attacks and saving throws, takes double damage from attacks that deal radiant damage, loses its damage resistance to non-silvered weapons, cannot use legendary actions, cannot use legendary resistance, and cannot benefit from its regeneration, unholy resistance, telepathy, telekinesis, shapechanger, children of the night, or charming gaze abilities.",
+						],
+						"subclass": "Creating a Vampire: Vampire Lord",
+						"parent": "Vampire Lord",
+						"suboption": "YES",
+						"_optional": "YES"
+					 },
+					 {
+						"name": "Slaying a Vampire Lord",
+						"text": [
+							"When a Vampire Lord drops to 0 Hit Points outside its Resting place, it transforms into a cloud of mist instead of falling unconscious, provided that it isn't in sunlight or running water. While it has 0 Hit Points in mist form, it can't revert to its vampire form, and is compelled to return to its Resting place. Once in its Resting place, it reverts to its vampire form. It is then Paralyzed until it regains at least 1 hit point. After spending 1 hour in its Resting place with 0 Hit Points, it regains 1 hit point.",
+							"A Vampire Lord can only be destroyed while in this paralyzed state in its resting place - its head must be cut off, both the body and head burned to ash, and then holy water poured over the ashes.",
+							"A Vampire Lord that has been destroyed can be resurrected once again if its ashes are mixed with the blood of the one who destroyed it (or if they are no longer living, one of the destroyer's descendants) - if the destroyer has died and has no living descendants, the Vampire Lord is destroyed forever.",
+						],
+						"subclass": "Creating a Vampire: Vampire Lord",
+						"parent": "Vampire Lord",
+						"suboption": "YES",
+						"_optional": "YES"
+					 },
 					 
                   ],
                   "_level": "1"
