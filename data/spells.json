@@ -217,7 +217,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "30 feet",
                 "components": "V, S",
-                "duration": "Concentration, up to 24 hours",
+                "duration": "Up to 24 hours",
                 "classes": "Druid",
                 "text": [
                     "Your magic turns others into beasts. Choose any number of willing creatures that you can see within range. You transform each target into the form of a large or smaller beast with a challenge rating of 4 or lower. On subsequent turns, you can use your actions to transform affected creatures into new forms.",
@@ -253,7 +253,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "120 feet",
                 "components": "V, S",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Bard, Sorcerer, Wizard, Cleric (Forge), Artificer (UA)",
                 "text": [
                     "Objects come to life at your command. Choose up to ten nonmagical objects within range that are not being worn or carried. Medium targets count as two objects, Large targets count as four objects, Huge targets count as eight objects. You can't animate any object larger than Huge. Each target animates and becomes a creature under your control until the spell ends or until reduced to 0 hit points.",
@@ -301,7 +301,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "Self (10-foot radius)",
                 "components": "V, S",
-                "duration": "Concentration, up to 1 hour",
+                "duration": "Up to 1 hour",
                 "classes": "Cleric (Death), Druid, Cleric (Protection), Cleric (Grave)",
                 "text": [
                     "A shimmering barrier extends out from you in a 10-foot radius and moves with you, remaining centered on you and hedging out creatures other than undead and constructs.",
@@ -318,7 +318,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "Self (10-foot-radius sphere)",
                 "components": "V, S M (a pinch of powdered iron or iron filings)",
-                "duration": "Concentration, up to 1 hour",
+                "duration": "Up to 1 hour",
                 "classes": "Cleric, Wizard",
                 "text": [
                     "A 10-foot-radius invisible sphere of antimagic surrounds you. This area is divorced from the magical energy that suffuses the multiverse. Within the sphere, spells can't be cast, summoned creatures disappear, and even magic items become mundane. Until the spell ends, the sphere moves with you, centered on you.",
@@ -418,7 +418,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "30 feet",
                 "components": "V, S, M (a bit of bat fur)",
-                "duration": "Concentration, up to 1 hour",
+                "duration": "Up to 1 hour",
                 "classes": "Cleric (Arcana), Cleric (Knowledge), Wizard, Artificer (UA), Warlock (Seeker)",
                 "text": [
                     "You create an invisible, magical eye within range that hovers in the air for the duration.",
@@ -435,7 +435,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "500 feet",
                 "components": "V, S",
-                "duration": "Concentration, up to 10 minutes",
+                "duration": "Up to 10 minutes",
                 "classes": "Sorcerer, Warlock, Wizard",
                 "text": [
                     "You create linked teleportation portals that remain open for the duration. Choose two points on the ground that you can see, one point within 10 feet of you and one point within 500 feet of you. A circular portal, 10 feet in diameter, opens over each point. If the portal would open in the space occupied by a creature, the spell fails, and the casting is lost.",
@@ -628,7 +628,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "Self (30-foot radius)",
                 "components": "V",
-                "duration": "Concentration, up to 10 minutes",
+                "duration": "Up to 10 minutes",
                 "classes": "Paladin, Warlock (Undying)",
                 "text": "Life-preserving energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each non-hostile creature in the aura (including you) has resistance to necrotic damage, and its hit point maximum can't be reduced. In addition, a non-hostile, living creature regains 1 hit point when it starts its turn in the aura with 0 hit points."
             },
@@ -639,7 +639,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "Self (30-foot radius)",
                 "components": "V",
-                "duration": "Concentration, up to 10 minutes",
+                "duration": "Up to 10 minutes",
                 "classes": "Paladin",
                 "text": "Purifying energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each non-hostile creature in the aura (including you) can't become diseased, has resistance to poison damage, and has advantage on saving throws against effects that cause any of the following conditions - blinded, charmed, deafened, frightened, paralyzed, poisoned, and stunned."
             },
@@ -692,7 +692,7 @@ var spelldata = {
                 "time": "1 bonus action",
                 "range": "Self",
                 "components": "V",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Paladin",
                 "text": "The next time you hit a creature with a weapon attack before this spell ends, your weapon crackles with force, and the attack deals an extra 5d10 force damage to the target. Additionally, if this attack reduces the target to 50 hit points of fewer, you banish it. If the target is native to a different plane of existence than the one you're on, the target disappears, returning to its home plane. If the target is native to the plane you're on, the creature vanishes into a harmless demiplane. While there, the target is incapacitated. It remains there until the spell ends, at which point the tart reappears in the space it left or in the nearest unoccupied space if that space is occupied.",
                 "roll": "5d10"
@@ -704,7 +704,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "60 feet",
                 "components": "V, S, M (an item distasteful to the target)",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Cleric, Paladin, Paladin (Crown), Paladin (Vengeance), Sorcerer, Warlock, Wizard, Fighter (Eldritch Knight), Scout (Underdark Scout)",
                 "text": [
                     "You attempt to send one creature that you can see within range to another place of existence. The target must succeed on a Charisma saving throw or be banished.",
@@ -831,7 +831,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "90 feet",
                 "components": "V, S",
-                "duration": "Concentration, up to 10 minutes",
+                "duration": "Up to 10 minutes",
                 "classes": "Cleric",
                 "text": [
                     "You create a vertical wall of whirling, razor-sharp blades made of magical energy. The wall appears within range and lasts for the duration. You can make a straight wall up to 100 feet long, 20 feet high, and 5 feet thick, or a ringed wall up to 60 feet in diameter, 20 feet high, and 5 feet thick. The wall provides three-quarters cover to creatures behind it, and its space is difficult terrain.",
@@ -1412,7 +1412,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "Self (30-foot radius)",
                 "components": "V",
-                "duration": "Concentration, up to 10 minutes",
+                "duration": "Up to 10 minutes",
                 "classes": "Paladin, Paladin (Crown)",
                 "text": "Divine energy radiates from you, distorting and diffusing magical energy within 30 feet of you. Until the spell ends, the sphere moves with you, centered on you. For the duration, each friendly creature in the area (including you) has advantage on saving throws against spells and other magical effects. Additionally, when an affected creature succeeds on a saving throw made against a spell or magical effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw."
             },
@@ -1471,7 +1471,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "120 feet",
                 "components": "V, S",
-                "duration": "Concentration, up to 10 minutes",
+                "duration": "Up to 10 minutes",
                 "classes": "Cleric (Death), Druid (Underdark), Sorcerer, Wizard",
                 "text": [
                     "You create a 20-foot-radius sphere of poisonous, yellow-green fog centered on a point you choose within range. The fog spreads around corners. It lasts for the duration or until strong wind disperses the fog, ending the spell. Its area is heavily obscured.",
@@ -1640,7 +1640,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "30 feet",
                 "components": "V, S",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Bard",
                 "text": [
                     "Creatures of your choice that you can see within range and that can hear you must make a Wisdom saving throw. A target automatically succeeds on this saving throw if it can't be charmed. On a failed save, a target is affected by this spell. Until the spell ends, you can use a bonus action on each of your turns to designate a direction that is horizontal to you. Each affected target must use as much of its movement as possible to move in that direction on its next turn. It can take its action before it moves. After moving in this way, it can make another Wisdom saving throw to try to end the effect.",
@@ -1705,7 +1705,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "90 feet",
                 "components": "V, S, M (three nut shells)",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Bard, Cleric (Knowledge), Druid, Paladin (Oathbreaker), Sorcerer, Wizard, Rogue (Arcane Trickster), Paladin (Treachery), Scout (Underdark Scout)",
                 "text": [
                     "This spell assaults and twists creatures' minds, spawning delusions and provoking uncontrolled actions. Each creature in a 10-foot-radius sphere centered on a point you choose within range must succeed on a Wisdom saving throw when you cast this spell or be affected by it.",
@@ -1772,7 +1772,7 @@ var spelldata = {
                 "time": "1 minute",
                 "range": "90 feet",
                 "components": "V, S",
-                "duration": "Concentration, up to 1 hour",
+                "duration": "Up to 1 hour",
                 "classes": "Cleric",
                 "text": [
                     "You summon a celestial of challenge rating 4 or lower, which appears in an unoccupied space that you can see within range. The celestial disappears when it drops to 0 hit points or when the spell ends.",
@@ -1789,7 +1789,7 @@ var spelldata = {
                 "time": "1 minute",
                 "range": "90 feet",
                 "components": "V, S, M (burning incense for air, soft clay for earth, sulfur and phosphorus for fire, or water and sand for water)",
-                "duration": "Concentration, up to 1 hour",
+                "duration": "Up to 1 hour",
                 "classes": "Druid, Druid (Coast), Wizard",
                 "text": [
                     "You call forth an elemental servant. Choose an area of air, earth, fire, or water that fills a 10-foot cube within range. An elemental of challenge rating 5 or lower appropriate to the area you chose appears in an unoccupied space within 10 feet of it. For example, a fire elemental emerges from a bonfire, and an earth elemental rises up from the ground. The elemental disappears when it drops to 0 hit points or when the spell ends.",
@@ -1808,7 +1808,7 @@ var spelldata = {
                 "time": "1 minute",
                 "range": "90 feet",
                 "components": "V, S",
-                "duration": "Concentration, up to 1 hour",
+                "duration": "Up to 1 hour",
                 "classes": "Druid, Warlock",
                 "text": [
                     "You summon a fey creature of challenge rating 6 or lower, or a fey spirit that takes the form of a beast of challenge rating 6 or lower. It appears in an unoccupied space that you can see within range. The fey creature disappears when it drops to 0 hit points or when the spell ends.",
@@ -1827,7 +1827,7 @@ var spelldata = {
                 "time": "1 minute",
                 "range": "90 feet",
                 "components": "V, S",
-                "duration": "Concentration, up to 1 hour",
+                "duration": "Up to 1 hour",
                 "classes": "Druid, Wizard",
                 "text": [
                     "You summon elementals that appear in unoccupied spaces that you can see within range. You choose one the following options for what appears.",
@@ -2353,7 +2353,7 @@ var spelldata = {
 				"time": "1 action",
 				"range": "60 feet",
 				"components": "V,S",
-				"duration": "Concentration, up to 1 hour",
+				"duration": "Up to 1 hour",
 				"classes": "Warlock, Wizard",
 				"text": [
 					"Threads of dark power leap from your fingers to pierce up to five Small or Medium corpses you can see within range. Each corpse immediately stands up and becomes undead. You decide whether it is a zombie or a skeleton (the statistics for zombies and skeletons are in the <i>Monster Manual</i>), and it gains a bonus to its attack and damage rolls equal to your spellcasting ability modifier.",
@@ -2414,7 +2414,7 @@ var spelldata = {
 				"time": "1 action",
 				"range": "60 feet",
 				"components": "V,S,M (a sunburst pendant worth at least 100gp)",
-				"duration": "Concentration, up to 1 minute",
+				"duration": "Up to 1 minute",
 				"classes": "Cleric, Wizard",
 				"text": [
 					"the light of dawn shines on a location you specify within range.Until the spell ends, a 30-foot-radius, 40-foot-high cylinder of bright light glimmers there. This light is sunlight.",
@@ -2489,7 +2489,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "150 feet",
                 "components": "V, S, M (a tine ball of bat guano and sulfur)",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Sorcerer, Wizard",
                 "text": [
                     "A beam of yellow light flashes from your pointing finger, then condenses to linger at a chosen point within range as a glowing bead for the duration. When the spell ends, either because your concentration is broken or because you decide to end it, the bead blossoms with a low roar into an explosion of flame that spreads around corners. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw. A creature takes fire damage equal to the total accumulated damage on a failed save, or half as much damage on a successful one.",
@@ -2706,7 +2706,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "Self",
                 "components": "V, S, M (holy water or powdered silver and iron)",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Cleric, Paladin",
                 "text": [
                     "Shimmering energy surrounds and protects you from fey, undead, and creatures originating from beyond the Material Plane. For the duration, celestials, elementals, fey, fiends, and undead have disadvantage on attack rolls against you. You can end the spell early by using either of the following special functions.",
@@ -2828,7 +2828,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "60 feet",
                 "components": "V, S",
-                "duration": "Concentration, up to 1 hour",
+                "duration": "Up to 1 hour",
                 "classes": "Bard, Sorcerer, Warlock, Wizard, Rogue (Arcane Trickster)",
                 "text": [
                     "You attempt to beguile a creature that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.",
@@ -2849,7 +2849,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "60 feet",
                 "components": "V, S",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Bard, Cleric (Trickery), Paladin (Oathbreaker), Sorcerer, Warlock (Archfey), Warlock (Great Old One), Wizard, Rogue (Arcane Trickster), Paladin (Conquest), Paladin (Treachery)",
                 "text": [
                     "You attempt to beguile a humanoid that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.",
@@ -3060,7 +3060,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "500 feet",
                 "components": "V, S, M (a pinch of dirt, a piece of rock, and a lump of clay)",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Cleric, Druid, Sorcerer",
                 "text": [
                     "You create a seismic disturbance at a point on the ground that you can see within range. For the duration, an intense tremor rips through the ground in a 100-foot- radius circle centered on that point and shakes creatures and structures in contact with the ground in that area.",
@@ -3401,7 +3401,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "Self",
                 "components": "V, S",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Bard, Sorcerer, Warlock, Wizard",
                 "text": [
                     "For the spell's duration, your eyes become an inky void imbued with dread power. One creature of your choice within 60 feet of you that you can see must succeed on a Wisdom saving throw or be affected by one of the following effects of your choice for the duration. On each of your turns until the spell ends, you can use your action to target another creature but can't target a creature again if it has succeeded on a saving throw against this casting of Eyebite.",
@@ -3485,7 +3485,7 @@ var spelldata = {
 				"time": "1 bonus action",
 				"range": "Self",
 				"components": "V",
-				"duration": "Concentration, up to 1 minute",
+				"duration": "Up to 1 minute",
 				"classes": "Sorcerer, Warlock, Wizard",
 				"text": [
 					"You teleport up to 60 feet to an unoccupied space you can see. On each of your turns before the spell ends, you can use a bonus action to teleport in this way again.",
@@ -3884,7 +3884,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "60 feet",
                 "components": "V, S, M (a pinch of lime, water, and earth)",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Warlock, Wizard",
                 "text": [
                     "You attempt to turn one creature that you can see within range into stone. If the targets body is made of flesh, the creature must make a Constitution saving throw. On a failed save, it is restrained as its flesh begins to harden. On a successful save, the creature isn't affected.",
@@ -4190,7 +4190,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "Self (10-foot radius)",
                 "components": "V, S, M (a glass or crystal bead that shatters when the spell ends)",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Sorcerer, Wizard",
                 "text": [
                     "An immobile, faintly shimmering barrier springs into existence in a 10-foot radius around you and remains for the duration.",
@@ -4725,7 +4725,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "90 feet",
                 "components": "V, S, M (a small, straight piece of iron)",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Bard, Cleric (War), Paladin (Vengeance), Sorcerer, Warlock, Wizard, Rogue (Arcane Trickster)",
                 "text": [
                     "Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. This spell has no effect on undead. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.",
@@ -4755,7 +4755,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "Self",
                 "components": "V, S, M (a tiny reliquary worth at least 1,000 gp containing a sacred relic, such as a scrap of cloth from a saint's robe or a piece of parchment from a religious text)",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Cleric",
                 "text": "Divine light washes out from you and coalesces in a soft radiance in a 30-foot radius around you. Creatures of your choice in that radius when you cast this spell shed dim light in a 5-foot radius and have advantage on all saving throws, and other creatures have disadvantage on attack rolls against them until the spell ends. In addition, when a fiend or an undead hits an affected creature with a melee attack, the aura flashes with brilliant light. The attacker must succeed on a Constitution saving throw or be blinded until the spell ends."
             },
@@ -4768,7 +4768,7 @@ var spelldata = {
 				"time": "1 bonus action",
 				"range": "Touch",
 				"components": "V,S",
-				"duration": "Concentration, up to 1 hour",
+				"duration": "Up to 1 hour",
 				"classes": "Cleric, Paladin",
 				"text": [
 					"You imbue a weapon you touch with holy power. Until the spell ends, the weapon emits bright light in a 30—foot radius and dim light for an additional 30 feet. In addition, weapon attacks made with it deal an extra 2d8 radiant damage on a hit. If the weapon isn’t already a magic weapon, it becomes one for the duration.",
@@ -4957,7 +4957,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "90 feet",
                 "components": "V",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Sorcerer, Wizard",
                 "text": [
                     "Flames wreathe one creature you can see within range. The target must make a Dexterity saving throw. It takes 7d6 fire damage on a failed save, or half as much damage on a successful one. On a failed save, the target also burns for the spell's duration. The burning target sheds bright light in a 30-foot radius and dim light for an additional 30 feet. At the end of each of its turns, the target repeats the saving throw. It takes 3d6 fire damage on a failed save, and the spell ends on a successful one. These magical flames can't be extinguished through nonmagical means.",
@@ -5019,7 +5019,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "150 feet",
                 "components": "V, S",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Sorcerer, Wizard",
                 "text": [
                     "A swirling cloud of smoke shot through with white-hot embers appears in a 20-foot-radius sphere centered on a point within range. The cloud spreads around corners and is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.",
@@ -5039,7 +5039,7 @@ var spelldata = {
 				"time": "1 minute",
 				"range": "90 feet",
 				"components": "V,S,M (a ruby worth at least 999gp)",
-				"duration": "Concentration, up to 1 hour",
+				"duration": "Up to 1 hour",
 				"classes": "Warlock, Wizard",
 				"text": [
 					"Uttering a dark incantation, you summon a devil from the Nine Hells. You choose the devil’s type, which must be one of challenge rating 6 or lower, such as a barbed devil or a bearded devil. The devil appears in an unoccupied space that you can see within range. The devil disappears when it drops to 0 hit points or when the spell ends.",
@@ -5092,7 +5092,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "300 feet",
                 "components": "V, S, M (a few grains of sugar, some kernels of grain, and a smear of fat)",
-                "duration": "Concentration, up to 10 minutes",
+                "duration": "Up to 10 minutes",
                 "classes": "Cleric, Cleric (Nature), Cleric (Tempest), Druid, Druid (Desert), Druid (Grassland), Druid (Swamp), Druid (Underdark), Sorcerer, Paladin (Conquest)",
                 "text": [
                     "Swarming, biting locusts fill a 20-foot-radius sphere centered on a point you choose within range. The sphere spreads around corners. The sphere remains for the duration, and its area is lightly obscured. The sphere's area is difficult terrain.",
@@ -5111,7 +5111,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "Self",
                 "components": "V, S",
-                "duration": "Concentration, up to 10 minutes",
+                "duration": "Up to 10 minutes",
                 "classes": "Druid, Sorcerer, Warlock, Wizard",
                 "text": [
                     "Flames race across your body, shedding bright light in a 30-foot radius and dim light for an additional 30 feet for the spell's duration. The flames don't harm you. Until the spell ends, you gain the following benefits.",
@@ -5134,7 +5134,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "Self",
                 "components": "V, S",
-                "duration": "Concentration, up to 10 minutes",
+                "duration": "Up to 10 minutes",
                 "classes": "Druid, Sorcerer, Warlock, Wizard",
                 "text": [
                     "Until the spell ends, ice rimes your body, and you gain the following benefits.",
@@ -5158,7 +5158,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "Self",
                 "components": "V, S",
-                "duration": "Concentration, up to 10 minutes",
+                "duration": "Up to 10 minutes",
                 "classes": "Druid, Sorcerer, Warlock, Wizard",
                 "text": [
                     "Until the spell ends, bits of rock spread across your body, and you gain the following benefits.",
@@ -5180,7 +5180,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "Self",
                 "components": "V, S",
-                "duration": "Concentration, up to 10 minutes",
+                "duration": "Up to 10 minutes",
                 "classes": "Druid, Sorcerer, Warlock, Wizard",
                 "text": [
                     "Until the spell ends, wind whirls around you, and you gain the following benefits.",
@@ -5555,7 +5555,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "120 feet",
                 "components": "V, S, M (paper or leaf in the shape of a funnel)",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Druid",
                 "text": [
                     "A mass of 5-foot-deep water appears and swirls in a 30-foot radius centered on a point you can see within range. The point must be on ground or in a body of water. Until the spell ends, that area is difficult terrain, and any creature that starts its turn there must succeed on a Strength saving throw or take 6d6 bludgeoning damage and be pulled 10 feet toward the center.",
@@ -5831,7 +5831,7 @@ var spelldata = {
 				"time": "1 action",
 				"range": "120 feet",
 				"components": "V,S,M (a caterpillar cocoon)",
-				"duration": "Concentration,up to an hour",
+				"duration": "Up to an hour",
 				"classes": "Bard, Sorcerer, Wizard",
 				"text": [
 					"You transform up to ten creatures of your choice that you can see within range. An unwilling target must succeed on a Wisdom saving throw to resist the transformation. An unwilling shapechanger automatically succeeds on the save.",
@@ -5984,7 +5984,7 @@ var spelldata = {
 				"time": "1 action",
 				"range": "60 feet",
 				"components": "S",
-				"duration": "Concentration, up to 1 minute",
+				"duration": "Up to 1 minute",
 				"classes": "Sorcerer, Warlock, Wizard",
 				"text": [
 					"You attempt to bind a creature within an illusory cell that only it perceives. One creature you can see within range must make an Intelligence saving throw. The target succeeds automatically if it is immune to being charmed. On a successful save, the target takes 5d10 psychic damage, and the spell ends. On a failed save, the target takes 5d10 psychic damage, and you make the area immediately around the target’s space appear dangerous to it in some way. You might cause the target to perceive itself as being surrounded by fire, floating razors, or hideous maws filled with dripping teeth.", 
@@ -6182,7 +6182,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "30 feet",
                 "components": "V, S",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Bard, Cleric (Trickery), Wizard, Rogue (Arcane Trickster), Artificer (UA)",
                 "text": [
                     "You attempt to reshape another creature's memories. One creature that you can see must make a Wisdom saving throw. If you are fighting the creature, it has advantage on the saving throw. On a failed save, the target becomes charmed by you for the duration. The charmed target is incapacitated and unaware of its surroundings, though it can still hear you. If it takes any damage or is targeted by another spell, this spell ends, and none of the target's memories are modified.",
@@ -6339,7 +6339,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "60 feet",
                 "components": "V, S, M (a miniature platinum sword with a grip and pommel of copper and zinc, worth 250 gp)",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Bard, Wizard",
                 "text": [
                     "You create a sword-shaped plane of force that hovers within range. It lasts for the duration.",
@@ -6464,7 +6464,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "30 feet",
                 "components": "V",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Bard, Wizard, Rogue (Arcane Trickster)",
                 "text": [
                     "Choose one creature that you can see within range. The target begins a comic dance in place - shuffling, tapping its feet, and capering for the duration. Creatures that can't be charmed are immune to this spell.",
@@ -6839,7 +6839,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "Self",
                 "components": "V, S",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Druid",
                 "text": [
                     "You have resistance to acid, cold, fire, lightning, and thunder damage for the spell's duration.",
@@ -7359,7 +7359,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "100 feet",
                 "components": "V, S, M (a lodestone and iron filings)",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Druid, Sorcerer, Wizard",
                 "text": [
                     "This spell reverses gravity in a 50-foot-radius, 100-foot high cylinder centered on a point within range. All creatures and objects that aren't somehow anchored to the ground in the area fall upward and reach the top of the area when you cast this spell. A creature can make a Dexterity saving throw to grab onto a fixed object it can reach, thus avoiding the fall.",
@@ -7666,7 +7666,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "Self",
                 "components": "V, S, M (a jade circlet worth at least 1,500 gp, which you must place on your head before you cast the spell)",
-                "duration": "Concentration, up to 1 hour",
+                "duration": "Up to 1 hour",
                 "classes": "Druid, Wizard",
                 "text": [
                     "You assume the form of a different creature for the duration. The new form can be any creature with a challenge rating equal to your level or lower. The creature can't be a construct or an undead, and you must have seen the sort of creature at least once. You transform into an average example of that creature, one without any class levels or the Spellcasting trait.",
@@ -7858,7 +7858,7 @@ var spelldata = {
 				"time": "1 action",
 				"range": "Touch",
 				"components": "V,S",
-				"duration": "Concentration, up to 1 hour",
+				"duration": "Up to 1 hour",
 				"classes": "Bard, Sorcerer, Wizard, Artificer (UA)",
 				"text": [
 					"Your magic deepens a creature’s understanding of its own talent. You touch one willing creature and give it expertise in one skill of your choice; until the spell ends, the creature doubles its proficiency bonus for ability checks it makes that use the chosen skill.",
@@ -8273,7 +8273,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "Sight",
                 "components": "V, S",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Druid",
                 "text": [
                     "A churning storm cloud forms, centered on a point you can see and spreading to a radius of 360 feet. Lightning flashes in the area, thunder booms, and strong winds roar. Each creature under the cloud (no more than 5,000 feet beneath the cloud) when it appears must make a Constitution saving throw. On a failed save, a creature takes 2d6 thunder damage and becomes deafened for 5 minutes.",
@@ -8393,7 +8393,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "Self (60-foot line)",
                 "components": "V, S, M (a magnifying glass)",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Druid, Sorcerer, Wizard",
                 "text": [
                     "A beam of brilliant light flashes out from your hand in a 5-foot-wide, 60-foot-line. Each creature in the line must make a Constitution saving throw. On a failed save, a creature takes 6d8 radiant damage and is blinded until your next turn. On a successful save, it takes half as much damage and isn't blinded by this spell. Undead and oozes have disadvantage on this saving throw.",
@@ -8429,7 +8429,7 @@ var spelldata = {
                 "time": "1 bonus action",
                 "range": "Touch",
                 "components": "V, S, M (a quiver containing at least one piece of ammunition)",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Ranger",
                 "text": [
                     "You transmute your quiver so it produces an endless supply of nonmagical ammunition, which seems to leap into your hand when you reach for it.",
@@ -8953,7 +8953,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "Self",
                 "components": "V, S",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Cleric (Nature), Druid, Druid (Forest), Paladin (Ancients), Ranger",
                 "text": [
                     "You gain the ability to enter a tree and move from inside it to inside another tree of the same kind within 500 feet. Both trees must be living and at least the same size as you. You must use 5 feet of movement to enter a tree. You instantly know the location of all other trees of the same kind within 500 feet and, as part of the move used to enter the tree, can either pass into one of those trees or step out of the tree you're in. You appear in a spot of your choice within 5 feet of the destination tree, using another 5 feet of movement. If you have no movement left, you appear within 5 feet of the tree you entered.",
@@ -8968,7 +8968,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "30 feet",
                 "components": "V, S, M (a drop of mercury, a dollop of gum arabic, and a wisp of smoke)",
-                "duration": "Concentration, up to 1 hour",
+                "duration": "Up to 1 hour",
                 "classes": "Bard, Warlock, Wizard",
                 "text": [
                     "Choose one creature with at least 1 hit point or nonmagical object that you can see within range. You transform the creature into a different creature, the creature into an object, or the object into a creature (the object must be neither worn nor carried by another creature). The transformation lasts for the duration, or until the target drops to 0 hit points or dies. If you concentrate on this spell for the full duration, the transformation becomes permanent.",
@@ -9036,7 +9036,7 @@ var spelldata = {
                 "time": "1 minute",
                 "range": "Sight",
                 "components": "V, S",
-                "duration": "Concentration, up to 6 rounds",
+                "duration": "Up to 6 rounds",
                 "classes": "Druid",
                 "text": [
                     "A wall of water springs into existence at a point you choose within range. You can make the wall up to 300 feet long, 300 feet high, and 50 feet thick. The wall lasts for the duration.",
@@ -9179,7 +9179,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "120 feet",
                 "components": "V, S, M (a pinch of powder made by crushing a clear gemstone)",
-                "duration": "Concentration, up to 10 minutes",
+                "duration": "Up to 10 minutes",
                 "classes": "Wizard, Cleric (Protection)",
                 "text": [
                     "An invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick. It lasts for the duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice which side).",
@@ -9194,7 +9194,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "120 feet",
                 "components": "V, S, M (a small piece of quartz)",
-                "duration": "Concentration, up to 10 minutes",
+                "duration": "Up to 10 minutes",
                 "classes": "Wizard",
                 "text": [
                     "You create a wall of ice on a solid surface within range. You can form it into a hemispherical dome or a sphere with radium of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-square panels. Each panel must be contiguous with another panel. In any form, the wall is 1 foot thick and lasts for the duration.",
@@ -9219,7 +9219,7 @@ var spelldata = {
 				"time": "1 action",
 				"range": "120 feet",
 				"components": "V,S,M",
-				"duration": "Concentration, up to 10 minutes",
+				"duration": "Up to 10 minutes",
 				"classes": "Sorcerer, Warlock, Wizard",
 				"text": [
 					"A shimmering wall of bright light appears at a point you choose within range. The wall appears in any orientation you choose: horizontally, vertically, or diagonally. It can be free floating, or it can rest on a solid surface. The wall can be up to 60 feet long, 10 feet high, and 5 feet thick. The wall blocks line of sight, but creatures and objects can pass through it. It emits bright light out to 120 feet and dim light for an additional 120 feet.",
@@ -9252,7 +9252,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "120 feet",
                 "components": "V, S, M (a small block of granite)",
-                "duration": "Concentration, up to 10 minutes",
+                "duration": "Up to 10 minutes",
                 "classes": "Druid, Druid (Desert), Druid (Mountain), Sorcerer, Wizard",
                 "text": [
                     "A nonmagical wall of solid stone springs into existence at a point you choose within range. The wall is 6 inches thick and is composed of ten 10-foot-by-10-foot panels. Each panel must be contiguous with at least on other panel. Alternatively, you can create 10-foot-by-20-foot panels that are only 3 inches thick.",
@@ -9275,7 +9275,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "120 feet",
                 "components": "V, S, M (a handful of thorns)",
-                "duration": "Concentration, up to 10 minutes",
+                "duration": "Up to 10 minutes",
                 "classes": "Druid",
                 "text": [
                     "You create a wall of tough, pliable, tangled brush bristling with needle-sharp thorns. The wall appears within range on a solid surface and lasts for the duration. You choose to make the wall up to 60 feet long, 10 feet high, and 5 feet thick or a circle that has a 20-foot diameter and is up to 20 feet high and 5 feet thick. The wall blocks line of sight.",
@@ -9430,7 +9430,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "120 feet",
                 "components": "V, S",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Wizard, Rogue (Arcane Trickster)",
                 "text": "Drawing on the deepest fears of a group of creatures, you create illusory creatures in their minds, visible only to them. Each creature in a 30-foot-radius sphere centered on a point of your choice within range must make a Wisdom saving throw. On a failed save, a creature becomes frightened for the duration. The illusion calls on the creature's deepest fears, manifesting its worst nightmares as an implacable threat. At the end of each of the frightened creature's turns, it must succeed on a Wisdom saving throw or take 4d10 psychic damage. On a successful save, the spell ends for that creature.",
                 "roll": "4d10"
@@ -9443,7 +9443,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "300 feet",
                 "components": "V, M (a piece of straw)",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Druid, Wizard",
                 "text": [
                     "A whirlwind howls down to a point on the ground you specify. The whirlwind is a 10-foot-radius, 30-foot-high cylinder centered on that point. Until the spell ends, you can use your action to move the whirlwind up to 30 feet in any direction along the ground. The whirlwind sucks up any Medium or smaller objects that aren't secured to anything and that aren't worn or carried by anyone.",
@@ -9599,7 +9599,7 @@ var spelldata = {
 				"time": "1 action",
 				"range": "120 feet",
 				"components": "V,S",
-				"duration": "Concentration, up to 1 minute",
+				"duration": "Up to 1 minute",
 				"classes": "Druid, Ranger",
 				"text": [
 					"You call out to the spirits of nature to rouse them against your enemies. Choose a point you can see within range. The spirits cause. trees, rocks, and grasses in a 60-foot cube centered on that point to become animated until the spell ends.",
@@ -9691,7 +9691,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "60 feet",
                 "components": "V, S, M (food worth at least 100 gp, which the spell consumes)",
-                "duration": "Concentration, up to 1 hour",
+                "duration": "Up to 1 hour",
                 "classes": "Wizard, Sorcerer",
                 "text": [
                     "You summon a hezrou that appears in an unoccupied space you can see within range. The hezrou disappears when it drops to 0 hit points or when the spell ends.",
@@ -9746,7 +9746,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "60 feet",
                 "components": "V, S, M (a gem worth at least 100 gp, which the spell consumes)",
-                "duration": "Concentration, up to 1 hour",
+                "duration": "Up to 1 hour",
                 "classes": "Wizard, Sorcerer",
                 "text": [
                     "You summon a vrock that appears in an unoccupied space you can see within range. The vrock disappears when it drops to 0 hit points or when the spell ends.",
@@ -9929,7 +9929,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "120 feet",
                 "components": "V, S",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Warlock, Sorcerer, Wizard, Cleric (City), Warlock (Ghost in the Machine)",
                 "text": [
                   "This spell shuts down all electronic devices within range that are not wielded by or under the direct control of a creature. If an electronic device within range is used by a creature, that creature must succeed on a Constitution saving throw to prevent the device from being shut down. While the spell remains active, no electronic device within range can be started or restarted."
