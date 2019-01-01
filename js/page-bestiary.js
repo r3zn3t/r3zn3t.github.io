@@ -16,6 +16,7 @@ function parsesource (src) {
 	if (source == "Plane Shift Kaladesh") source = "PSK";
 	if (source == "Tomb of Annihilation") source = "TOA";
 	if (source == "Rule of Law") source = "RoL";
+	if (source == "Rob's Homebrew") source = "RHB";
 	return source;
 }
 
@@ -34,6 +35,7 @@ function parsesourcename (src) {
 	if (source == "xanathar's guide") source = "Xanathar's Guide to Everything";
 	if (source == "tomb of annihilation") source = "Tomb of Annihilation";
 	if (source == "rule of law") source = "Rule of Law";
+	if (source == "rob's homebrew") source = "Rob's Homebrew";
 	return source;
 }
 
