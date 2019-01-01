@@ -2014,12 +2014,12 @@ var spelldata = {
                 "time": "10 minutes",
                 "range": "Self (5-mile radius)",
                 "components": "V, S, M (burning incense and bits of earth and wood mixed in water)",
-                "duration": "Concentration, up to 8 hours",
+                "duration": "Up to 8 hours",
                 "classes": "Cleric, Druid, Wizard",
                 "text": [
                     "You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell. Moving to a place where you don't have a clear path to the sky ends the spell early.",
                     "",
-                    "When you cast the spell, you change the current weather conditions, which are determined by the DM based on the climate and season. You can change precipitation, temperature, and wind. It takes 1d4 x 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal.",
+                    "When you cast the spell, you change the current weather conditions, which are determined by the DM based on the climate and season. You can change precipitation, temperature, and wind. It takes 1d4 x 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again by spending 1 minute in concentration as you visualize the changes to be made. When the spell ends, the weather gradually returns to normal.",
                     "",
                     "When you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction.",
                     "",
@@ -3161,7 +3161,7 @@ var spelldata = {
 				"time": "1 action",
 				"range": "60 feet",
 				"components": "V,S",
-				"duration": "Concentration, up to 1 minute",
+				"duration": "Up to 1 minute",
 				"classes": "Sorcerer, Warlock, Wizard",
 				"text": [
 					"A tendril of inky darkness reaches out from you, touching a creature you can see within range to drain life from it. The target must make a Dexterity saving throw. On a successful save, the target takes 2d8 necrotic damage, and the spell ends. On a failed save, the target takes 4d8 necrotic damage, and until the spell ends, you can use your action on each of your turns to automatically deal 4d8 necrotic damage to the target. The spell ends if you use your action to do anything else, if the target is ever outside the spell’s range, or if the target has total cover from you.",
@@ -3670,12 +3670,12 @@ var spelldata = {
                 "time": "1 minute",
                 "range": "Self",
                 "components": "V, S, M (a set of divinatory tools - such as bones, ivory sticks, cards, teeth, or carved runes - worth 100 gp and an object from the location you wish to find)",
-                "duration": "Concentration, up to 1 day",
+                "duration": "Up to 1 day",
                 "classes": "Bard, Cleric, Druid",
                 "text": [
                     "This spell allows you to find the shortest, most direct physical route to a specific fixed location that you are familiar with on the same plane of existence. If you name a destination on another plan of existence, a destination that moves (such as a mobile fortress), or a destination that isn't specific (such as a green dragon's lair), the spell fails.",
                     "",
-                    "For the duration, as long as you are on the same plane of existence as the destination, you know how far it is and in what direction it lies. While you are traveling there, whenever you are presented with a choice of paths along the way, you automatically determine which path is the shortest and most direct route (but not necessarily the safest route) to the destination."
+                    "For the duration, as long as you are on the same plane of existence as the destination, you know how far it is and in what direction it lies. While you are traveling there, whenever you are presented with a choice of paths along the way, you can use a bonus action to determine which path is the shortest and most direct route (but not necessarily the safest route) to the destination."
                 ]
             },
             {
@@ -4089,7 +4089,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "60 feet",
                 "components": "V, S, M (a diamond worth at least 5,000 gp)",
-                "duration": "Concentration, up to 1 minute",
+                "duration": "Up to 1 minute",
                 "classes": "Cleric, Sorcerer, Wizard",
                 "text": [
                     "You conjure a portal linking an unoccupied space you can see within range to a precise location on a different plane of existence. The portal is a circular opening, which you can make 5 to 20 feet in diameter. You can orient the portal in any direction you choose. The portal lasts for the duration.",
@@ -4920,7 +4920,7 @@ var spelldata = {
 				"time": "1 action",
 				"range": "120 feet",
 				"components": "S",
-				"duration": "Concentration, up to 1 minute",
+				"duration": "Up to 1 minute",
 				"classes": "Wizard",
 				"text": [
 					"By gathering threads of shadow material from the Shadowfell, you create a Huge shadowy dragon in an unoccupied space that you can see within range. The illusion lasts for the spell’s duration and occupies its space, as if it were a creature.",
@@ -5506,7 +5506,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "Self",
                 "components": "V, S, M (a forked twig)",
-                "duration": "Concentration, up to 10 minutes",
+                "duration": "Up to 10 minutes",
                 "classes": "Bard, Cleric, Druid, Paladin, Ranger, Wizard, Warlock (Seeker), Scout (Underdark Scout)",
                 "text": [
                     "Describe or name an object that is familiar to you. You sense the direction to the object's location, as long as that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement.",
@@ -6156,7 +6156,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "Self",
                 "components": "S",
-                "duration": "Concentration, up to 1 hour",
+                "duration": "Up to 1 hour",
                 "classes": "Bard, Wizard, Rogue (Arcane Trickster)",
                 "text": [
                     "You become invisible at the same time that an illusory double of you appears where you are standing. The double lasts for the duration, but the invisibility ends if you attack or cast a spell.",
@@ -8534,7 +8534,7 @@ var spelldata = {
                 "time": "1 action",
                 "range": "60 feet",
                 "components": "V, S",
-                "duration": "Concentration, up to 10 minutes",
+                "duration": "Up to 10 minutes",
                 "classes": "Sorcerer, Warlock (Great Old One), Wizard",
                 "text": [
                     "You gain the ability to move or manipulate creatures or objects by thought. When you cast the spell, and as your action each round for the duration, you can exert your will on one creature or object that you can see within range, causing the appropriate effect below. You can affect the same target round after round, or choose a new one at any time. If you switch targets, the prior target is no longer affected by the spell.",
@@ -8683,17 +8683,17 @@ var spelldata = {
 				"time": "1 action",
 				"range": "Self",
 				"components": "V,S,M (a few hairs from a bull)",
-				"duration": "Concentration, up to 10 minutes",
+				"duration": "Up to 10 minutes",
 				"classes": "Wizard",
 				"text": [
 					"• You endow yourself with endurance and martial prowess fueled by magic. Until the spell ends, you can’t cast spells, and you gain the following benefits:",
 					"You gain 50 temporary hit points. If any of these remain when the spell ends, they are lost.",
 					"• You have advantage on attack rolls that you make with simple and martial weapons.",
-					"• When you hit a target with a weapon attack, that target takes an extra 2d 12 force damage.",
+					"• When you hit a target with a weapon attack, that target takes an extra 2d12 force damage.",
 					"• You have proficiency with all armor, shields, simple weapons, and martial weapons.",
 					"• You have proficiency in Strength and Constitution saving throws.",
 					"• You can attack twice, instead of once, when you take the Attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks.",
-					"Immediately after the spell ends, you must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion.",
+					"At any time during the spell's duration, you can use a bonus action to end the spell's effect. Immediately after the spell ends, you must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion.",
 				],
 			},
             {
