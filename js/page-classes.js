@@ -181,7 +181,7 @@ function useclass (id) {
 
 			if (curlevel.rages) {
 				if (!$(".rages").length) {
-					$("th.spellslots0").before("<th class='rages newfeature'>Rages</th> <th class='ragedamage newfeature'>Rage Damage</th>");
+					$("th.spellslots0").before("<th class='rages newfeature'>Rages</th> <th class='ragedamage newfeature'>Rage Dice</th>");
 					$("td.spellslots0").before("<td class='rages newfeature'></td> <td class='ragedamage newfeature'></td>");
 					$("#classtable th.border").attr("colspan", parseInt($("#classtable th.border").attr("colspan"))+2);
 				}
