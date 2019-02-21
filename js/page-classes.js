@@ -125,6 +125,8 @@ function useclass (id) {
 	$("td#hp div#hitdice span").html("1d"+curclass.hd);
 	$("td#hp div#hp1stlevel span").html(curclass.hd+" + your Constitution modifier");
 	$("td#hp div#hphigherlevels span").html("1d"+curclass.hd+" (or "+(curclass.hd/2+1)+") + your Constitution modifier per "+curclass.name+" level after 1st");
+	
+	$("td#synergy div#synergies span").html(curclass.synergy);
 
 	$("td#prof div#saves span").html(curclass.proficiency);
 
