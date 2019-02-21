@@ -6,7 +6,7 @@ var racedata = {
             "source": "Elemental Evil Player's Companion",
             "size": "M",
             "speed": "25",
-            "ability": "Dex 2, Wis 1",
+            "ability": "Dex 4, Wis 2",
             "trait": [
                {
                   "name": "Flight",
@@ -60,7 +60,7 @@ var racedata = {
             "source": "Player's Handbook",
             "size": "M",
             "speed": "30",
-            "ability": "Dex 2, Cha 1",
+            "ability": "Dex 4, and either Int 2 (male) or Cha 2 (female)",
             "proficiency": "Perception",
             "trait": [
                {
@@ -196,7 +196,7 @@ var racedata = {
             "source": "Elemental Evil Player's Companion",
             "size": "S",
             "speed": "25",
-            "ability": "Int 2, Dex 1",
+            "ability": "Int 2, Con 2, Wis 2",
             "trait": [
                {
                   "name": "Superior Darkvision",
@@ -229,7 +229,7 @@ var racedata = {
             "source": "Player's Handbook",
             "size": "M",
             "speed": "30",
-            "ability": "Str 2, Cha 1",
+            "ability": "Str 2, Con 2, Cha 2",
             "trait": [
                {
                   "name": "Draconic Ancestry",
@@ -293,7 +293,7 @@ var racedata = {
             "source": "Dungeon Master's Guide",
             "size": "M",
             "speed": "30",
-            "ability": "Dex 2, Int 1",
+            "ability": "Dex 4, Cha 2",
             "proficiency": "Perception",
             "trait": [
                {
@@ -488,7 +488,7 @@ var racedata = {
             "source": "Player's Handbook",
             "size": "S",
             "speed": "25",
-            "ability": "Int 2, Dex 1",
+            "ability": "Int 2, Wis 2, Dex 2",
             "trait": [
                {
                   "name": "Darkvision",
@@ -527,7 +527,7 @@ var racedata = {
             "source": "Elemental Evil Player's Companion",
             "size": "M",
             "speed": "30",
-            "ability": "Str 2, Con 1",
+            "ability": "Str 4, Con 2",
             "proficiency": "Athletics",
             "trait": [
                {
@@ -567,7 +567,7 @@ var racedata = {
             "source": "Player's Handbook",
             "size": "M",
             "speed": "30",
-            "ability": "Cha 2 Choose 2 1",
+            "ability": "Ability points 6 (max of 2 into a single stat)",
             "trait": [
                {
                   "name": "Ability Score Increase",
@@ -606,7 +606,7 @@ var racedata = {
             "source": "Player's Handbook",
             "size": "M",
             "speed": "30",
-            "ability": "Str 2, Con 1",
+            "ability": "Str 2, ability points 4 (max of 2 into a single stat)",
             "proficiency": "Intimidation",
             "trait": [
                {
@@ -646,7 +646,7 @@ var racedata = {
             "source": "Player's Handbook",
             "size": "M",
             "speed": "30",
-            "ability": "Dex 2, Int 1",
+            "ability": "Dex 4, Int 2",
             "proficiency": "Perception",
             "trait": [
                {
@@ -698,7 +698,7 @@ var racedata = {
             "source": "Player's Handbook",
             "size": "M",
             "speed": "25",
-            "ability": "Con 2, Wis 1",
+            "ability": "Con 4, Wis 2",
             "trait": [
                {
                   "name": "Speed",
@@ -755,7 +755,7 @@ var racedata = {
             "source": "Player's Handbook",
             "size": "M",
             "speed": "30",
-            "ability": "Str 1, Dex 1, Con 1, Int 1, Wis 1, Cha 1",
+            "ability": "Ability points 8 (max of 4 into a single stat)",
             "trait": [
                {
                   "name": "Languages",
@@ -768,7 +768,7 @@ var racedata = {
          {
             "name": "Human (Variant)",
             "source": "Player's Handbook",
-            "ability": "Choose 2 1",
+            "ability": "Ability points 4",
             "size": "M",
             "speed": "30",
             "trait": [
@@ -803,7 +803,7 @@ var racedata = {
             "source": "Player's Handbook",
             "size": "S",
             "speed": "25",
-            "ability": "Dex 2, Cha 1",
+            "ability": "Dex 4, Cha 2",
             "trait": [
                {
                   "name": "Lucky",
@@ -842,7 +842,7 @@ var racedata = {
             "source": "Player's Handbook",
             "size": "M",
             "speed": "25",
-            "ability": "Con 2, Str 2",
+            "ability": "Con 4, Str 2",
             "trait": [
               {
                  "name": "Speed",
@@ -936,7 +936,7 @@ var racedata = {
             "source": "Player's Handbook",
             "size": "S",
             "speed": "25",
-            "ability": "Int 2, Con 1",
+            "ability": "Int 4, Con 2",
             "trait": [
                {
                   "name": "Darkvision",
@@ -983,7 +983,7 @@ var racedata = {
             "source": "Player's Handbook",
             "size": "S",
             "speed": "25",
-            "ability": "Dex 2, Con 1",
+            "ability": "Dex 4, Con 2",
             "trait": [
                {
                   "name": "Lucky",
@@ -1156,7 +1156,7 @@ var racedata = {
             "source": "Player's Handbook",
             "size": "M",
             "speed": "35",
-            "ability": "Dex 2, Wis 1",
+            "ability": "Dex 4, Wis 2",
             "proficiency": "Perception",
             "trait": [
                {
@@ -1214,7 +1214,7 @@ var racedata = {
             "source": "Sword Coast Adventurer's Guide",
             "size": "M",
             "speed": "25",
-            "ability": "Con 2, Str 1",
+            "ability": "Con 4, Str 2",
             "trait": [
               {
                  "name": "Speed",
@@ -1459,7 +1459,7 @@ var racedata = {
             "source": "Sword Coast Adventurer's Guide",
             "size": "S",
             "speed": "25",
-            "ability": "Dex 2, Wis 1",
+            "ability": "Dex 4, Wis 2",
             "trait": [
                {
                   "name": "Lucky",
@@ -1688,7 +1688,7 @@ var racedata = {
             "source": "Volo's Guide to Monsters",
             "size": "M",
             "speed": "30",
-            "ability": "Wis 2, Str 1",
+            "ability": "Str 2, Con 2, Wis 2",
             "proficiency": "",
             "trait": [
                {
@@ -1832,7 +1832,7 @@ var racedata = {
 			"alignment": "Usually Chaotic",
             "size": "M",
             "speed": "30",
-            "ability": "Dex 2, Wis 1, Cha 1",
+            "ability": "Dex 2, Wis 2, Cha 2",
             "trait": [
                {
                   "name": "Natural Weapon",
@@ -1911,7 +1911,7 @@ var racedata = {
             "source": "Volo's Guide to Monsters",
             "size": "M",
             "speed": "30",
-            "ability": "Con 2, Wis 1",
+            "ability": "Con 2, Wis 2, Str 2",
             "proficiency": "",
             "trait": [
                {
@@ -1969,7 +1969,7 @@ var racedata = {
             "source": "Volo's Guide to Monsters",
             "size": "M",
             "speed": "30",
-            "ability": "Str 2, Con 1, Int -2",
+            "ability": "Str 4, Con 2",
             "proficiency": "Intimidation",
             "trait": [
                {
@@ -2009,7 +2009,7 @@ var racedata = {
             "source": "Volo's Guide to Monsters",
             "size": "M",
             "speed": "30",
-            "ability": "Dex 2, Cha 1",
+            "ability": "Dex 4, choice of Wis 2 or Cha 2",
             "proficiency": "Perception, Stealth",
             "trait": [
                {
