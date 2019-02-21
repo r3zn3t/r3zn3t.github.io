@@ -455,18 +455,19 @@ input[type=number]#hd::-webkit-outer-spin-button {
 }
 
 
-td#hp, td#prof, td#equipment {
+td#hp, td#prof, td#synergy, td#equipment {
 	font-size: 0.8em;
   padding: 0.7em;
 }
 
-td#hp h5, td#prof h5, td#equipment h5 {
+td#hp h5, td#synergy h5, td#prof h5, td#equipment h5 {
 	/*color: #922610;*/
 	font-family: serif;
 	font-weight: 500;
 	font-size: 1.5em;
 	margin-bottom: 0px;
 }
+
 
 td.feature p {
 	padding: 0 1em;
