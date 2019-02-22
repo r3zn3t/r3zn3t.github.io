@@ -7,6 +7,12 @@ var backgrounddata = {
             "proficiency": "Insight, Religion",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "WIS, and either INT or CHA"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Insight, Religion"
@@ -99,6 +105,12 @@ var backgrounddata = {
             "proficiency": "Insight, Religion",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "INT, and either WIS or CHA"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Insight, Religion",
@@ -330,6 +342,12 @@ var backgrounddata = {
             "proficiency": "History, Survival",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "INT, and either WIS or CON"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "History, Survival",
@@ -575,6 +593,12 @@ var backgrounddata = {
             "proficiency": "",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CHA, and either WIS or CON"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Insight, Persuasion",
@@ -774,6 +798,12 @@ var backgrounddata = {
             "proficiency": "",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CHA, and either INT or WIS"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Persuasion, Performance",
@@ -1006,6 +1036,12 @@ var backgrounddata = {
             "proficiency": "",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CHA, and either WIS or INT"
+                  ]
+               },
+			   {
                   "name": "Origin",
                   "text": [
                      "<br>Growing up in households of wealthy, you've always been called upon to take care of the owners. Bringing dishes, cleaning the homestead, answering doors or whatever else it might be, you know how it feels to be relied on for all tasks.",
@@ -1074,6 +1110,12 @@ var backgrounddata = {
             "proficiency": "Deception, Sleight of Hand",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CHA, and choice of WIS, INT, or DEX"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Deception, Sleight of Hand"
@@ -1105,6 +1147,12 @@ var backgrounddata = {
             "proficiency": "Athletics, Insight",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "WIS, and choice of CHA, CON, or STR"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Athletics, Insight"
@@ -1136,6 +1184,12 @@ var backgrounddata = {
             "proficiency": "History, Insight",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "INT, and choice of CON, CHA, or STR"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "History, Insight"
@@ -1173,6 +1227,12 @@ var backgrounddata = {
             "proficiency": "History",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "INT, and either WIS or CHA"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "History, plus your choice of one from among Arcana, Nature, and Religion"
@@ -1206,6 +1266,12 @@ var backgrounddata = {
             "proficiency": "Insight, Persuasion",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CHA, and choice of CON, WIS, or INT"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Insight, Persuasion"
@@ -1237,6 +1303,12 @@ var backgrounddata = {
             "proficiency": "Deception, Stealth",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "Choice of any 2 Ability Scores"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Deception, Stealth"
@@ -1268,6 +1340,12 @@ var backgrounddata = {
             "proficiency": "History, Intimidation",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CON, and choice of INT, WIS, or CHA"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "History, Intimidation",
@@ -1461,6 +1539,12 @@ var backgrounddata = {
             "proficiency": "",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CHA, and either WIS or INT"
+                  ]
+               },
+			   {
                   "name": "Origin",
                   "text": [
                      "<br>Wide grasslands, the open sky, and communicating with nobility are only some of the perks. Being one with your words, you either having a tongue of silver or perhaps you have words as sweet has honey. You can nearly convince anyone of anything you set your mind to.",
@@ -1528,6 +1612,12 @@ var backgrounddata = {
             "proficiency": "",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "INT, and either WIS or CHA"
+                  ]
+               },
+			   {
                   "name": "Origin",
                   "text": [
                      "<br>To study the ways of a devil or demon is not a noble cause, but a much required one. You have spent endless nights pouring through ancient tomes, learning the ways of controlling and banishing demons. You know what really makes their blood boil, how to manipulate them, and to get exactly what you want from them.",
@@ -1596,6 +1686,12 @@ var backgrounddata = {
             "proficiency": "Acrobatics, Performance",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CHA, and choice of WIS, INT, or DEX"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Acrobatics, Performance"
@@ -1627,6 +1723,12 @@ var backgrounddata = {
             "proficiency": "",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CHA, and either WIS or INT"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Deception, Religion",
@@ -1867,6 +1969,12 @@ var backgrounddata = {
             "proficiency": "",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "STR, and either CHA or CON"
+                  ]
+               },
+			   {
                   "name": "Origin",
                   "text": [
                      "<br>Empires rise and fall, and so do the criminals that live there. When evil needs put down, you were there to bring the blade. While many don't see much of the same that you do, it must have been satisfying knowing that one less trouble plagued the world. Coin is coin, and although it isn't the best job that people want, you know that there will always be a demand for it.",
@@ -1940,6 +2048,12 @@ var backgrounddata = {
             "proficiency": "",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "Any 2 Ability Scores"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Insight, Survival",
@@ -2171,6 +2285,12 @@ var backgrounddata = {
             "proficiency": "Insight",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CHA, and choice of INT, WIS, or DEX"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Insight and one Intelligence, Wisdom, or Charisma skill of your choice, as appropriate to your faction"
@@ -2204,6 +2324,12 @@ var backgrounddata = {
             "proficiency": "",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CON, and either STR or WIS"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Animal Handling, Nature",
@@ -2452,6 +2578,12 @@ var backgrounddata = {
             "proficiency": "Insight, Perception",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "Any 2 Ability Scores"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Insight, Perception"
@@ -2490,6 +2622,12 @@ var backgrounddata = {
             "proficiency": "Animal Handling, Survival",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CHA, and choice of STR, CON, or WIS"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Animal Handling, Survival"
@@ -2521,6 +2659,12 @@ var backgrounddata = {
             "proficiency": "",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "STR, and either CON or WIS"
+                  ]
+               },
+			   {
                   "name": "Origin",
                   "text": [
                      "<br>You have buried many people in your life time, including your family, best friends and guardsmen. It is difficult doing this job, watching loved one be torn apart, but that is just how life comes to be.",
@@ -2595,6 +2739,12 @@ var backgrounddata = {
             "proficiency": "Insight, Persuasion",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "INT, and either STR or CHA"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Insight, Persuasion"
@@ -2630,6 +2780,12 @@ var backgrounddata = {
             "proficiency": "Deception, Religion",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CHA, and either WIS or INT"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Deception, Religion",
@@ -2868,6 +3024,12 @@ var backgrounddata = {
             "proficiency": "Medicine, Religion",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "WIS, and either INT or CON"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Medicine, Religion"
@@ -2907,6 +3069,12 @@ var backgrounddata = {
             "proficiency": "Survival",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "Any 2 Ability Scores"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Survival, plus one from among Arcana, History, and Religion"
@@ -2955,6 +3123,12 @@ var backgrounddata = {
             "proficiency": "Insight, Investigation",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "INT, and either WIS or CHA"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Insight, Investigation"
@@ -2986,6 +3160,12 @@ var backgrounddata = {
             "proficiency": "Persuasion",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CHA or STR, and either CON or WIS"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Persuasion, plus one from among Arcana, History, Nature, and Religion, as appropriate for your order"
@@ -3024,6 +3204,12 @@ var backgrounddata = {
             "proficiency": "Athletics, History",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CHA, and any 1 Ability Score"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Athletics, History",
@@ -3223,6 +3409,12 @@ var backgrounddata = {
             "proficiency": "Athletics, Persuasion",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CON or CHA, and either STR or WIS"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Athletics, Persuasion"
@@ -3254,6 +3446,12 @@ var backgrounddata = {
             "proficiency": "History, Persuasion",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CHA, and either INT or WIS"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "History, Persuasion"
@@ -3291,6 +3489,12 @@ var backgrounddata = {
             "proficiency": "Athletics, Survival",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CON, and either STR or WIS"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Athletics, Survival"
@@ -3328,6 +3532,12 @@ var backgrounddata = {
             "proficiency": "Survival, Animal Handling/Deception",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "Any 2 Ability Scores"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Survival and choose one from Animal Handling or Deception",
@@ -3527,6 +3737,12 @@ var backgrounddata = {
             "proficiency": "",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CON, and choice of STR, WIS, or CHA"
+                  ]
+               },
+			   {
                   "name": "Origin",
                   "text": [
                      "<br>For some reason, you had been caught for a crime. Maybe you were in the wrong place at the wrong time, or perhaps you were left to take the fall from your group. What were you doing that got you caught? Picking locks of small merchant chests, or were you threatening people to give them protection?",
@@ -3600,6 +3816,12 @@ var backgrounddata = {
             "proficiency": "History, Insight",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "Any 2 Ability Scores"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "History, Insight",
@@ -3799,6 +4021,12 @@ var backgrounddata = {
             "proficiency": "Arcana, History",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "INT, and either WIS or CHA"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Arcana, History"
@@ -3830,6 +4058,12 @@ var backgrounddata = {
             "proficiency": "Athletics, Perception",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CON, and choice of WIS, DEX, or STR"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Athletics, Perception"
@@ -3861,6 +4095,12 @@ var backgrounddata = {
             "proficiency": "",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "INT, and either CON or WIS"
+                  ]
+               },
+			   {
                   "name": "Origin",
                   "text": [
                      "<br>Abandoned homes, battlefields and even trash piles have treasure to be found. The treasure might look worthless or ordinary to most, but you know how to make it shine like a gem. You've risked your life countless times - to disease, to poisons, to sharp objects and wild feral beasts. In the end, you find what you were looking for and even more.",
@@ -3934,6 +4174,12 @@ var backgrounddata = {
             "proficiency": "Athletics, Intimidation",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CON, and either STR or DEX"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Athletics, Intimidation"
@@ -3964,6 +4210,12 @@ var backgrounddata = {
             "source": "Sword Coast Adventurer's Guide",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "Any 2 Ability Scores"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Choose two from among Deception, Insight, Persuasion, and Stealth"
@@ -3995,6 +4247,12 @@ var backgrounddata = {
             "proficiency": "Sleight of Hand, Stealth",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "DEX or CON, and either WIS or CHA"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Sleight of Hand, Stealth"
@@ -4026,6 +4284,12 @@ var backgrounddata = {
             "proficiency": "Athletics, Survival",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CON or STR, and either WIS or CHA"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Athletics, Survival"
@@ -4064,6 +4328,12 @@ var backgrounddata = {
             "proficiency": "History, Persuasion",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CHA, and either DEX or WIS"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "History, Persuasion"
@@ -4102,6 +4372,12 @@ var backgrounddata = {
             "proficiency": "Deception, Stealth",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CHA, and any 1 Ability Score"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Deception, Stealth"
@@ -4133,6 +4409,12 @@ var backgrounddata = {
             "proficiency": "Acrobatics, Performance",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CON or CHA, and choice of STR, DEX, or CHA"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Acrobatics, Performance"
@@ -4164,6 +4446,12 @@ var backgrounddata = {
             "proficiency": "Insight, Persuasion",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CHA, and either INT or WIS"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Insight, Persuasion"
@@ -4199,6 +4487,12 @@ var backgrounddata = {
             "proficiency": "History, Persuasion",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CHA or STR, and either INT or CON"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "History, Persuasion"
@@ -4238,6 +4532,12 @@ var backgrounddata = {
             "proficiency": "Athletics, Perception",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "CON, and choice of CHA, DEX, or STR"
+                  ]
+               },
+			   {
                   "name": "Skill Proficiencies",
                   "text": [
                      "Athletics, Perception"
@@ -4269,6 +4569,12 @@ var backgrounddata = {
             "proficiency": "",
             "trait": [
                {
+                  "name": "Synergies",
+                  "text": [
+                     "Any 2 from CON, INT, WIS, or CHA"
+                  ]
+               },
+			   {
                   "name": "Feature: Harrowing Event",
                   "text": [
                      "Prior to becoming an adventurer, your path in life was defined by one dark moment, one fateful decision, or one tragedy. Now you feel a darkness threatening to consume you, and you fear there may be no hope of escape. Choose a harrowing event that haunts you, or roll 1d10.",
