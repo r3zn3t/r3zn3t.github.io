@@ -653,11 +653,11 @@ tr.trait td {
 	color: black!important;
 }
 
-table#stats #ability, table#stats #size, table#stats #speed {
+table#stats #ability, table#stats #size {
 	font-weight: bold;
 }
 
-table#stats #ability span, table#stats #size span {
+table#stats #ability span, table#stats #size span{
 	font-weight: normal!important;
 }
 
