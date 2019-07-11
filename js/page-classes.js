@@ -166,7 +166,7 @@ function useclass (id) {
 				}
 				$("tr#level"+curlevel._level+" td.spellsknown").html(curlevel.spellsknown);
 			}
-
+			
 
 			if (curlevel.invocationsknown) {
 				if (!$(".invocationsknown").length) {
@@ -202,6 +202,27 @@ function useclass (id) {
 				$("tr#level"+curlevel._level+" td.skirmishdamage").html(curlevel.skirmishdamage);
 				$("tr#level"+curlevel._level+" td.skirmishAC").html(curlevel.skirmishAC);
 			}
+			
+			if (curlevel.spellLvl) {
+				if (!$(".spellLvl").length) {
+					$("th.pb").after("<th class='spellLvl newfeature'>Spell Level</th>");
+					$("td.pb").after("<td class='spellLvl newfeature'></td>");
+					$("#classtable td.border").attr("colspan", parseInt($("#classtable td.border").attr("colspan"))+1);
+					$("th.slotbuffer").attr("colspan", parseInt($("th.slotbuffer").attr("colspan"))+1);
+				}
+				$("tr#level"+curlevel._level+" td.spellLvl").html(curlevel.spellLvl);
+			}
+			
+			if (curlevel.ritualdie) {
+				if (!$(".ritualdie").length) {
+					$("th.pb").after("<th class='ritualdie newfeature'>Ritual Die</th>");
+					$("td.pb").after("<td class='ritualdie newfeature'></td>");
+					$("#classtable td.border").attr("colspan", parseInt($("#classtable td.border").attr("colspan"))+1);
+					$("th.slotbuffer").attr("colspan", parseInt($("th.slotbuffer").attr("colspan"))+1);
+				}
+				$("tr#level"+curlevel._level+" td.ritualdie").html(curlevel.ritualdie);
+			}
+
 
 			if (curlevel.martialarts) {
 				if (!$(".kipoints").length) {
