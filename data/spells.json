@@ -8907,7 +8907,7 @@ var spelldata = {
 				"duration": "Instantaneous",
 				"classes": "Druid, Ranger",
 				"text": [
-					"Your mouth opens, spraying a toxin all over a single creature within range. The creature must make a Constitution saving throw. On a failure, the creature has the poisoned condition for 1d4 hours. The creature can repeat the saving throw at the start of every hour.",
+					"Your mouth opens, spraying a toxin all over a single creature within range. The creature must make a Constitution saving throw. On a failure, the creature has the poisoned condition for 1 minute. The creature can repeat the saving throw at the start of every round.",
 				],
 			},
             {
