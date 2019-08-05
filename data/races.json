@@ -530,6 +530,12 @@ var racedata = {
             "ability": "Str 4, Con 2",
             "proficiency": "Athletics",
             "trait": [
+	       {
+                  "name": "Darkvision",
+                  "text": [
+                     "Thanks to your Giant blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                  ]
+               },
                {
                   "name": "Natural Athlete",
                   "text": [
@@ -806,6 +812,12 @@ var racedata = {
             "ability": "Dex 4, Cha 2",
             "trait": [
                {
+                  "name": "Darkvision",
+                  "text": [
+                     "Thanks to your Halfling blood, you have superior vision in dark and dim conditions. You can see in dim light within 30 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                  ]
+               },
+	       {
                   "name": "Lucky",
                   "text": [
                      "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
@@ -986,6 +998,12 @@ var racedata = {
             "ability": "Dex 4, Con 2",
             "trait": [
                {
+                  "name": "Darkvision",
+                  "text": [
+                     "Thanks to your Halfling blood, you have superior vision in dark and dim conditions. You can see in dim light within 30 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                  ]
+               },
+	       {
                   "name": "Lucky",
                   "text": [
                      "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
@@ -1462,6 +1480,12 @@ var racedata = {
             "ability": "Dex 4, Wis 2",
             "trait": [
                {
+                  "name": "Darkvision",
+                  "text": [
+                     "Thanks to your Halfling blood, you have superior vision in dark and dim conditions. You can see in dim light within 30 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                  ]
+               },
+	       {
                   "name": "Lucky",
                   "text": [
                      "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
