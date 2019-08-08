@@ -6,17 +6,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-
 	<!--
 	XML data was compiled by a reddit community for use with the "Fight Club 5" app.
 	Google "5e xml files" for more info.
 
 	Feel free to use, edit, and redistribute this as you wish.
 	I don't own any of the XML data anyway.
-
 -->
 
-	<title>5estuff</title>
+	<title>Items - 5estuff</title>
 
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -28,13 +26,13 @@
 	<header class="hidden-xs hidden-sm">
 		<div class="container">
 
-			<h1>5estuff</h1>
-			<p>Modified from the original 5etools</p>
+			<h1>Item List</h1>
+			<p>Search by name on the left, click item name to display on the right.</p>
 		</div>
 	</header>
 	<nav class="container">
 		<ul class="nav nav-pills ">
-			<li role="presentation" class="active"><a href="index.html">5estuff</a></li>
+			<li role="presentation"><a href="index.html">5estuff</a></li>
 			<li role="presentation"><a href="rules.html">Rules</a></li>
 			<li role="presentation" class="dropdown">
 				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Player Options <span class="caret"></span></a>
@@ -55,12 +53,12 @@
 					<li role="presentation"><a href="templates.html">Templates</a></li>
 				</ul>
 			</li>
-			<li role="presentation" class="dropdown">
+			<li role="presentation" class="dropdown active">
 				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">References <span class="caret"></span></a>
 				<ul class="dropdown-menu">
 					<li role="presentation"><a href="bestiary.html">Bestiary</a></li>
 					<li role="presentation"><a href="conditions.html">Conditions</a></li>
-					<li role="presentation"><a href="items.html">Items</a></li>
+					<li role="presentation" class="active"><a href="items.html">Items</a></li>
 					<li role="presentation"><a href="spells.html">Spells</a></li>
 				</ul>
 			</li>
@@ -77,40 +75,86 @@
 	<main class="container bodyContent">
 
 		<div class="row">
-			<div class="col-sm-6">
-				<h4>Classes</h4>
-				<p>Classes.html allows you to quickly browse each of the official classes in 5e. You can also filter for the class' specific subclasses for easier reference, sharing produced URL for quick-access.</p>
-				<h4>Bestiary</h4>
-				<p>Bestiary.html provides a searchable, filterable list of the more than 760 stat blocks in D&D 5e. You can display them and each attack and damage roll can be done in-line with just a click.</p>
+			<div class="col-sm-6" id="itemcontainer">
+				<div class="input-group" style="vertical-align: top;">
+					<input type="search" id="search" class="search form-control" placeholder="Find item...">
+					<span class="input-group-btn">
+							<button class="btn btn-default" type="button" id="reset">Reset</button>
+						</span>
+				</div>
+				<form id="filtertools">
+					<select class="sourcefilter">
+							<option value="All">All Sources</option>
+						</select>
+					<select class="typefilter" value="All">
+							<option value="All">All Types</option>
+						</select>
+					</select>
+					<select class="rarityfilter">
+						<option value="All">All Rarities</option>
+						<option value="None">None</option>
+						<option value="Common">Common</option>
+						<option value="Uncommon">Uncommon</option>
+						<option value="Rare">Rare</option>
+						<option value="Very Rare">Very Rare</option>
+						<option value="Legendary">Legendary</option>
+						<option value="Artifact">Artifact</option>
+					</select>
+					<span class="sortlabel btn-group">
+						<button class="col-xs-4 sort btn btn-default btn-xs" type="button" sort="name" sortby="asc">Name</button>
+						<button class="col-xs-3 sort btn btn-default btn-xs" type="button" sort="type" sortby="asc">Type</button>
+						<button class="col-xs-2 sort btn btn-default btn-xs" type="button" sort="source" sortby="asc">Source</button>
+						<button class="col-xs-3 sort btn btn-default btn-xs" type="button" sort="rarity" sortby="asc">Rarity</button>
+					</span>
+				</form>
+				<h3 data-toggle="mundane">Mundane</h3>
+				<ul class="list mundane">
+
+				</ul>
+				<h3 data-toggle="magic">Magic</h3>
+				<ul class="list magic">
+
+				</ul>
 			</div>
 			<div class="col-sm-6">
-				<h4>Items</h4>
-				<p>Items.html lists the mundane and magical items currently in D&D 5e, allowing quick access to their properties.</p>
-				<h4>Backgrounds</h4>
-				<p>Backgrounds.html lists the official backgrounds in D&D 5e, including those from supplement material.</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-6">
-				<h4>Feats</h4>
-				<p>Feats.html provides a quick-use list of the feats in D&D 5e, including those from Unearthed Arcana and supplements.</p>
-				<h4>Races</h4>
-				<p>Races.html lists each of the races in D&D 5e, including subraces and variants.</p>
-			</div>
-			<div class="col-sm-6">
-				<h4>Spells</h4>
-				<p>Spells.html lists all of the official spells in D&D 5e. The list can be easily searched and filtered, and the entries can be shared through the generated URL.</p>
-				<h4>CR Calc</h4>
-				<p>CRcalculator.html provides a verbose, in-depth Challenge Rating calculator, for determining the CR of custom monsters made for D&D 5e.</p>
+				<table id="stats">
+					<tr>
+						<th class="border" colspan="6"></th>
+					</tr>
+					<tr>
+						<th id="name" colspan="6">Name</th>
+					</tr>
+					<tr>
+						<td id="typerarityattunement" colspan="6"><span id="type">Type</span><span id="rarity">, rarity</span> <span id="attunement">(requires attunement)</span></td>
+					</tr>
+					<tr>
+						<td id="valueweight" colspan="2"><span id="value">10gp</span> <span id="weight">45 lbs.</span></td>
+						<td id="damageproperties" colspan="4" style="text-align: right;"><span id="damage">Damage</span> <span id="damagetype">type</span> <span id="properties">(versatile)</span></td>
+					</tr>
+					<tr id="text">
+						<td class="divider" colspan="6">
+							<div></div>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="6" id="source">Source: <span>Source</span></td>
+					</tr>
+					<tr>
+						<th class="border" colspan="6"></th>
+					</tr>
+				</table>
 			</div>
 		</div>
 	</main>
 	<footer class="container">
+
 	</footer>
+
+	<script type="text/javascript" src="js/page-items.js"></script>
+	<script type="text/javascript" src="data/items.json"></script>
+	<script type="text/javascript" src="js/list.js"></script>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
-
-
 </body>
 
 </html>
