@@ -402,7 +402,7 @@ function useitem (id) {
 			if (b === "SWI") a = a + " ("+ curitem.dmg2 + ")";
 			if (b === "T" || b === "A") a = a + " (" + curitem.range + "ft.)";
 			if (b === "RLD") a = a + " (" + curitem.reload + " shots)";
-			if (b === "SUP") a = a + " (STR 16) ";
+			if (b === "SUP") a = a + " (STR 17) ";
 			if (i > 0) a = ", "+a;
 			$("span#properties").append(a);
 		}
