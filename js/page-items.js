@@ -96,6 +96,7 @@ function parsedamagetype (damagetype) {
 function parseproperty (property) {
 	if (property === "A") return "ammunition"
 	if (property === "BIP") return "bipod"
+	if (property === "COL") return "collapsible"
 	if (property === "DOU") return "double"
 	if (property === "MAS") return "massive"
 	if (property === "RET") return "returning"
