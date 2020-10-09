@@ -95,7 +95,7 @@ var featdata = {
             "source": "Balasar's Guide to Exploration",
 			"prerequisite": "The ability to cast at least one spell",
             "text": [
-               "You manifest magic around you, granting you additional protection. While you are not wearing any armor, your base AC equals 10 + your spellcasting ability modifier.",
+               "You manifest magic around you, granting you additional protection. While you are not wearing any armor and still have at least one spell slot, your base AC is equal to 10 + your DEX modifier + your spellcasting ability modifier (max equivalent to your current Proficiency modifier).",
 			   null,
 			   "Source: Balasar's Guide to Exploration, page 85",
             ]
